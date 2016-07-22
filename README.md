@@ -10,4 +10,5 @@ https://petabridge.com/blog/the-new-dot-net-stack/
 * [Bundling and Minifying in ASP.NET Core Applications](http://rion.io/2016/07/18/bundling-and-minifying-in-asp-net-core-applications/)
 * [Key Steps in Developing .NET Core Applications](https://blogs.msdn.microsoft.com/mvpawardprogram/2016/07/19/key-steps-in-developing-net-core-applications/)
 * [Understanding ASP.NET Core Initialization](http://developer.telerik.com/featured/understanding-asp-net-core-initialization/)
+* [Dependency injection in ASP.NET Core)(http://gunnarpeipman.com/2016/07/using-dependency-injection-with-view-components/)
 
