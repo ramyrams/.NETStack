@@ -12,3 +12,5 @@ https://petabridge.com/blog/the-new-dot-net-stack/
 * [Understanding ASP.NET Core Initialization](http://developer.telerik.com/featured/understanding-asp-net-core-initialization/)
 * [Dependency injection in ASP.NET Core](http://gunnarpeipman.com/2016/07/using-dependency-injection-with-view-components/)
 
+
+## C#
