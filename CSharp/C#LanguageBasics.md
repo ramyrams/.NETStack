@@ -1524,9 +1524,90 @@ private void ProtectedCallTheDatabase(string problem)
 ```
 
 # Structs
+```cs
+struct Point
+{
+	public int X;
+	public int Y;
+}
+
+class Program
+{
+	static void Main()
+	{
+		Point first
+		
+		first.X = 10; 
+		first.Y = 10;
+		Console.WriteLine("first: {0}, {1}", first.X, first.Y);
+	}
+}
+```
+
+### Structs Are Value Types
+```cs
+struct Simple
+{
+	public int X;
+	public int Y;
+}
+
+Simple ss = new Simple();
+```
+
+
+```cs
+struct Simple
+{
+	public int X;
+	public int Y;
+	public Simple(int a, int b) // Constructor with parameters
+	{
+		X = a;
+		Y = b;
+	}
+}
+```
+
+```cs
+Simple s1 = new Simple();
+Simple s2 = new Simple(5, 10);
+
+struct Simple
+{
+	public int X;
+	public int Y;
+}
+class Program
+{
+	static void Main()
+	{ 
+		//No constructor calls
+		Simple s1, s2;
+		
+		//s1.X, s1.Y Not yet assigned
+		Console.WriteLine("{0},{1}", s1.X, s1.Y); // Compiler error
+
+		s2.X = 5; 
+		s2.Y = 10;
+		Console.WriteLine("{0},{1}", s2.X, s2.Y); // OK
+	}
+}
+```
+
+### Field Initializers Are Not Allowed
+```cs
+struct Simple
+{
+	//Not allowed
+	public int x = 0; // Compile error
+	public int y = 10; // Compile error
+} 
+```
+
+
 # Namespaces
 
-## Namespaces
 ```cs
 //Namespaces
 System.Security.Cryptography
