@@ -975,6 +975,281 @@ Compile time error: The enumerator name 'value__' is reserved and cannot be used
 
 ```
 # Exception Handling
+
+```cs
+static void Main()
+{
+	int x = 10, y = 0;
+	x /= y; // Attempt to divide by zero--raises an exception
+}
+
+Unhandled Exception: System.DivideByZeroException: Attempted to divide by zero.
+at Exceptions_1.Program.Main() in C:\Progs\Exceptions\Program.cs:line 12
+```
+
+```cs
+try
+{
+	myObj.Property1 = value;
+}
+catch(CarIsDeadException e)
+{
+	// Process CarIsDeadException.
+}
+catch(ArgumentOutOfRangeException e)
+{
+	// Process ArgumentOutOfRangeException.
+}
+
+catch (InvalidOperationException)
+{
+	// Use the "throw" keyword to raise an exception. 
+	throw new Exception(string.Format("{0} has overheated!", PetName));
+}
+catch (OverflowException oe)
+{
+	// Record the fact that the overflow exception occurred.
+	EventLog.WriteEntry("MyApplication", oe.Message, EventLogEntryType.Error);
+	throw;
+}
+catch(Exception e)
+{
+	// Process any other Exception.
+}
+
+finally
+{
+	// Clean up and free any resources here.
+	// For example, there could be a method on myCOMObj to allow us to clean
+	// up after using the Method1 method.
+}
+```
+
+## Configuring the State of an Exception
+
+### The TargetSite Property
+```cs
+static void Main(string[] args)
+{
+	...
+	// TargetSite actually returns a MethodBase object.
+	catch(Exception e)
+	{
+		Console.WriteLine("\n*** Error! ***");
+		Console.WriteLine("Member name: {0}", e.TargetSite);
+		Console.WriteLine("Class defining member: {0}", 	e.TargetSite.DeclaringType);
+		Console.WriteLine("Member type: {0}", e.TargetSite.MemberType);
+		Console.WriteLine("Message: {0}", e.Message);
+		Console.WriteLine("Source: {0}", e.Source);
+	}
+	
+	Console.WriteLine("\n***** Out of exception logic *****");
+	Console.ReadLine();
+}
+
+*** Error! ***
+Member name: Void Accelerate(Int32)
+Class defining member: SimpleException.Car
+Member type: Method
+Message: Zippy has overheated!
+Source: SimpleException
+```
+
+### The StackTrace Property
+```cs
+catch(Exception e)
+{
+	...
+	Console.WriteLine("Stack: {0}", e.StackTrace);
+}
+
+Output:
+Stack: at SimpleException.Car.Accelerate(Int32 delta)
+in c:\MyApps\SimpleException\car.cs:line 65 at SimpleException.Program.Main()
+in c:\MyApps\SimpleException\Program.cs:line 21
+```
+
+### The HelpLink Property
+```cs
+// We need to call the HelpLink property, thus we need to
+// create a local variable before throwing the Exception object.
+Exception ex = new Exception(string.Format("{0} has overheated!", PetName));
+ex.HelpLink = "http://www.CarsRUs.com";
+throw ex;
+
+catch(Exception e)
+{
+	...
+	Console.WriteLine("Help Link: {0}", e.HelpLink);
+}
+```
+
+### The Data Property
+```cs
+Exception ex = new Exception(string.Format("{0} has overheated!", PetName));
+
+// Stuff in custom data regarding the error.
+ex.Data.Add("TimeStamp", string.Format("The car exploded at {0}", DateTime.Now));
+ex.Data.Add("Cause", "You have a lead foot.");
+
+
+foreach (DictionaryEntry de in ex.Data)
+	Console.WriteLine("-> {0}: {1}", de.Key, de.Value);
+```
+
+### System.Exception Base Class
+```cs
+public class Exception : ISerializable, _Exception
+{
+	// Public constructors
+	public Exception(string message, Exception innerException);
+	public Exception(string message);
+	public Exception();
+	...
+	
+	// Methods
+	public virtual Exception GetBaseException();
+	public virtual void GetObjectData(SerializationInfo info,
+	StreamingContext context);
+
+	// Properties
+	public virtual IDictionary Data { get; }
+	public virtual string HelpLink { get; set; }
+	public Exception InnerException { get; }
+	public virtual string Message { get; }
+	public virtual string Source { get; set; }
+	public virtual string StackTrace { get; }
+	public MethodBase TargetSite { get; }
+	...
+}
+```
+
+
+### Obtaining information on an exception invoked by a method accessed through reflection
+
+```cs
+public static class Reflect
+{
+	public static void ReflectionException()
+	{
+		Type reflectedClass = typeof(DebuggingAndExceptionHandling);
+		try
+		{
+			MethodInfo methodToInvoke = reflectedClass.GetMethod("TestInvoke");
+			methodToInvoke?.Invoke(null, null);
+		}
+		catch(Exception e)
+		{
+			Console.WriteLine(e.ToShortDisplayString());
+		}
+	}
+	
+	public static void TestInvoke()
+	{
+	throw (new Exception("Thrown from invoked method."));
+	}
+}
+
+Output:
+Message: Exception has been thrown by the target of an invocation.
+Type: System.Reflection.TargetInvocationException
+Source: mscorlib
+TargetSite: System.Object InvokeMethod(System.Object, System.Object[], System.Si
+gnature, Boolean)
+**** INNEREXCEPTION START ****
+Message: Thrown from invoked method.
+Type: System.Exception
+Source: CSharpRecipes
+TargetSite: Void TestInvoke()
+**** INNEREXCEPTION END ****
+```
+
+## a New Exception Type
+```cs
+public class RemoteComponentException : Exception
+{
+	public RemoteComponentException() : base()
+	{
+		HResult = 0x80040321;
+	}
+	
+	public RemoteComponentException(string message) : 	base(message)
+	{
+		HResult = 0x80040321;
+	}
+	
+	public RemoteComponentException(string message, Exception innerException) : base(message, innerException)
+	{
+		HResult = 0x80040321;
+	}
+}
+```
+
+### Giving Exceptions the Extra Info with Exception.Data
+```cs
+try
+{
+	try
+	{
+		try
+		{
+			try
+			{
+				ArgumentException irritable = new ArgumentException("I'm irritable!");
+				irritable.Data["Cause"]="Computer crashed";
+				irritable.Data["Length"]=10;
+				throw irritable;
+			}
+			catch (Exception e)
+			{
+				// See if I can help...
+				if(e.Data.Contains("Cause"))
+				e.Data["Cause"]="Fixed computer"
+				throw;
+			}
+		}
+		catch (Exception e)
+		{
+			e.Data["Comment"]="Always grumpy you are";
+			throw;
+		}
+	}
+	catch (Exception e)
+	{
+		e.Data["Reassurance"]="Error Handled";
+		throw;
+	}
+}
+```
+
+## iterate over the Exception.Data collection
+```cs
+catch (Exception e)
+{
+	Console.WriteLine("Exception supporting data:");
+	foreach(DictionaryEntry de in e.Data)
+	{
+		Console.WriteLine("\t{0} : {1}",de.Key,de.Value);
+	}
+}
+```
+
+### Selective About Exception Processing
+```cs
+private void ProtectedCallTheDatabase(string problem)
+{
+	try
+	{
+		CallTheDatabase(problem);
+		Console.WriteLine("No error on database call");
+	}
+	catch (DatabaseException dex) when (dex.Number == -2) // watch for timeouts
+	{
+		Console.WriteLine(	"DatabaseException catch caught : " +	$"{dex.Message}");
+	}
+}
+```
+
 # Structs
 # Namespaces
 
