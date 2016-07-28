@@ -1849,6 +1849,155 @@ arrayList.RemoveAt(1); // remove item at index 1
 
 
 # Enumerators and Iterators
+# Enumerators and Iterators
+
+```cs
+int[] arr1 = { 10, 11, 12, 13 }; // Define the array.
+foreach (int item in arr1) // Enumerate the elements.
+	Console.WriteLine("Item value: {0}", item);
+```
+
+### IEnumerator Interface
+```cs
+static void Main()
+{
+	int[] MyArray = { 10, 11, 12, 13 }; // Create an array.
+
+	IEnumerator ie = MyArray.GetEnumerator();
+	
+	while ( ie.MoveNext() )
+	{ 
+		int i = (int) ie.Current;
+		Console.WriteLine("{0}", i); // Write it out.
+	}
+}
+```
+
+```cs
+public class DaysOfTheWeek : System.Collections.IEnumerable
+{
+
+     string[] days = { "Sun", "Mon", "Tue", "Wed", "Thr", "Fri", "Sat" };
+
+     //This is the iterator!!!
+     public System.Collections.IEnumerator GetEnumerator()
+     {
+         for (int i = 0; i < days.Length; i++)
+         {
+             yield return days[i];
+         }
+     }
+
+}
+
+class TestDaysOfTheWeek
+{
+    static void Main()
+    {
+        // Create an instance of the collection class
+        DaysOfTheWeek week = new DaysOfTheWeek();
+
+        // Iterate with foreach - this is using the iterator!!! When the compiler
+        //detects your iterator, it will automatically generate the Current, 
+        //MoveNext and Dispose methods of the IEnumerator or IEnumerator<T> interface
+        foreach (string day in week)
+        {
+            System.Console.Write(day + " ");
+        }
+    }
+}
+// Output: Sun Mon Tue Wed Thr Fri Sat
+```
+
+
+
+
+### IEnumerable Interface
+```cs
+class MyColors: IEnumerable
+{
+	string[] Colors = { "Red", "Yellow", "Blue" };
+	public IEnumerator GetEnumerator()
+	{
+		return new ColorEnumerator(Colors);
+	} 
+}
+```
+
+### Iterators 
+```cs
+namespace UsingIterators
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Using a simple iterator.
+            ListClass listClass1 = new ListClass();
+
+            foreach (int i in listClass1)
+            {
+                System.Console.Write(i + " ");
+            }
+            // Output: 0 1 2 3 4 5 6 7 8 9
+            System.Console.WriteLine();
+
+
+            // Using a named iterator.
+            ListClass test = new ListClass();
+
+            foreach (int n in test.SampleIterator(1, 10))
+            {
+                System.Console.Write(n + " ");
+            }
+            // Output: 1 2 3 4 5 6 7 8 9 10
+            System.Console.WriteLine();
+
+
+            // Using multiple yield statements.
+            foreach (string element in new TestClass())
+            {
+                System.Console.Write(element);
+            }
+            // Output: With an iterator, more than one value can be returned.
+            System.Console.WriteLine();
+
+        }
+    }
+
+    class ListClass : System.Collections.IEnumerable
+    {
+
+        public System.Collections.IEnumerator GetEnumerator()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                yield return i;
+            }
+        }
+
+        // Implementing the enumerable pattern
+        public System.Collections.IEnumerable SampleIterator(int start, int end)
+        {
+            for (int i = start; i <= end; i++)
+            {
+                yield return i;
+            }
+        }
+    }
+
+    class TestClass : System.Collections.IEnumerable
+    {
+        public System.Collections.IEnumerator GetEnumerator()
+        {
+            yield return "With an iterator, ";
+            yield return "more than one ";
+            yield return "value can be returned";
+            yield return ".";
+        }
+    }
+}
+```
 
 # Preprocessor Directives
 
