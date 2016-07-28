@@ -7,7 +7,7 @@ https://petabridge.com/blog/the-new-dot-net-stack/
 Go to .NET core [Page](https://github.com/ramyrams/.NETStack/blob/master/.NET-Core/readme.md)
 
 ## [C#]
-Go to C# [Page](https://github.com/ramyrams/CSharp)
+Go to C# [Page](https://github.com/ramyrams/.NETStack/tree/master/CSharp)
 
 ## ASP.NET	
 Go to ASP.NET [Page](https://github.com/ramyrams/CSharp/blob/master/README.md)
