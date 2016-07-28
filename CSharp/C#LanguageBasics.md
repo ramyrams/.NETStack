@@ -1850,5 +1850,140 @@ arrayList.RemoveAt(1); // remove item at index 1
 
 # Enumerators and Iterators
 # Preprocessor Directives
+# Preprocessor Directives
+
+```cs
+#define PremiumVersion 	// OK
+#define BudgetVersion 	// Space before # OK
+# define MediumVersion 	// Space after # K
+```
+
+```cs
+//Delimited comments are not allowed
+#define PremiumVersion /* all bells & whistles */
+
+//End-of-line comments are fine.
+#define BudgetVersion // Stripped-down version
+```
+
+```cs
+# define and #undef Directives
+#define PremiumVersion
+#define EconomyVersion
+...
+#undef PremiumVersion
+```
+
+```cs
+using System; // First line of C# code
+#define PremiumVersion // Error
+namespace Eagle
+{
+	#define PremiumVersion // Error
+```
+
+```cs
+#define AValue
+#define BValue
+
+#define AValue // Redefinition is fine.
+```
+
+
+
+
+## Conditional Compilation 
+```cs
+#if !DemoVersion
+	...
+#endif Expression
+
+#if (LeftHanded && OemVersion) || FullVersion
+	...
+#endif
+
+#if true // The following code segment will always be compiled.
+	...
+#endif
+```
+
+```cs
+#define DemoVersionWithoutTimeLimit
+...
+const int intExpireLength = 30;
+string strVersionDesc = null;
+int intExpireCount = 0;
+
+
+#if DemoVersionWithTimeLimit
+	intExpireCount = intExpireLength;
+	strVersionDesc = "This version of Supergame Plus will expire in 30 days";
+
+#elif DemoVersionWithoutTimeLimit
+	strVersionDesc = "Demo Version of Supergame Plus";
+#elif OEMVersion
+	strVersionDesc = "Supergame Plus, distributed under license";
+#else
+	strVersionDesc = "The original Supergame Plus!!";
+#endif
+```
+
+
+
+
+## Diagnostic Directives
+```cs
+#define RightHanded
+#define LeftHanded
+
+#if RightHanded && LeftHanded
+#error Can't build for both RightHanded and LeftHanded
+#endif
+#warning Remember to come back and clean up this code!
+```
+
+
+## Line Number Directives
+```cs
+#line integer // Sets line number of next line to value of integer
+#line "filename" // Sets the apparent file name
+#line default // Restores real line number and file name
+#line hidden // Hides the following code from stepping debugger
+#line // Stops hiding from debugger
+```
+
+```cs
+#line 226
+x = y + z; // Now considered by the compiler to be line 226
+...
+
+#line 330 "SourceFile.cs" // Changes the reported line number and file name
+var1 = var2 + var3;
+...
+
+#line default // Restores true line numbers and file name
+```
+
+
+## Region Directives
+
+```cs
+#region Constructors
+MyClass()
+{ ...
+}
+MyClass(string s)
+{ ...
+}
+#endregion
+```
+
+##  [#pragma warning Directive]
+```cs
+#pragma warning disable 618, 414
+#pragma warning restore 618
+#pragma warning disable
+#pragma warning restore
+```
 # File I/O
 # Regular Expressions
