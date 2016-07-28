@@ -1,6 +1,33 @@
 # Types, Storage, and Variables
-```cs
 
+
+```cs
+int a = 5;             
+int b = a + 2; //OK
+
+bool test = true;
+
+// Error. Operator '+' cannot be applied to operands of type 'int' and 'bool'.
+int c = a + test;
+```
+
+```cs
+// Declaration only:
+float temperature;
+string name;
+MyClass myClass;
+
+// Declaration with initializers (four examples):
+char firstLetter = 'C';
+var limit = 3; //var is just shorthand not new type
+int[] source = { 0, 1, 2, 3, 4, 5 };
+var query = from item in source
+            where item <= limit
+            select item;
+```		
+
+
+```cs
 //A variable in C# can never have an uninitialized value.
 public class Program
     {
@@ -202,17 +229,68 @@ DateTime myDate = null;	//you'd get a compiler error.
 bool? myNulableInt = null;
 DateTime? myNullableDate = null;
 
-
 //You can always convert a value type to a nullable type:
 DateTime myDate = DateTime.Now;
 DateTime? myNullableDate = myDate;
-
 myDate = (DateTime) myNullableDate;
-
-
 myDate = myNullableDate.Value;
 
+
+int? aaa = null;
+Console.WriteLine(aaa.HasValue);
+aaa = 1;
+Console.WriteLine(aaa.HasValue);
+Console.WriteLine(aaaram.Value);
+
+
 ```
+
+
+## Generic Types
+```cs
+List<string> strings = new List<string>();
+```	
+
+
+## Implicit Types
+```cs
+// i is compiled as an int
+var i = 5;
+
+// s is compiled as a string
+var s = "Hello";
+
+// a is compiled as int[]
+var a = new[] { 0, 1, 2 };
+
+// expr is compiled as IEnumerable<Customer>
+// or perhaps IQueryable<Customer>
+var expr =
+    from c in customers
+    where c.City == "London"
+    select c;
+
+// anon is compiled as an anonymous type
+var anon = new { Name = "Terry", Age = 34 };
+
+// list is compiled as List<int>                             
+var list = new List<int>();
+```	
+
+## Anonymous Types
+```cs
+var v = new { Amount = 108, Message = "Hello" };
+Console.WriteLine(v.Amount + v.Message);
+
+
+var productQuery = 
+    from prod in products
+    select new { prod.Color, prod.Price };
+	
+
+var anonArray = new[] { new { name = "apple", diam = 4 }, new { name = "grape", diam = 1 }};
+```	
+
 
 
 # Statements
