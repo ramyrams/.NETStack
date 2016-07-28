@@ -393,6 +393,186 @@ Console.WriteLine("{0} returned \"{1}\".", substr, result);
 # Statements
 # Expressions and Operators
 # Method
+```cs
+//Return Type - Method  name - Parameter list
+int MyMethod ( int par1, string par2 )
+```
+
+### Method Invocations
+```cs
+//Method name - Empty  parameter list
+mc.PrintDateAndTime();
+
+//Return Values
+return Expression
+```
+
+### Formal Parameters
+```cs
+public void PrintSum( int x, float y )
+{ 
+	... Formal parameter declarations
+}
+```
+
+### Actual Parameters
+```cs
+PrintSum( 5, someInt );
+```
+
+### Reference Parameters
+```cs
+// Method declaration
+void MyMethod( ref int val ) 
+{ ... }
+
+int y = 1; // Variable for the actual parameter
+MyMethod ( ref y ); // Method call: Include the ref modifier.
+
+//Must use a variable
+MyMethod ( ref 3+5 ); // Error!
+```
+
+### Output Parameters
+```cs
+void MyMethod( out int val ) // Method declaration
+{ ... }
+
+int y = 1; // Variable for the actual parameter
+MyMethod ( out y ); // Method call
+
+
+public void Add2( out int outValue )
+{
+int var1 = outValue + 2; // Error! Can't read from an output parameter
+} // before it has been assigned to by the method.
+
+//two out parameter
+static void MyMethod(out MyClass f1, out int f2)
+```
+
+### Parameter Arrays
+```cs
+void ListInts( params int[] inVals )
+{
+}
+
+//Method Invocation
+ListInts( 10, 20, 30 ); // Three ints
+
+int[] intArray = {1, 2, 3};
+ListInts( intArray ); // An array variable
+
+
+//Expanded Form
+void ListInts( params int[] inVals ) { ... } // Method declaration
+...
+ListInts( ); // 0 actual parameters
+ListInts( 1, 2, 3 ); // 3 actual parameters
+ListInts( 4, 5, 6, 7 ); // 4 actual parameters
+ListInts( 8, 9, 10, 11, 12 ); // 5 actual parameters
+
+
+
+class MyClass Parameter array
+{ 
+	public void ListInts( params int[] inVals )
+	{
+		if ( (inVals != null) && (inVals.Length != 0))
+			for (int i = 0; i < inVals.Length; i++) // Process the array.
+			{
+				inVals[i] = inVals[i] * 10;
+				Console.WriteLine("{0}", inVals[i]); // Display new value.
+			}
+		}
+	}
+	class Program
+	{
+		static void Main()
+		{
+			int first = 5, second = 6, third = 7; // Declare three ints.
+			MyClass mc = new MyClass();
+			mc.ListInts( first, second, third ); // Call the method.
+			Console.WriteLine("{0}, {1}, {2}", first, second, third);
+	}
+}
+```
+
+### Method Overloading
+```cs
+//return type is Not part of signature
+long AddValues( int a, out int b) { ... }
+
+class B Signature
+{ 
+	long AddValues( long a, long b) { return a+b; }
+	int AddValues( long c, long d) { return c+d; } // Error, same signature
+}
+
+
+
+class A
+{
+long AddValues( int a, int b) { return a + b; }
+long AddValues( int c, int d, int e) { return c + d + e; }
+long AddValues( float f, float g) { return (long)(f + g); }
+long AddValues( long h, long m) { return h + m; }
+}
+```
+
+### Named Parameters
+```cs
+c.Calc ( c: 2, a: 4, b: 3);
+
+
+static void Main()
+{
+	MyClass mc = new MyClass( );
+	int r0 = mc.Calc( 4, 3, 2 ); // Positional Parameters
+	int r1 = mc.Calc( 4, b: 3, c: 2 ); // Positional and Named Parameters
+	int r2 = mc.Calc( 4, c: 2, b: 3 ); // Switch order
+	int r3 = mc.Calc( c: 2, b: 3, a: 4 ); // All named parameters
+	int r4 = mc.Calc( c: 2, b: 1 + 2, a: 3 + 1 ); // Named parameter expressions
+	Console.WriteLine("{0}, {1}, {2}, {3}, {4}", r0, r1, r2, r3, r4);
+}
+```
+
+### Optional Parameters
+```cs
+class MyClass Optional parameter
+{ 
+	//b = Optional parameter, 3 = Default value assignment
+	public int Calc( int a, int b = 3 )
+	{ 
+		return a + b; Default value assignment
+	}
+}
+
+
+
+volume = mc.GetCylinderVolume( 3.0, 4.0 ); // Positional
+Console.WriteLine( "Volume = " + volume );
+
+volume = mc.GetCylinderVolume( radius: 2.0 ); // Use default height
+Console.WriteLine( "Volume = " + volume );
+
+volume = mc.GetCylinderVolume( height: 2.0 ); // Use default radius
+Console.WriteLine( "Volume = " + volume );
+
+volume = mc.GetCylinderVolume( ); // Use both defaults
+Console.WriteLine( "Volume = " + volume );
+```
+
+### Recursion
+```cs
+int Factorial(int inValue)
+{
+	if (inValue <= 1)
+		return inValue;
+	else
+		return inValue * Factorial(inValue - 1); // Call Factorial again.
+}
+```
 # Arrays
 
 
