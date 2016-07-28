@@ -377,59 +377,251 @@ Console.WriteLine("{0} returned \"{1}\".", substr, result);
 # Method
 # Arrays
 
+
+## Arrays in General
 ```cs
-char[] vowels = new char[5]; // Declare an array of 5 characters
+// declare numbers as an int array of any size
+int[] numbers; 
 
-vowels[0] = 'a';
-vowels[1] = 'e';
-vowels[2] = 'i';
-vowels[3] = 'o';
-vowels[4] = 'u';
-Console.WriteLine (vowels[1]); // e
+// Declare a single-dimensional array 
+int[] array1 = new int[5];
+
+// Declare and set array element values
+int[] array2 = new int[] { 1, 3, 5, 7, 9 };
+
+// Alternative syntax
+int[] array3 = { 1, 2, 3, 4, 5, 6 };
+
+// Declare a two dimensional array
+int[,] multiDimensionalArray1 = new int[2, 3];
+
+// Declare and set array element values
+int[,] multiDimensionalArray2 = { { 1, 2, 3 }, { 4, 5, 6 } };
+
+// Declare a jagged array
+int[][] jaggedArray = new int[6][];
+
+// Set the values of the first array in the jagged array structure
+jaggedArray[0] = new int[4] { 1, 2, 3, 4 };
+```
 
 
-char[] vowels = new char[] {'a','e','i','o','u'};
 
-//or simply:
-char[] vowels = {'a','e','i','o','u'};
 
-//Default Element Initialization
-int[] a = new int[1000];
-Console.Write (a[123]); // 0
+## Arrays as Objects
+```cs
+int[] numbers = { 1, 2, 3, 4, 5 };
+int lengthOfNumbers = numbers.Length;
 
-//Multidimensional Arrays
-int[,] matrix = new int[3,3];
+// Declare and initialize an array:
+int[,] theArray = new int[5, 10];
+System.Console.WriteLine("The array has {0} dimensions.", theArray.Rank);
+		
+		
+Single-Dimensional Arrays
+//declare a single-dimensional array of five integers
+int[] array = new int[5];
 
-for (int i = 0; i < matrix.GetLength(0); i++)
-	for (int j = 0; j < matrix.GetLength(1); j++)
-		matrix[i,j] = i * 3 + j;
+//Array Initialization
+int[] array1 = new int[] { 1, 3, 5, 7, 9 };
+string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
 
-//Simplified Array Initialization Expressions
-int[,] matrix = new int[,]
+//It is possible to declare an array variable without initialization, but you must use the new operator when you assign an array to this variable.
+int[] array3;
+array3 = new int[] { 1, 3, 5, 7, 9 };   // OK
+//array3 = {1, 3, 5, 7, 9};   // Error
+
+//Value Type and Reference Type Arrays
+SomeType[] array4 = new SomeType[10];
+```
+
+
+## Multidimensional Arrays
+```cs
+//Arrays can have more than one dimension.
+int[,] array = new int[4, 2];
+
+//creates an array of three dimensions, 4, 2, and 3.
+int[, ,] array1 = new int[4, 2, 3];
+
+//Array Initialization
+// Two-dimensional array.
+int[,] array2D = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+// The same array with dimensions specified.
+int[,] array2Da = new int[4, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+// A similar array with string elements.
+string[,] array2Db = new string[3, 2] { { "one", "two" }, { "three", "four" },
+                                        { "five", "six" } };
+
+// Three-dimensional array.
+int[, ,] array3D = new int[,,] { { { 1, 2, 3 }, { 4, 5, 6 } }, 
+                                 { { 7, 8, 9 }, { 10, 11, 12 } } };
+// The same array with dimensions specified.
+int[, ,] array3Da = new int[2, 2, 3] { { { 1, 2, 3 }, { 4, 5, 6 } }, 
+                                       { { 7, 8, 9 }, { 10, 11, 12 } } };
+									   
+// initialize the array without specifying the rank.
+int[,] array4 = { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+
+// assigns a value to a particular array element.
+array5[2, 1] = 25;
+
+//gets the value of a particular array element and assigns it to variable elementValue.
+int elementValue = array5[2, 1];
+
+//initializes the array elements to default values (except for jagged arrays).
+int[,] array6 = new int[10, 10];
+```
+
+## Jagged Arrays
+```cs
+// single-dimensional array that has three elements
+int[][] jaggedArray = new int[3][];
+
+//Before you can use jaggedArray, its elements must be initialized. You can initialize the elements like this:
+jaggedArray[0] = new int[5];
+jaggedArray[1] = new int[4];
+jaggedArray[2] = new int[2];
+
+
+//It is also possible to use initializers to fill the array elements with values
+jaggedArray[0] = new int[] { 1, 3, 5, 7, 9 };
+jaggedArray[1] = new int[] { 0, 2, 4, 6 };
+jaggedArray[2] = new int[] { 11, 22 };
+
+//initialize the array upon declaration l
+int[][] jaggedArray2 = new int[][] 
 {
-	{0,1,2},
-	{3,4,5},
-	{6,7,8}
+    new int[] {1,3,5,7,9},
+    new int[] {0,2,4,6},
+    new int[] {11,22}
 };
 
-// Jagged arrays
-int[][] matrix = new int[3][];
-
-for (int i = 0; i < matrix.Length; i++)
+//Notice that you cannot omit the new operator from the elements initialization because there is no default initialization for the elements
+int[][] jaggedArray3 = 
 {
-	matrix[i] = new int[3]; // Create inner array
-	for (int j = 0; j < matrix[i].Length; j++)
-	matrix[i][j] = i * 3 + j;
+    new int[] {1,3,5,7,9},
+    new int[] {0,2,4,6},
+    new int[] {11,22}
+};
+
+// Assign 77 to the second element ([1]) of the first array ([0]):
+jaggedArray3[0][1] = 77;
+
+// Assign 88 to the second element ([1]) of the third array ([2]):
+jaggedArray3[2][1] = 88;
+
+
+int[][,] jaggedArray4 = new int[3][,] 
+{
+    new int[,] { {1,3}, {5,7} },
+    new int[,] { {0,2}, {4,6}, {8,10} },
+    new int[,] { {11,22}, {99,88}, {0,9} } 
+};
+
+//access individual elements, which displays the value of the element [1,0] of the first array (value 5)
+System.Console.Write("{0}", jaggedArray4[0][1, 0]);
+
+//The method Length returns the number of arrays contained in the jagged array.
+System.Console.WriteLine(jaggedArray4.Length);
+
+
+## Using foreach with Arrays
+int[] numbers = { 4, 5, 6, 1, 2, 3, -2, -1, 0 };
+foreach (int i in numbers)
+{
+    System.Console.Write("{0} ", i);
+}
+// Output: 4 5 6 1 2 3 -2 -1 0
+
+//With multidimensional arrays, you can use the same method to iterate through the elements
+int[,] numbers2D = new int[3, 2] { { 9, 99 }, { 3, 33 }, { 5, 55 } };
+// Or use the short form:
+// int[,] numbers2D = { { 9, 99 }, { 3, 33 }, { 5, 55 } };
+
+foreach (int i in numbers2D)
+{
+    System.Console.Write("{0} ", i);
+}
+// Output: 9 99 3 33 5 55
+```
+
+## Passing Arrays as Arguments
+```cs
+### Passing Single-Dimensional Arrays As Arguments
+//pass an initialized single-dimensional array to a method
+int[] theArray = { 1, 3, 5, 7, 9 };
+PrintArray(theArray);
+
+//a partial implementation of the print method.
+void PrintArray(int[] arr)
+{
+    // Method code.
 }
 
-//Simplified Array Initialization Expressions
-int[][] matrix = new int[][]
+//initialize and pass a new array in one step
+PrintArray(new int[] { 1, 3, 5, 7, 9 });
+
+### Passing Multidimensional Arrays As Arguments
+
+int[,] theArray = { { 1, 2 }, { 2, 3 }, { 3, 4 } };
+Print2DArray(theArray);
+
+void Print2DArray(int[,] arr)
 {
-	new int[] {0,1,2},
-	new int[] {3,4,5},
-	new int[] {6,7,8,9}
+    // Method code.
+}
+
+Print2DArray(new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } });
+
+
+## Passing Arrays Using ref and out
+```cs
+static void TestMethod1(out int[] arr)
+{
+    arr = new int[10];   // definite assignment of arr
+}
+
+static void TestMethod2(ref int[] arr)
+{
+    arr = new int[10];   // arr initialized to a different array
+}
+```
+
+
+## Implicitly Typed Arrays
+```cs
+var a = new[] { 1, 10, 100, 1000 }; // int[]
+var b = new[] { "hello", null, "world" }; // string[]
+
+// single-dimension jagged array
+var c = new[]   
+{  
+    new[]{1,2,3,4},
+    new[]{5,6,7,8}
+};
+
+// jagged array of strings
+var d = new[]   
+{
+    new[]{"Luca", "Mads", "Luke", "Dinesh"},
+    new[]{"Karen", "Suma", "Frances"}
+};
+
+
+var contacts = new[] 
+{
+    new {
+            Name = " Eugene Zabokritski",
+            PhoneNumbers = new[] { "206-555-0108", "425-555-0001" }
+        },
+    new {
+            Name = " Hanying Feng",
+            PhoneNumbers = new[] { "650-555-0199" }
+        }
 };
 ```
+
 # Conversions
 # Enumerations
 
