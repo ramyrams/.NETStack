@@ -1849,7 +1849,7 @@ arrayList.RemoveAt(1); // remove item at index 1
 
 
 # Enumerators and Iterators
-# Preprocessor Directives
+
 # Preprocessor Directives
 
 ```cs
