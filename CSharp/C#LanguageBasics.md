@@ -11,7 +11,7 @@
 * [Structs](#structs)
 * [Namespaces](#namespaces)
 * [Collection](#collection)
-* [Enumerators and Iterators](#enumerators-and-Iterators)
+* [Enumerators and Iterators](#enumerators-and-iterators)
 * [Preprocessor Directives](#preprocessor-directives)
 * [File I/O](#file-i/o)
 * [Regular Expressions](#regular-expressions)
@@ -1848,7 +1848,6 @@ arrayList.RemoveAt(1); // remove item at index 1
 
 
 
-# Enumerators and Iterators
 # Enumerators and Iterators
 
 ```cs
