@@ -641,7 +641,6 @@ var contacts = new[]
 ```
 
 # Conversions
-# Conversions
 
 ```cs
 string myString = "true";
