@@ -641,6 +641,262 @@ var contacts = new[]
 ```
 
 # Conversions
+# Conversions
+
+```cs
+string myString = "true";
+bool myBool = Convert.ToBoolean(myString);
+
+string newString = "123456789";
+int myInt = Convert.ToInt32(newString);
+
+Int64 myInt64 = 123456789;
+int myInt = Convert.ToInt32(myInt64);
+   
+Double myDouble = 42.72;
+int myInt = Convert.ToInt32(myDouble);
+   
+// The integer value is set to 2147483647. 
+int myInt = int.MaxValue;
+byte myByte = (byte)myInt;
+Console.WriteLine("The byte value is {0}.", myByte);
+// The value of MyByte is 255, the maximum value of a Byte. 
+// No overflow exception is thrown.
+
+
+// The integer value is set to 2147483647. 
+int myInt = int.MaxValue;
+byte myByte = checked ((byte) myInt);
+Console.WriteLine("The byte value is {0}.", myByte);
+// Attempting to convert Int32.MaxValue to a Byte  
+// throws an OverflowException.
+
+
+Double myDouble = 42.72;
+int myInt = checked ((int)myDouble);
+Console.WriteLine(myInt);
+// myInt has a value of 42.
+
+```
+
+```cs
+int i;
+i = "Hello"; // Error: "Cannot implicitly convert type 'string' to 'int'"
+```
+
+### Implicit Conversions
+```cs
+// Implicit conversion. num long can
+// hold any value an int can hold, and more!
+int num = 2147483647;
+long bigNum = num;
+
+
+Derived d = new Derived();
+Base b = d; // Always OK.
+```
+
+### Explicit Conversions
+```cs
+class Test
+{
+    static void Main()
+    {
+        double x = 1234.7;
+        int a;
+        // Cast double to int.
+        a = (int)x;
+        System.Console.WriteLine(a);
+    }
+}
+// Output: 1234
+```
+
+```cs
+// Create a new derived type.
+Giraffe g = new Giraffe();
+
+// Implicit conversion to base type is safe.
+Animal a = g;
+
+// Explicit conversion is required to cast back
+// to derived type. Note: This will compile but will
+// throw an exception at run time if the right-side
+// object is not in fact a Giraffe.
+Giraffe g2 = (Giraffe) a;
+```
+
+
+### Type Conversion Exceptions at Run Time
+```cs
+class Animal
+{
+    public void Eat() { Console.WriteLine("Eating."); }
+    public override string ToString()
+    {
+        return "I am an animal.";
+    }
+}
+class Reptile : Animal { }
+class Mammal : Animal { }
+
+class UnSafeCast
+{
+    static void Main()
+    {            
+        Test(new Mammal());
+
+        // Keep the console window open in debug mode.
+        System.Console.WriteLine("Press any key to exit.");
+        System.Console.ReadKey();
+    }
+
+    static void Test(Animal a)
+    {
+        // Cause InvalidCastException at run time 
+        // because Mammal is not convertible to Reptile.
+        Reptile r = (Reptile)a;
+    }
+
+}
+```
+
+### implement the casting mechanism in our user-defined classes using conversion operators.
+```cs
+public class Author
+{
+    public string First;
+    public string Last;
+    public string[] BooksArray;
+}
+
+public class Writer
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public List<string> Books { get; set; }
+}
+
+Author author2 = (Author)writer; //explicit casting 
+Author author1 = writer; //implicit casting
+
+public static explicit operator Writer(Author a)
+{
+    return new Writer
+    {
+        FirstName = a.First,
+        LastName = a.Last,
+        Books = a.BooksArray != null ? a.BooksArray.ToList() : null
+    };
+}
+
+
+Author a = new Author
+{
+    First = "Vijaya",
+    Last = "Anand",
+    BooksArray = new string[] { "book1" }
+};
+Writer w = (Writer)a; //explicitly casting from Author to Writer.
+
+
+Author a = new Author
+{
+    First = "Vijaya",
+    Last = "Anand",
+    BooksArray = new string[] { "book1" }
+};
+Writer w = a; //implicitly casting from Author to Writer.
+```
+
+
+
+## Boxing and Unboxing 
+```cs
+System.ValueType r = 5;
+r++;
+Console.WriteLine(r.GetType()) // returns System.Int32; 
+```
+
+### Boxing
+```cs
+int i = 123;
+// The following line boxes i.
+object o = i;  
+```
+
+### Unboxing
+```cs
+o = 123;
+i = (int)o;  // unboxing
+```
+
+### Implicit boxing
+```cs
+Int32 x = 10;
+object o = x ;  // Implicit boxing
+Console.WriteLine("The Object o = {0}",o); // prints out 10
+```
+
+### Explicit Boxing
+```cs
+Int32 x = 10;
+object o = (object) x; // Explicit Boxing
+Console.WriteLine("The object o = {0}",o); // prints out 10
+```
+
+```cs
+Int32 x = 5;
+object o = x; // Implicit Boxing
+x = o; // Implicit UnBoxing
+
+
+Int32 x = 5;
+object o = x; // Implicit Boxing
+x = (Int32)o; // Explicit UnBoxing
+
+
+Int32 x = 5; // declaring Int32
+Int64 y = 0; // declaring Int64 double
+object o = x; // Implicit Boxing
+y = (Int64)o; // Explicit boxing to double
+Console.WriteLine("y={0}",y);
+
+Int32 x = 5; // declaring Int32
+Int64 y = 0; // declaring Int64 double
+object o = x; // Implicit Boxing
+y = (Int64)(Int32)o; // Unboxing and than casting to double
+Console.WriteLine("y={0}",y);
+```
+
+### Upcasting and Downcasting
+```cs
+class Base
+{
+	public int num1 { get; set; }
+}
+ 
+class Derived : Base
+{
+	public int num2 { get; set; }
+}
+ 
+class Program
+{
+	 static void Main(string[] args)
+	 {
+		 Derived d1 = new Derived();
+		 //Upcasting
+		 Base b1 = d1;
+		 
+		 Base b2 = new Base();
+		 //Downcasting
+		 Derived d2 = (Derived)b2; 
+	 }
+}
+```
+
+
 # Enumerations
 
 ```cs
