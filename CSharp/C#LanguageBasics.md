@@ -2015,6 +2015,407 @@ class Test
 ```
 # Collection
 
+## ArrayList
+```cs
+ArrayList arrayList = new ArrayList();
+bool isFixedSize = arrayList.IsFixedSize; // false, because ArrayList is not fixed size list
+
+ArrayList arrayList = new ArrayList();
+arrayList.Add(1);
+arrayList.Add(2);
+arrayList.Add(3);
+
+bool readOnly = arrayList.IsReadOnly; // false, because default array list is not readonly.
+
+// create readonly list from existing list
+ArrayList readOnlyList = ArrayList.ReadOnly(arrayList);
+
+bool isNewListReadOnly = readOnlyList.IsReadOnly; // true. now user can't modify this list
+												  
+arrayList.Clear() 
+
+int itemsCount = arrayList.Count; // 3
+
+//Contains
+Person person1 = new Person(1, "test");
+Person person2 = new Person(2, "test2");
+
+bool result1 = arrayList.Contains(person1); // true
+bool result2 = arrayList.Contains(person2); // false
+
+int result1 = arrayList.IndexOf(person3); // 2,
+int result2 = arrayList.IndexOf(person4); // -1. because it does not exist in list
+										  
+// insert item at index 2.
+arrayList.Insert(2, person);
+
+arrayList.Remove(person); // it will remove 2nd item. it will call Equals method to object to find in list.
+
+arrayList.RemoveAt(1); // remove item at index 1
+```
+
+## BitArray
+```cs
+
+
+// Create BitArray from the array.
+BitArray bitArray = new BitArray(32);
+
+// Set three bits to 1.
+bitArray[3] = true;     // You can set the bits with the indexer.
+bitArray[5] = true;
+bitArray.Set(10, true); // You can set the bits with Set.
+
+// Count returns the total of all bits (1s and 0s).
+Console.WriteLine("--- Total bits ---");
+Console.WriteLine(bitArray.Count);
+	
+	
+// Creates and initializes several BitArrays.
+BitArray myBA1 = new BitArray( 5 );
+
+BitArray myBA2 = new BitArray( 5, false );
+
+byte[] myBytes = new byte[5] { 1, 2, 3, 4, 5 };
+BitArray myBA3 = new BitArray( myBytes );
+
+bool[] myBools = new bool[5] { true, false, true, true, false };
+BitArray myBA4 = new BitArray( myBools );
+
+int[]  myInts  = new int[5] { 6, 7, 8, 9, 10 };
+BitArray myBA5 = new BitArray( myInts );
+
+// Displays the properties and values of the BitArrays.
+Console.WriteLine( "myBA1" );
+Console.WriteLine( "   Count:    {0}", myBA1.Count );
+Console.WriteLine( "   Length:   {0}", myBA1.Length );
+Console.WriteLine( "   Values:" );
+PrintValues( myBA1, 8 );
+
+
+//creating two  bit arrays of size 8
+BitArray ba1 = new BitArray(8);
+BitArray ba2 = new BitArray(8);
+byte[] a = { 60 };
+byte[] b = { 13 };
+
+//storing the values 60, and 13 into the bit arrays
+ba1 = new BitArray(a);
+ba2 = new BitArray(b);
+
+//content of ba1
+Console.WriteLine("Bit array ba1: 60");
+
+for (int i = 0; i < ba1.Count; i++)
+{
+Console.Write("{0, -6} ", ba1[i]);
+}
+Console.WriteLine();
+
+//content of ba2
+Console.WriteLine("Bit array ba2: 13");
+
+for (int i = 0; i < ba2.Count; i++)
+{
+Console.Write("{0, -6} ", ba2[i]);
+}
+Console.WriteLine();
+BitArray ba3 = new BitArray(8);
+ba3 = ba1.And(ba2);
+
+//content of ba3
+Console.WriteLine("Bit array ba3 after AND operation: 12");
+
+for (int i = 0; i < ba3.Count; i++)
+{
+Console.Write("{0, -6} ", ba3[i]);
+}
+Console.WriteLine();
+ba3 = ba1.Or(ba2);
+
+//content of ba3
+Console.WriteLine("Bit array ba3 after OR operation: 61");
+
+for (int i = 0; i < ba3.Count; i++)
+{
+Console.Write("{0, -6} ", ba3[i]);
+}
+Console.WriteLine();
+
+Console.ReadKey();
+}
+
+Bit array ba1: 60 
+False False True True True True False False 
+Bit array ba2: 13
+True False True True False False False False 
+Bit array ba3 after AND operation: 12
+False False True True False False False False 
+Bit array ba3 after OR operation: 61
+True False True True False False False False 
+		
+	  
+```
+
+## Hashtable
+```cs
+Hashtable hashList = new Hashtable();
+hashList.Add(1, "item#1");
+hashList.Add(2, "item#2");
+hashList.Add(3, "item#3");
+
+bool result = hashList.IsFixedSize; // false
+
+bool result = hashList.IsReadOnly;
+
+//Keys - It returns ICollection object containing keys of the IDictionary object.
+ICollection keys = hashList.Keys;
+
+string[] strKeys = new string[keys.Count];
+int index =0;
+foreach (int key in keys)
+{
+   strKeys[index++] = key.ToString();
+}
+
+string keysList = string.Join(", ",strKeys); // 3, 2, 1
+
+//Values - It returns ICollection object containing values of the IDictionary object.
+
+ICollection values = hashList.Values;
+
+string[] strValues = new string[values.Count];
+int index = 0;
+foreach (string value in values)
+{
+   strValues[index++] = value;
+}
+
+string valueList = string.Join(", ", strValues); //item#1, item#2, item#3
+
+hashList.Clear(); // it removes all item from the list.
+
+bool result = hashList.Contains(1); // true
+
+
+IDictionaryEnumerator dicEnum = hashList.GetEnumerator();
+
+string items = string.Empty;
+while (dicEnum.MoveNext())
+{
+
+   items += string.Format("{0} : {1}\n", dicEnum.Key, dicEnum.Value);
+}
+
+MessageBox.Show(items);
+
+hashList.Remove(2); // remove item which has 2 key
+
+```
+
+## Queue
+```cs
+// Creates and initializes a new Queue.
+Queue myQ = new Queue();
+myQ.Enqueue("Hello");
+myQ.Enqueue("World");
+myQ.Enqueue("!");
+
+// Displays the properties and values of the Queue.
+Console.WriteLine( "myQ" );
+Console.WriteLine( "\tCount:    {0}", myQ.Count );
+	   
+	   
+```
+```cs
+
+// 1
+// Initialize help requeust Queue
+Queue<RequestType> help = new Queue<RequestType>();
+
+// 2
+// ASP.NET website records a Text Problem help request.
+help.Enqueue(RequestType.TextProblem);
+
+// 3
+// ASP.NET website records a Screen Problem help request.
+help.Enqueue(RequestType.ScreenProblem);
+
+// 4
+// You become available to take a new request.
+// You can't help with Mouse problems.
+if (help.Count > 0 &&
+	help.Peek() != RequestType.MouseProblem)
+{
+	// 5
+	// You solve the request. It was a TextProblem
+	help.Dequeue();
+}
+
+// 5
+// Other parts of your code can access the Queue, testing the elements
+// to see if they can process them.
+
+// 6
+// ASP.NET website records a Modem Problem help request.
+help.Enqueue(RequestType.ModemProblem);
+```	
+
+
+```
+// Creates and initializes a new Queue.
+Queue myQ = new Queue();
+myQ.Enqueue( "The" );
+myQ.Enqueue( "quick" );
+myQ.Enqueue( "brown" );
+myQ.Enqueue( "fox" );
+
+// Displays the Queue.
+Console.Write( "Queue values:" );
+PrintValues( myQ );
+
+// Removes an element from the Queue.
+Console.WriteLine( "(Dequeue)\t{0}", myQ.Dequeue() );
+
+// Displays the Queue.
+Console.Write( "Queue values:" );
+PrintValues( myQ );
+
+// Removes another element from the Queue.
+Console.WriteLine( "(Dequeue)\t{0}", myQ.Dequeue() );
+
+// Displays the Queue.
+Console.Write( "Queue values:" );
+PrintValues( myQ );
+
+// Views the first element in the Queue but does not remove it.
+Console.WriteLine( "(Peek)   \t{0}", myQ.Peek() );
+
+// Displays the Queue.
+Console.Write( "Queue values:" );
+PrintValues( myQ );
+```
+
+## SortedList
+```cs
+// Creates and initializes a new SortedList.
+SortedList mySL = new SortedList();
+mySL.Add("Third", "!");
+mySL.Add("Second", "World");
+mySL.Add("First", "Hello");
+
+-KEY-    -VALUE-
+First:    Hello
+Second:    World
+Third:    !
+
+bool contains1 = sorted.ContainsKey("java");
+Console.WriteLine("contains java = " + contains1);
+
+int value;
+if (sorted.TryGetValue("perls", out value))
+{
+	Console.WriteLine("perls key is = " + value);
+}
+	
+int index1 = sorted.IndexOfKey("net");
+Console.WriteLine("index of net (key) = " + index1);
+
+int index2 = sorted.IndexOfValue(3);
+Console.WriteLine("index of 3 (value) = " + index2);
+
+```
+
+## Stack
+```cs
+Stack<int> stack = new Stack<int>();
+stack.Push(100);
+stack.Push(1000);
+stack.Push(10000);
+
+// Pop the top element
+int pop = stack.Pop();
+
+// Write to the console
+Console.WriteLine("--- Element popped from top of Stack ---");
+Console.WriteLine(pop);
+
+// Now look at the top element
+int peek = stack.Peek();
+Console.WriteLine("--- Element now at the top ---");
+Console.WriteLine(peek);
+
+// Count the number of elements in the Stack
+int count = stack.Count;
+
+Stack.Contains(2); // returns true
+myStack.Contains(10); // returns false
+
+// Clear the Stack
+stack.Clear();
+	
+```
+
+## ListDictionary
+```cs
+// Creates and initializes a new ListDictionary.
+ListDictionary myCol = new ListDictionary();
+myCol.Add( "Braeburn Apples", "1.49" );
+myCol.Add( "Fuji Apples", "1.29" );
+myCol.Add( "Gala Apples", "1.49" );
+	  
+```
+
+## StringCollection
+```cs
+using System.Collections.Specialized;
+
+// Create and initializes a new StringCollection.
+StringCollection myCol = new StringCollection();
+
+// Add a range of elements from an array to the end of the StringCollection.
+String[] myArr = new String[] { "RED", "orange", "yellow", "RED", "green", "blue", "RED", "indigo", "violet", "RED" };
+myCol.AddRange( myArr );
+
+authorNames.Clear();
+
+int authorLocation = authorNames.IndexOf("Mike Gold");
+
+authorNames.CopyTo(newAuthorList, 0);
+
+	  
+```
+
+
+## BitVector32
+```cs
+// Creates and initializes a BitVector32 with all bit flags set to FALSE.
+      BitVector32 myBV = new BitVector32( 0 );
+
+      // Creates masks to isolate each of the first five bit flags.
+      int myBit1 = BitVector32.CreateMask();
+      int myBit2 = BitVector32.CreateMask( myBit1 );
+	 
+// Creates and initializes a BitVector32.
+      BitVector32 myBV = new BitVector32( 0 );
+
+      // Creates four sections in the BitVector32 with maximum values 6, 3, 1, and 15.
+      // mySect3, which uses exactly one bit, can also be used as a bit flag.
+      BitVector32.Section mySect1 = BitVector32.CreateSection( 6 );
+      BitVector32.Section mySect2 = BitVector32.CreateSection( 3, mySect1 );
+	  
+```
+
+
+## HybridDictionary
+```cs
+// Creates and initializes a new HybridDictionary.
+      HybridDictionary myCol = new HybridDictionary();
+      myCol.Add( "Braeburn Apples", "1.49" );
+      myCol.Add( "Fuji Apples", "1.29" );
+      myCol.Add( "Gala Apples", "1.49" );
+	  
+```
 ## List<T>
 ```cs
 //To create a list:
@@ -2267,100 +2668,7 @@ queue.Clear();
 var count = queue.Count;
 ```
 
-### Hashtable
-Hashtable hashList = new Hashtable();
-hashList.Add(1, "item#1");
-hashList.Add(2, "item#2");
-hashList.Add(3, "item#3");
 
-bool result = hashList.IsFixedSize; // false
-
-bool result = hashList.IsReadOnly;
-
-//Keys - It returns ICollection object containing keys of the IDictionary object.
-ICollection keys = hashList.Keys;
-
-string[] strKeys = new string[keys.Count];
-int index =0;
-foreach (int key in keys)
-{
-   strKeys[index++] = key.ToString();
-}
-
-string keysList = string.Join(", ",strKeys); // 3, 2, 1
-
-//Values - It returns ICollection object containing values of the IDictionary object.
-
-ICollection values = hashList.Values;
-
-string[] strValues = new string[values.Count];
-int index = 0;
-foreach (string value in values)
-{
-   strValues[index++] = value;
-}
-
-string valueList = string.Join(", ", strValues); //item#1, item#2, item#3
-
-hashList.Clear(); // it removes all item from the list.
-
-bool result = hashList.Contains(1); // true
-
-
-IDictionaryEnumerator dicEnum = hashList.GetEnumerator();
-
-string items = string.Empty;
-while (dicEnum.MoveNext())
-{
-
-   items += string.Format("{0} : {1}\n", dicEnum.Key, dicEnum.Value);
-}
-
-MessageBox.Show(items);
-
-hashList.Remove(2); // remove item which has 2 key
-
-
-### ArrayList
-
-ArrayList arrayList = new ArrayList();
-bool isFixedSize = arrayList.IsFixedSize; // false, because ArrayList is not fixed size list
-
-
-ArrayList arrayList = new ArrayList();
-arrayList.Add(1);
-arrayList.Add(2);
-arrayList.Add(3);
-
-bool readOnly = arrayList.IsReadOnly; // false, because default array list is not readonly.
-
-// create readonly list from existing list
-ArrayList readOnlyList = ArrayList.ReadOnly(arrayList);
-
-bool isNewListReadOnly = readOnlyList.IsReadOnly; // true. now user can't modify this list
-												  
-arrayList.Clear() 
-
-
-int itemsCount = arrayList.Count; // 3
-
-
-//Contains
-Person person1 = new Person(1, "test");
-Person person2 = new Person(2, "test2");
-
-bool result1 = arrayList.Contains(person1); // true
-bool result2 = arrayList.Contains(person2); // false
-
-int result1 = arrayList.IndexOf(person3); // 2,
-int result2 = arrayList.IndexOf(person4); // -1. because it does not exist in list
-										  
-// insert item at index 2.
-arrayList.Insert(2, person);
-
-arrayList.Remove(person); // it will remove 2nd item. it will call Equals method to object to find in list.
-
-arrayList.RemoveAt(1); // remove item at index 1
 
 
 
