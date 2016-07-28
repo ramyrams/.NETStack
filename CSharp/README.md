@@ -17,7 +17,7 @@
 * File I/O
 * Regular Expressions
 
-[Read more](https://github.com/ramyrams/CSharp/blob/master/C%23LanguageBasics.md)
+[Read more](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23LanguageBasics.md)
 
 # [C# OOP]
 * Classes
@@ -26,7 +26,7 @@
 * Interfaces 
 * Polymorphism 
 
-[Read More](https://github.com/ramyrams/OOPS/blob/master/README.md)
+[Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23OOP.md)
 
 # [Advanced C#]
 * Delegates
@@ -48,10 +48,10 @@
 * Streams and I/O
 * Diagnostics and Code Contracts
 
-[Read More](https://github.com/ramyrams/CSharp/blob/master/AdvancedC%23.md)
+[Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/AdvancedC%23.md)
 
 # [C# LINQ]
-[Read More](https://github.com/ramyrams/LINQ/blob/master/README.md)
+[Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/object-oriented-design.md)
 
 # URL
 * [2,000 Things You Should Know About C#](https://csharp.2000things.com/index/)
