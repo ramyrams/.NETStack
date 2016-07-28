@@ -1,6 +1,6 @@
 <a name="README">[<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/CSHARP.png" width="200px" height="200px" />](https://github.com/MartinChavez/Learn-CSharp)</a>
 
-## [C# Language Basics]
+# [C# Language Basics]
 * Types, Storage, and Variables
 * Statements	
 * Expressions and Operators
@@ -19,7 +19,16 @@
 
 [Read more](https://github.com/ramyrams/CSharp/blob/master/C%23LanguageBasics.md)
 
-## [Advanced C#]
+# [C# OOP]
+* Classes
+* Structs 
+* Inheritance 
+* Interfaces 
+* Polymorphism 
+
+[Read More](https://github.com/ramyrams/OOPS/blob/master/README.md)
+
+# [Advanced C#]
 * Delegates
 * Events
 * Generics
@@ -41,14 +50,10 @@
 
 [Read More](https://github.com/ramyrams/CSharp/blob/master/AdvancedC%23.md)
 
-## [C# OOP]
-* Classes
-* Structs 
-* Inheritance 
-* Interfaces 
-* Polymorphism 
-
-[Read More](https://github.com/ramyrams/OOPS/blob/master/README.md)
-
-## [C# LINQ]
+# [C# LINQ]
 [Read More](https://github.com/ramyrams/LINQ/blob/master/README.md)
+
+# URL
+* [2,000 Things You Should Know About C#](https://csharp.2000things.com/index/)
+* [Introduction to Object Oriented Programming Concepts ](http://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep)
+* [Fastest COllection](http://cc.davelozinski.com/c-sharp/fastest-collection-for-string-lookups)
