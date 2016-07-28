@@ -291,6 +291,85 @@ var productQuery =
 var anonArray = new[] { new { name = "apple", diam = 4 }, new { name = "grape", diam = 1 }};
 ```	
 
+```cs
+// Get the type of a specified class.
+Type myType1 = Type.GetType("System.Int32");
+Console.WriteLine("The full name is {0}.\n", myType1.FullName);
+//Output: 
+The full name is System.Int32.
+
+// Since NoneSuch does not exist in this assembly, GetType throws a TypeLoadException.
+Type myType2 = Type.GetType("NoneSuch", true);
+Console.WriteLine("The full name is {0}.", myType2.FullName);
+//Output: 
+TypeLoadException
+
+
+object[] values = { "word", true, 120, 136.34, 'a' };
+foreach (var value in values)
+ Console.WriteLine("{0} - type {1}", value, 
+				   value.GetType().Name);
+// The example displays the following output:
+//       word - type String
+//       True - type Boolean
+//       120 - type Int32
+//       136.34 - type Double
+//       a - type Char				   
+				   
+```
+
+
+```cs
+Class Program
+{
+static void Main()
+{
+	// Use type variables.
+	// ... Then pass the variables as an argument.
+	Type type1 = typeof(string[]);
+	Type type2 = "string".GetType();
+	Type type3 = typeof(Type);
+
+	Test(type1);
+	Test(type2);
+	Test(type3);
+}
+
+static void Test(Type type)
+{
+	// Print some properties of the Type formal parameter.
+	Console.WriteLine("IsArray: {0}", type.IsArray);
+	Console.WriteLine("Name: {0}", type.Name);
+	Console.WriteLine("IsSealed: {0}", type.IsSealed);
+	Console.WriteLine("BaseType.Name: {0}", type.BaseType.Name);
+	Console.WriteLine();
+}
+
+Output
+IsArray: True
+Name: String[]
+IsSealed: True
+BaseType.Name: Array
+
+IsArray: False
+Name: String
+IsSealed: True
+BaseType.Name: Object
+
+IsArray: False
+Name: Type
+IsSealed: False
+BaseType.Name: MemberInfo
+```
+
+```cs
+Type t = typeof(String);
+
+MethodInfo substr = t.GetMethod("Substring", new Type[] { typeof(int), typeof(int) });
+
+Object result =  substr.Invoke("Hello, World!", new Object[] { 7, 5 });
+Console.WriteLine("{0} returned \"{1}\".", substr, result);
+```
 
 
 # Statements
