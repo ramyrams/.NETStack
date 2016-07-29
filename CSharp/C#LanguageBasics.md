@@ -2587,6 +2587,56 @@ foreach (var keyValuePair in dictionary)
 ```
 
 ## HashSet<T>
+
+
+```cs
+
+//HashSet is an unordered collection containing unique elements
+HashSet<int> theSet1 = new HashSet<int>();
+theSet1.Add(1);
+theSet1.Add(2);
+theSet1.Add(2);
+// theSet1 contains 1,2
+
+HashSet<int> theSet2 = new HashSet<int>();
+theSet2.Add(1);
+theSet2.Add(3);
+theSet2.Add(4);
+// theSet2 contains 1,3,4
+
+theSet1.UnionWith(theSet2);
+// theSet1 contains 1,2,3,4
+
+
+//HashSet’s default Add operation returns a bool letting you know whether the item was added,
+bool added = theSet1.Add(2); // added is true
+added = theSet1.Add(2); // added is false
+
+```
+
+```cs
+
+class OddEvenComparer : IEqualityComparer<int> {
+public OddEvenComparer() {}
+	public bool Equals(int x, int y) {
+		return (x & 1) == (y & 1);
+	}
+
+	public int GetHashCode(int x) {
+		return (x & 1);
+	}
+}
+
+...
+
+// Now use the comparer
+HashSet<int> oddEvenSet = new HashSet<int>(new OddEvenComparer());
+oddEvenSet.Add(1);
+oddEvenSet.Add(3);
+oddEvenSet.Add(4);
+// oddEventSet contains 1,4; it considered 1 and 3 equal.
+```
+
 ```cs
 var hashSet = new HashSet<int>();
 
