@@ -2015,6 +2015,106 @@ class Test
 ```
 # Collection
 
+## BitArray
+```cs
+//Creating a BitArray
+BitArray x = new BitArray(8, false);
+x.Set(2, true);
+BitArray y = new BitArray(x);
+
+
+BitArray bits = new BitArray(new bool[] { false, true, false, false });
+
+
+
+BitArray bits = new BitArray(new byte[] { 1, 2 });
+
+
+BitArray bits = new BitArray(4, true);
+
+
+
+BitArray bits = new BitArray(4);
+bits.Set(0, true);
+bits.Set(1, true);
+
+
+BitArray bits = new BitArray(4);
+bits.SetAll(true);
+
+
+
+BitArray bits = new BitArray(new byte[] { 3 });
+Console.Write("3 is stored as ");
+for (int i = bits.Length - 1; i >= 0; --i)
+{
+ Console.Write(bits.Get(i) ? "1" : "0");
+}
+Console.WriteLine();
+
+
+
+
+BitArray bits = new BitArray(4);
+Console.WriteLine("bit 0 is {0}", bits[0]);
+Console.WriteLine("Negating bit 0");
+bits[0] = !bits[0];
+Console.WriteLine("bit 0 is now {0}", bits[0]);
+
+
+
+[Flags()]
+public enum FileFlags
+{
+ IsArchived = 0,
+ IsReadOnly = 1,
+ IsCompressed = 2,
+ IsHidden = 3,
+ NUM_FLAGS
+}
+
+
+
+BitArray bits = FlagsToBitArray(FileFlags.IsCompressed, FileFlags.IsArchived,
+ FileFlags.IsHidden);
+Console.WriteLine("bits = {0}", FlagsToString(bits));
+Console.WriteLine("Keep only IsArchived on if it is on");
+bits = bits.And(FlagsToBitArray(FileFlags.IsArchived));
+Console.WriteLine("bits = {0}", FlagsToString(bits));
+
+
+
+BitArray bits = FlagsToBitArray(FileFlags.IsCompressed, FileFlags.IsArchived,
+ FileFlags.IsHidden);
+Console.WriteLine("bits = {0}", FlagsToString(bits));
+Console.WriteLine("Flip all flags");
+bits = bits.Not();
+Console.WriteLine("bits = {0}", FlagsToString(bits));
+
+
+
+BitArray bits = FlagsToBitArray(FileFlags.IsCompressed, FileFlags.IsArchived,
+ FileFlags.IsHidden);
+Console.WriteLine("bits = {0}", FlagsToString(bits));
+Console.WriteLine("Turning IsReadOnly flag on");
+bits = bits.Or(FlagsToBitArray(FileFlags.IsReadOnly));
+Console.WriteLine("bits = {0}", FlagsToString(bits));
+
+
+
+BitArray bits = new BitArray(new byte[]
+ { (byte)'h', (byte)'e', (byte)'l', (byte)'l', (byte)'o' });
+BitArray key = new BitArray(new byte[] { 99, 88, 55, 22, 11 });
+Console.WriteLine("string = {0}", PrintString(bits));
+Console.WriteLine("Encrypting");
+bits = bits.Xor(key);
+Console.WriteLine("string = {0}", PrintString(bits));
+Console.WriteLine("Decrypting");
+bits = bits.Xor(key);
+Console.WriteLine("string = {0}", PrintString(bits));
+```
+
+
 Queue(T) 
 ```cs
 Queue<int> queue = new Queue<int>();
