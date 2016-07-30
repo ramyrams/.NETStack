@@ -2213,6 +2213,100 @@ hashList.Remove(2); // remove item which has 2 key
 
 ```
 
+## LinkedList(T) 
+```cs
+LinkedList<String> llist = new LinkedList<String>();
+
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "like" });
+llist.AddAfter(llist.Last, new LinkedListNode<string>("dogs"));
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "like" });
+llist.AddAfter(llist.Last, "dogs");
+
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "like", "dogs" });
+llist.AddBefore(llist.First, new LinkedListNode<string>("I"));
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "like", "dogs" });
+LinkedListNode<string> foundNode = llist.Find("like");
+llist.AddBefore(foundNode, "I");
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "like", "dogs" });
+llist.AddFirst("I");
+
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "like", "dogs" });
+llist.AddFirst(new LinkedListNode<string>("I"));
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "like" });
+llist.AddLast("dogs");
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "like" });
+llist.AddLast(new LinkedListNode<string>("dogs"));
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "love", "dogs" });
+llist.Clear();
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "don't", "like", "dogs" });
+llist.Remove("don't");
+
+
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "don't", "like", "dogs" });
+LinkedListNode<string> removeNode = llist.Find("don't");
+llist.Remove(removeNode);
+
+
+
+LinkedList<int> llist = new LinkedList<int>(new int[] { 1, 1, 2, 3, 4 });
+llist.RemoveFirst();
+
+
+LinkedList<int> llist = new LinkedList<int>(new int[] { 1, 2, 3, 4, 4 });
+llist.RemoveLast();
+
+
+
+
+LinkedList<int> llist = new LinkedList<int>(new int[] { 1, 2, 4, 4, 4, 6 });
+
+Print(llist.ToArray());
+llist.Find(4).Value = 3;
+llist.FindLast(4).Value = 5;
+Print(llist.ToArray());
+
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "love", "dogs" });
+Console.WriteLine(llist.First.Value);
+Console.WriteLine(llist.Last.Value);
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "like", "dogs" });
+Console.WriteLine("The list contains {0} nodes.", llist.Count);
+
+
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "like", "dogs" });
+Console.WriteLine("Does the list contain \"dogs\"? {0}",
+ llist.Contains("dogs") ? "Yes" : "No");
+Console.WriteLine("Does the list contain \"cats\"? {0}",
+ llist.Contains("cats") ? "Yes" : "No");
+
+```
+
+
 ## Queue
 ```cs
 // Creates and initializes a new Queue.
