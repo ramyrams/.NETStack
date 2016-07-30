@@ -2015,7 +2015,265 @@ class Test
 ```
 # Collection
 
+Queue(T) 
+```cs
+Queue<int> queue = new Queue<int>();
+
+
+int[] values = new int[] { 34, 2, 1, 88, 53 };
+Queue<int> queue = new Queue<int>(values);
+
+
+Queue<int> queue = new Queue<int>(100);
+
+//Adding Items to the Queue
+Queue<int> queue = new Queue<int>(new int [] { 22, 3, 6, 19 });
+queue.Enqueue(33);
+
+//Items can be removed from the queue by using the Clear and Dequeue methods. 
+Queue<int> queue = new Queue<int>(new int [] { 22, 3, 6, 19 });
+queue.Clear();
+
+
+Queue<int> queue = new Queue<int>(new int [] { 22, 3, 6, 19 });
+Console.WriteLine(queue.Dequeue());
+
+//Checking the Queue
+// use the Peek method when you want to view the first element in the queue without changing the contents of it.
+Queue<int> queue = new Queue<int>(new int [] { 22, 3, 6, 19 });
+Console.WriteLine(queue.Peek());
+
+Output
+22
+
+
+
+Queue<int> queue = new Queue<int>(new int [] { 22, 3, 6, 19 });
+Console.WriteLine("Does the queue contain a 6? {0}", queue.Contains(6) ? "Yes" : "No");
+Console.WriteLine("Does the queue contain a 5? {0}", queue.Contains(5) ? "Yes" : "No");
+
+
+
+Queue<int> queue = new Queue<int>(new int[] { 22, 3, 6, 19});
+Console.WriteLine("The queue contains {0} items.", queue.Count);
+
+//Cleaning the Queue
+
+```
+
+Stack(T)
+```cs
+//Creating a Stack
+Stack<int> stack = new Stack<int>();
+
+int[] values = new int[] { 34, 2, 1, 88, 53 };
+Stack<int> stack = new Stack<int>(values);
+
+
+Stack<int> stack = new Stack<int>(100);
+
+
+//Adding Items to the Stack
+
+Stack<int> stack = new Stack<int>(new int[] { 6, 87, 13, 29, 7 });
+stack.Push(46);
+
+//Removing Items from the Stack
+Stack<int> stack = new Stack<int>(new int[] { 6, 87, 13, 29, 7 });
+stack.Clear();
+
+
+Stack<int> stack = new Stack<int>(new int[] { 6, 87, 13, 29, 7 });
+Console.WriteLine(stack.Pop());
+
+//Checking the Stack
+Checking the Stack
+```
+
+## Dictionary(TKey,TValue)
+
+
+//Creating a Dictionary
+Dictionary<string, int> dictionary = new Dictionary<string, int>();
+
+
+
+Dictionary<string, int> dictionary = new Dictionary<string, int>();
+dictionary["one"] = 1;
+dictionary["two"] = 2;
+dictionary["three"] = 3;
+
+
+
+Dictionary<string, int> dictionary = new Dictionary<string, int>
+ (StringComparer.CurrentCultureIgnoreCase);
+dictionary["one"] = 1;
+dictionary["two"] = 2;
+dictionary["three"] = 3;
+int one = dictionary["One"];
+
+
+
+Dictionary<string, int> dictionary = new Dictionary<string, int>(200);
+
+
+//Adding Items to a Dictionary
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+dictionary.Add(9688, "Barbara Zighetti");
+dictionary.Add(9689, "Eric Gruber");
+
+
+
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+dictionary[9688] = "Barbara Zighetti";
+dictionary[9689] = "Eric Gruber";
+
+//Removing Items from a Dictionary
+
+
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+dictionary[9688] = "Barbara Zighetti";
+dictionary[9689] = "Eric Gruber";
+dictionary.Clear();
+
+
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+dictionary[9688] = "Barbara Zighetti";
+dictionary[9689] = "Eric Gruber";
+dictionary.Remove(9689);
+
+
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+dictionary[9688] = "Barbara Zighetti";
+dictionary[9689] = "Eric Gruber";
+try
+{
+ string name;
+ if (dictionary.TryGetValue(9999, out name))
+ {
+ Console.WriteLine("\"{0}\" is associated with 9999", name);
+ }
+
+else
+ {
+ Console.WriteLine("9999 wasn't found in the dictionary");
+ }
+}
+catch (Exception)
+{
+ Console.WriteLine("An exception was thrown.");
+}
+
+
+
+
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+dictionary[9688] = "Barbara Zighetti";
+dictionary[9689] = "Eric Gruber";
+Console.WriteLine("\"{0}\" is associated with 9689", dictionary[9689]);
+try
+{
+ Console.WriteLine("\"{0}\" is associated with 9690", dictionary[9690]);
+}
+catch (KeyNotFoundException ex)
+{
+ Console.WriteLine("9890 wasn't found in the dictionary");
+}
+
+
+//Checking the Dictionary
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+dictionary[9688] = "Barbara Zighetti";
+dictionary[9689] = "Eric Gruber";
+if (dictionary.ContainsKey(9689))
+{
+ Console.WriteLine("9689 was found in the dictionary");
+}
+else
+{
+ Console.WriteLine("9689 was not found in the dictionary");
+}
+if (dictionary.ContainsKey(9690))
+{
+ Console.WriteLine("9690 was found in the dictionary");
+}
+else
+{
+ Console.WriteLine("9690 was not found in the dictionary");
+}
+
+
+
+
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+dictionary[9688] = "Barbara Zighetti";
+dictionary[9689] = "Eric Gruber";
+if (dictionary.ContainsValue("Barbara Zighetti"))
+{
+ Console.WriteLine("\"Barbara Zighetti\" was found in the dictionary");
+}
+else
+{
+ Console.WriteLine("\"Barbara Zighetti\" was not found in the dictionary");
+}
+if (dictionary.ContainsValue("David Wright"))
+{
+ Console.WriteLine("\"David Wright\" was found in the dictionary");
+}
+else
+{
+ Console.WriteLine("\"David Wright\" was not found in the dictionary");
+}
+
+
+
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+dictionary[9688] = "Barbara Zighetti";
+dictionary[9689] = "Eric Gruber";
+Console.WriteLine("The dictionary contains {0} items.", dictionary.Count);
+
+
+
+
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+Dictionary<int, String>.KeyCollection keys = dictionary.Keys;
+dictionary[9688] = "Barbara Zighetti";
+dictionary[9689] = "Eric Gruber";
+Console.WriteLine("The keys in the dictionary are: ");
+Print(keys.ToArray());
+Console.WriteLine("Adding [9687,\"David Wright\"]");
+dictionary[9687] = "David Wright";
+Console.WriteLine("The keys in the dictionary are: ");
+Print(keys.ToArray());
+
+
+
+
+Dictionary<int, String> dictionary = new Dictionary<int, String>();
+Dictionary<int, String>.ValueCollection values = dictionary.Values;
+dictionary[9688] = "Barbara Zighetti";
+dictionary[9689] = "Eric Gruber";
+Console.WriteLine("The values in the dictionary are: ");
+Print(values.ToArray());
+Console.WriteLine("Adding [9687,\"David Wright\"]");
+dictionary[9687] = "David Wright";
+Console.WriteLine("The values in the dictionary are: ");
+Print(values.ToArray());
+
+
+
+
+
+```
+
+
+
+
+
+
 ## ArrayList
+
+
 ```cs
 ArrayList arrayList = new ArrayList();
 bool isFixedSize = arrayList.IsFixedSize; // false, because ArrayList is not fixed size list
