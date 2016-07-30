@@ -2586,6 +2586,317 @@ foreach (var keyValuePair in dictionary)
 }
 ```
 
+## List<T>
+
+```cs
+List<int> a = new List<int>();
+
+List<int> a = new List<int>( new int [] { 2 , 4, 5 } );
+
+List<int> a = new List<int>(100);
+
+List<int> list = new List<int>();
+list.Add(2);
+list.Add(4);
+
+List<int> list = new List<int>();
+list.AddRange( new int []{ 2, 4 });
+
+List<int> list = new List<int>(new int[] { 1, 2, 3, 4, 5, 6, 7 });
+foreach (int value in list)
+{
+ 	Console.WriteLine(value);
+}
+
+
+List<int> list = new List<int>(new int[] { 1, 6, 2, 3 });
+list.Remove(6);
+
+
+List<int> list = new List<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8 });
+list.Reverse();
+
+
+List<int> list = new List<int>(new int[] { 1, 2, 3, 7, 6, 5, 4, 8 });
+list.Reverse(3, 4);
+```
+
+
+
+```cs
+
+List<Task> list = new List<Task>();
+list.Add(new Task("BACKUP"));
+list.Add(new Task("VERFIY"));
+list.Add(new Task("MARK_ARCHIVED"));
+list.ForEach(ProcessTask);
+
+
+static void ProcessTask(Task task)
+{
+ // Nothing to process if the task is null or has already been processed
+ if (task == null || task.IsProcessed)
+ {
+ return;
+ }
+ // Process the task
+ // ...
+ // Mark the task as processed
+ task.IsProcessed = true;
+}
+
+
+
+List<int> list = new List<int>(new int[] { 16, 8, 44, 5 });
+int sum = 0;
+list.ForEach(value =>
+ {
+ sum += value;
+ });
+
+
+
+
+
+static bool IsEven(int value)
+{
+ return (value % 2) == 0;
+}
+
+List<int> list = new List<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+list.RemoveAll(IsEven);
+
+
+
+List<int> list = new List<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+list.RemoveAll(item => { return (item % 2) == 0; });
+
+
+List<string> list = new List<string>(new string[] { "red", "blue", "green" });
+list.RemoveAt(0);
+
+
+List<string> list = new List<string>(new string[] { "red", "please", "remove", "me", "blue",
+"green" });
+list.RemoveRange(1,3);
+
+
+List<string> list = new List<string>(new string[] { "Adam", "Charlie", "David" });
+list.Insert(1, "Bob");
+
+
+
+List<string> list = new List<string>(new string[] { "Adam", "Charlie", "David" });
+List<string> listToAppend = new List<string>(new string[] { "Bob", "Bobbie", "Bobby" });
+list.InsertRange(1, listToAppend);
+
+
+
+
+
+
+
+
+// Create a random list of 20 integers
+Random rnd = new Random();
+List<int> items = Enumerable.Repeat(0, 20).Select(i => rnd.Next(100)).ToList();
+
+// Write the new list to the screen
+Console.WriteLine("items={0}",ListToString(items));
+
+// Sort the list
+QuickSort(items);
+
+// Write the sorted list to the screen
+Console.WriteLine("QuickSort(items)={0}", ListToString(items));
+
+
+
+List<int> list = new List<int>(new int[] { 16, 8, 44, 5 });
+list.Sort();
+
+
+
+
+
+List<Person> list = new List<Person>();
+list.Add(new Person("David","Alexander",44));
+list.Add(new Person("Jeff","Hay",32));
+list.Add(new Person("Kim","Akers",12));
+list.Add(new Person("Michael","Allen",25));
+list.Sort(AgeComparison);
+
+
+static int AgeComparison(Person a, Person b)
+{
+ if (a.Age < b.Age)
+ {
+ return -1;
+ }
+ if (a.Age > b.Age)
+ {
+ return 1;
+ }
+ return 0;
+}
+
+
+
+
+List<Person> list = new List<Person>();
+list.Add(new Person("Julia", "Llyina", 12, false));
+list.Add(new Person("David", "Alexander", 44, true));
+list.Add(new Person("Michael", "Allen", 25, true));
+list.Add(new Person("Andrews", "Lisa", 42, false));
+list.Add(new Person("Jeff", "Hay", 32, true));
+list.Add(new Person("Kim", "Akers", 28, false));
+Person found = list.Find(person =>
+ {
+ return person.IsMale && person.Age > 40;
+ });
+
+
+//or
+Person found = list.Find(FindOver40Males);
+
+static bool FindOver40Males (Person person)
+{
+ return person.IsMale && person.Age >= 40;
+}
+
+
+
+int found = list.FindIndex(FindOver40Males);
+
+
+
+int found = list.FindIndex(person =>
+ {
+ return person.IsMale && person.Age > 40;
+ });
+
+
+
+found = list.FindLastIndex(person =>
+{
+ return person.IsMale && person.Age > 40;
+});
+
+
+
+
+List<int> list = new List<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8 });
+List<int> evens = list.FindAll(value => { return (value % 2) == 0; });
+
+
+
+List<int> list = new List<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8 });
+List<int> evens = list.FindAll(IsEven);
+
+static bool IsEven(int value)
+{
+ return (value % 2) == 0;
+}
+
+
+
+
+
+
+List<int> list = new List<int>(new int[] { 33, 54, 23, 28, 8, 5, 14} );
+int found = list.BinarySearch(5);
+Console.WriteLine("The unsorted list is {0}", ListToString(list));
+Console.WriteLine("The number 5 is located at {0} in the unsorted list.", found);
+list.Sort();
+Console.WriteLine("The sorted list is now {0}", ListToString(list));
+found = list.BinarySearch(5);
+Console.WriteLine("The number 5 is located at {0} in the sorted list.", found);
+
+
+
+List<int> list = new List<int>(new int[] { 1, 2, 4, 4, 4, 6, 7});
+int firstFour = list.IndexOf(4);
+int lastFour = list.LastIndexOf(4);
+list[firstFour] = 3;
+list[lastFour] = 5;
+
+
+List<int> list = new List<int>(new int[] { 1, 2, 7, 4, 1, 6, 7});
+int extra1 = list.IndexOf(1,3);
+int extra7 = list.LastIndexOf(7,3);
+
+
+
+List<int> list = new List<int>(new int[] { 1, 2, 6, 4, 2, 6, 7});
+int extra6 = list.IndexOf(6,1,6);
+int extra2 = list.LastIndexOf(2,5,6);
+
+
+
+List<int> list = new List<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8});
+Console.WriteLine("Does the list contain an even number? {0}",
+ list.Exists(IsEven) ? "Yes" : "No");
+
+static bool IsEven(int value)
+{
+ return (value % 2) == 0;
+}
+
+
+
+List<int> list = new List<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8});
+List<int> evens = new List<int>(new int[] { 2, 4, 6, 8 });
+bool allEvens = list.TrueForAll(IsEven);
+Console.WriteLine("Does list contain all even numbers? {0}", allEvens ? "Yes" : "No");
+allEvens = evens.TrueForAll(IsEven);
+Console.WriteLine("Does evens contain all even numbers? {0}", allEvens ? "Yes" : "No");
+
+```
+
+
+
+```cs
+
+static string UnpackPhoneNumber(long phonenumber)
+{
+ long areacode, exccode, subnum;
+ // Get the first 3 digits of the phonenumber
+ areacode = Math.Floor(phonenumber / 10000000);
+ // Change the phonenumber variable to the last 7 digits
+ Math.DivRem(phonenumber, 10000000, out phonenumber);
+ // Get the exchange code or first 3 digits
+ exccode = phonenumber / 10000;
+ // Get the subscriber number from the last 4 digits
+ Math.DivRem(phonenumber, 1000, out subnum);
+ return string.Format("({0:D3}) {1:D3}-{2:D4}", areacode, exccode, subnum);
+}
+
+
+List<long> list = new List<long>(new long[] { 9015550100, 9015550188, 9015550113 });
+List<string> phonenumbers = list.ConvertAll<string>( UnpackPhoneNumber);
+```
+
+
+```cs
+List<long> list = new List<long>(new long[] { 9015550100, 9015550188, 9015550113 });
+List<string> phonenumbers = list.ConvertAll<string>(item =>
+ {
+ long areaCode = item / 10000000;
+ item -= (areaCode * 10000000);
+ long exccode = item / 10000;
+ return string.Format("({0:D3}) {1:D3}-{2:D4}", areaCode, exccode,
+ item - (exccode * 10000));
+ });
+```
+
+
+
+
+
+
+
+
+
 ## HashSet<T>
 
 
