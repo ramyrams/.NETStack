@@ -2015,6 +2015,302 @@ class Test
 ```
 # Collection
 
+## CollectionBase
+
+```cs
+void OnValidate
+
+//The following code snippets can be used within OnValidate to check whether the item is a Timer.
+if (value != null && !(value is System.Timers.Timer))
+{
+ throw new ArgumentException("value must be of type System.Timers.Timer.", "value");
+}
+
+
+// The following code snippets can be used within OnValidate to check whether the object is the value type int.
+if (value == null || !(value is int))
+{
+ throw new ArgumentException("value must be of type int.", "value");
+}
+
+//void OnClear() and void OnClearComplete()
+OnClear();
+InnerList.Clear();
+OnClearComplete();
+
+
+//You could then set the cleared items in the array by doing the following in your OnClear method.
+m_clearItems = InnerList.ToArray();
+
+//void OnInsert(int index, Object value) and void OnInsertComplete(int index, Object value)
+
+OnValidate(value);
+OnInsert(index, value);
+InnerList.Insert(index, value);
+try
+{
+ OnInsertComplete(index, value);
+}
+catch
+{
+ InnerList.RemoveAt(index);
+ throw;
+}
+
+
+protected override void OnInsertComplete(int index, object value)
+{
+ try
+ {
+ base.OnInsertComplete(index, value);
+ // Code to do after the insert has completed
+ }
+ catch
+ 
+ // Undo OnInsert
+ throw;
+ }
+}
+
+void OnRemove(int index, object value) and void OnRemoveComplete(int index, object value)
+OnValidate(value);
+int index = InnerList.IndexOf(value);
+if (index < 0)
+{
+ throw new ArgumentException("Index out of range");
+}
+OnRemove(index, value);
+InnerList.RemoveAt(index);
+try
+{
+ OnRemoveComplete(index, value);
+}
+catch
+{
+ InnerList.Insert(index, value);
+ throw;
+}
+
+
+protected override void OnRemoveComplete(int index, object value)
+{
+ try
+ {
+ base.OnRemoveComplete(index, value);
+ // Code to do after the remove has completed
+ }
+ catch
+ {
+ // Undo OnRemove
+ throw;
+ }
+}
+
+void OnSet(int index, object oldValue, object newValue) and void OnSetComplete(int index, object oldValue, object newValue)
+
+OnValidate(value);
+object oldValue = InnerList[index];
+OnSet(index, oldValue, value);
+InnerList[index] = value;
+try
+{
+ OnSetComplete(index, oldValue, value);
+}
+catch
+{
+ InnerList[index] = oldValue;
+ throw;
+}
+
+
+protected override void OnSetComplete(int index, object oldValue, object newValue)
+{
+ try
+ {
+ base.OnSetComplete(index, oldValue, newValue);
+ // Code to do after the set has completed
+ }
+ catch
+ 
+ // Undo OnSet
+ throw;
+ }
+}
+```
+
+
+## DictionaryBase
+```cs
+void OnValidate(object key, object value)
+void OnClear() and void OnClearComplete()
+
+OnClear();
+InnerHashtable.Clear();
+OnClearComplete();
+
+
+//void OnGet()
+object currentValue =InnerHashtable[key];
+OnGet(key, currentValue);
+return currentValue;
+
+//void OnInsert(Object key, Object value) and void OnInsertComplete(Object key, Object value)
+
+C#
+OnValidate(key, value);
+OnInsert(key, value);
+InnerHashtable.Add(key, value);
+try
+{
+ OnInsertComplete(key, value);
+}
+catch
+{
+ InnerHashtable.Remove(key);
+ throw;
+}
+
+void OnRemove(Object key, Object value) and void OnRemoveComplete(Object key, Object value)
+if (InnerHashtable.Contains(key))
+{
+ object obj2 = InnerHashtable[key];
+ OnValidate(key, obj2);
+ OnRemove(key, obj2);
+ InnerHashtable.Remove(key);
+ try
+ {
+ OnRemoveComplete(key, obj2);
+ }
+ catch
+ {
+ InnerHashtable.Add(key, obj2);
+ throw;
+ }
+}
+
+void OnSet(Object key, object oldValue, object newValue) and void OnSetComplete(Object key, object oldValue, object newValue)
+OnValidate(key, value);
+bool flag = true;
+object oldValue = InnerHashtable[key];
+if (oldValue == null)
+{
+ flag = InnerHashtable.Contains(key);
+}
+OnSet(key, oldValue, value);
+InnerHashtable[key] = value;
+try
+{
+ OnSetComplete(key, oldValue, value);
+}
+catch
+{
+ if (flag)
+ {
+ InnerHashtable[key] = oldValue;
+ }
+ else
+ {
+ InnerHashtable.Remove(key);
+ }
+ throw;
+}
+
+```
+
+## HashSet(T)
+```cs
+HashSet<int> a = new HashSet<int>();
+
+HashSet<int> a = new HashSet<int>( new int [] { 2 , 4, 5 } );
+
+HashSet<string> a = new HashSet<string>(StringComparer.CurrentCultureIgnoreCase);
+
+HashSet<string> a = new HashSet<string>(new string[] {"hi", "hola", "Hi"},  StringComparer.CurrentCultureIgnoreCase);
+
+HashSet<string> hs = new HashSet<string>(StringComparer.CurrentCultureIgnoreCase);
+hs.Add("hi");
+hs.Add("Hi");
+hs.Add("hola");
+
+HashSet<string> hs = new HashSet<string>(StringComparer.CurrentCultureIgnoreCase);
+hs.Add("hi");
+hs.Add("hola");
+
+HashSet<int> hs = new HashSet<int>(new int[] { 1, 6, 2, 3 });
+hs.Remove(6);
+
+//RemoveWhere(Predicate(T) match)
+delegate bool Predicate<T>(T obj);
+
+static bool IsEven(int value)
+{
+ return (value % 2) == 0;
+}
+
+HashSet<int> hs = new HashSet<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+hs.RemoveWhere(IsEven);
+
+HashSet<int> hs = new HashSet<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+hs.RemoveWhere(item => { return (item % 2) == 0; });
+
+HashSet<int> odds = new HashSet<int>(new int[] { 1, 3, 5, 7, 9 });
+HashSet<int> primes = new HashSet<int>(new int[] { 2, 5, 7 });
+HashSet<int> oddPrimes = new HashSet<int>(odds);
+oddPrimes.IntersectWith(primes);
+
+
+HashSet<int> numbers = new HashSet<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+HashSet<int> evens = new HashSet<int>(new int[] { 2, 4, 6, 8 });
+HashSet<int> reversedNumbers = new HashSet<int>(new int[] { 9, 8, 7, 6, 5, 4, 3, 2, 1 });
+Console.WriteLine("Evens {0} a proper subset of numbers.",  evens.IsProperSubsetOf(numbers) ? "is" : "is not");
+Console.WriteLine("Reversednumbers {0} a proper subset of numbers.",  reversedNumbers.IsProperSubsetOf(numbers) ? "is" : "is not");
+ 
+ 
+ HashSet<int> evens = new HashSet<int>(new int[] { 2, 4, 6, 8 });
+HashSet<int> odds = new HashSet<int>(new int[] { 1, 3, 5, 7, 9 });
+HashSet<int> numbers = new HashSet<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+Console.WriteLine("Evens {0} a subset of numbers.",
+ evens.IsSubsetOf(numbers) ? "are" : "are not");
+Console.WriteLine("Evens {0} a subset of odds.",
+ evens.IsSubsetOf(odds) ? "are" : "are not");
+ 
+ 
+ HashSet<int> evens = new HashSet<int>(new int[] { 2, 4, 6, 8 });
+HashSet<int> odds = new HashSet<int>(new int[] { 1, 3, 5, 7, 9 });
+HashSet<int> numbers = new HashSet<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+Console.WriteLine("Evens {0} a superset of numbers.",
+ evens.IsSupersetOf(numbers) ? "are" : "are not");
+Console.WriteLine("Numbers {0} a superset of odds.",
+ numbers.IsSupersetOf(odds) ? "are" : "are not");
+ 
+ HashSet<int> evens = new HashSet<int>(new int[] { 2, 4, 6, 8 });
+HashSet<int> odds = new HashSet<int>(new int[] { 1, 3, 5, 7, 9 });
+HashSet<int> numbers = new HashSet<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+Console.WriteLine("Evens {0} with numbers.",
+ evens.Overlaps(numbers) ? "overlaps" : "does not overlap");
+Console.WriteLine("Evens {0} with odds.",
+ evens.Overlaps(odds) ? "overlaps" : "does not overlap");
+ 
+ HashSet<int> evens = new HashSet<int>(new int[] { 2, 4, 6, 8 });
+HashSet<int> odds = new HashSet<int>(new int[] { 1, 3, 5, 7, 9 });
+HashSet<int> numbers = new HashSet<int>(odds);
+numbers.UnionWith(evens);
+
+
+HashSet<int> odds = new HashSet<int>(new int[] { 1, 3, 5, 7, 9 });
+HashSet<int> numbers = new HashSet<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+HashSet<int> evens = new HashSet<int>(numbers);
+evens.ExceptWith(odds);
+ 
+ 
+ HashSet<int> evens = new HashSet<int>(new int[] { 2, 4, 6, 8 });
+Console.WriteLine("Evens {0} 1.", evens.Contains(1) ? "contains" : "doesn't contain");
+Console.WriteLine("Evens {0} 2.", evens.Contains(2) ? "contains" : "doesn't contain");
+
+void TrimExcess()
+
+```
+
 ## BitArray
 ```cs
 //Creating a BitArray
