@@ -2015,6 +2015,25 @@ class Test
 ```
 # Collection
 
+
+## SortedDictionary(TKey, TValue)
+```cs
+SortedDictionary<string, int> sorted = new SortedDictionary<string, int>();
+sorted.Add("one", 1);
+sorted.Add("two", 2);
+sorted.Add("three", 3);
+sorted.Add("four", 4);
+sorted.Add("five", 5);
+sorted.Add("six", 6);
+Console.WriteLine("The sorted list of keys are");
+foreach (string name in sorted.Keys)
+{
+ Console.WriteLine(name);
+}
+Console.WriteLine();
+```
+
+
 ## CollectionBase
 
 ```cs
