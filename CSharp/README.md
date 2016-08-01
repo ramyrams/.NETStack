@@ -11,8 +11,7 @@
 * Exception Handling
 * Structs
 * Namespaces
-* Collection
-* Enumerators and Iterators
+
 * Preprocessor Directives
 * File I/O
 * Regular Expressions
@@ -27,6 +26,15 @@
 * Polymorphism 
 
 [Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23OOP.md)
+
+# [C# Collection]
+* Collection
+* Enumerators and Iterators
+
+[Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23Collections)
+
+# [C# LINQ]
+[Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/object-oriented-design.md)
 
 # [Advanced C#]
 * Delegates
@@ -50,8 +58,7 @@
 
 [Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/AdvancedC%23.md)
 
-# [C# LINQ]
-[Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/object-oriented-design.md)
+
 
 # URL
 * [2,000 Things You Should Know About C#](https://csharp.2000things.com/index/)
