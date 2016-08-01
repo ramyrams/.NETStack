@@ -543,6 +543,90 @@ namespace SecondChangeEvent
 
 
 # Generics
+
+## generic
+
+```cs
+using System;
+class Test<T>
+{
+    T _value;
+
+    public Test(T t)
+    {
+	// The field has the same type as the parameter.
+	this._value = t;
+    }
+
+    public void Write()
+    {
+	Console.WriteLine(this._value);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+	// Use the generic type Test with an int type parameter.
+	Test<int> test1 = new Test<int>(5);
+	// Call the Write method.
+	test1.Write();
+
+	// Use the generic type Test with a string type parameter.
+	Test<string> test2 = new Test<string>("cat");
+	test2.Write();
+    }
+}
+
+Output
+5
+cat
+```
+
+## C# program that uses generic type constraints
+```cs
+using System;
+using System.Data;
+
+/// <summary>
+/// Requires type parameter that implements interface IEnumerable.
+/// </summary>
+class Ruby<T> where T : IDisposable
+{
+}
+
+/// <summary>
+/// Requires type parameter that is a struct.
+/// </summary>
+class Python<T> where T : struct
+{
+}
+
+/// <summary>
+/// Requires type parameter that is a reference type with a constructor.
+/// </summary>
+class Perl<V> where V : class, new()
+{
+}
+
+class Program
+{
+    static void Main()
+    {
+	// DataTable implements IDisposable so it can be used with Ruby.
+	Ruby<DataTable> ruby = new Ruby<DataTable>();
+
+	// Int is a struct (ValueType) so it can be used with Python.
+	Python<int> python = new Python<int>();
+
+	// Program is a class with a parameterless constructor (implicit)
+	// ... so it can be used with Perl.
+	Perl<Program> perl = new Perl<Program>();
+    }
+}
+```
+
 ```cs
 public class Stack<T>
 {
