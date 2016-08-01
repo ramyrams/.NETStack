@@ -1,4 +1,62 @@
 
+
+* System.Collections
+  * ArrayList
+  * BitArray
+  * Hashtable
+  * SortedList
+  * Queue
+  * Stack
+  * DictionaryEntry
+
+* System.Collections.Generic
+  * Dictionary<TKey,TValue>	
+  * LinkedList<T>	
+  * List<T>	
+  * Queue<T>	
+  * Stack<T>
+  * SortedDictionary<TKey,TValue>
+  * SortedList<TKey, TValue>	
+  * SortedSet<T>
+  * Comparer<T>	
+  * KeyValuePair<TKey, TValue> 
+  * EqualityComparer<T>	
+  * HashSet<T>	
+  * KeyedByTypeCollection<TItem>
+  * LinkedListNode<T>	
+  * SynchronizedCollection<T>
+  * SynchronizedKeyedCollection<K,T>
+  * SynchronizedReadOnlyCollection<T>	
+
+
+* System.Collections.Specialized
+  * HybridDictionary
+  * ListDictionary
+  * StringCollection
+  * BitVector32
+  * NameValueCollection
+
+
+* System.Collections.Concurrent
+  * ConcurrentQueue<T>	
+  * ConcurrentStack<T>
+  * ConcurrentBag<T>	
+  * ConcurrentDictionary<TKey,TValue>
+  * BlockingCollection<T>	
+  * OrderablePartitioner<TSource>
+  * Partitioner	
+  * Partitioner<TSource>	
+
+
+* System.Collections.ObjectModel
+  * ReadOnlyCollection<T>	
+  * ReadOnlyObservableCollection<T>
+  * KeyedCollection<TKey,TItem>	
+  * ObservableCollection<T>	
+  * ReadOnlyDictionary<TKey,TValue>	
+
+
+
 ## List<T>
 ```cs
 var list = new List<string>();
