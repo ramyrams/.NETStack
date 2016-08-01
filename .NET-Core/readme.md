@@ -1,4 +1,10 @@
 
+* [Core.NET Documentation](https://docs.asp.net/en/latest/intro.html)
+
+* [Introducing .NET Core](https://blogs.msdn.microsoft.com/dotnet/2014/12/04/introducing-net-core/)
+
+* [.NET Core Github](https://dotnet.github.io/)
+
 * [.NET Core Roadmap](https://blogs.msdn.microsoft.com/dotnet/2016/07/15/net-core-roadmap/)
 * [Exploring dotnet new with .NET Core](http://www.hanselman.com/blog/ExploringDotnetNewWithNETCore.aspx)
 * [Exploring .NET Core and ASP.NET Core](https://weblog.west-wind.com/posts/2016/Jun/29/First-Steps-Exploring-NET-Core-and-ASPNET-Core)
