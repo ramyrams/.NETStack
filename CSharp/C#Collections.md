@@ -685,4 +685,86 @@ Task.Factory.StartNew(() =>
 ```
 
 
+## SortedSet
+```cs
+var elements = new SortedSet<int>() { 5, 9, 2, 11, 2, 1, 4, 1, 2 };
 
+foreach (int element in elements)  
+   Console.Write(string.Format(" {0}", element));
+Output: 1 2 4 5 9 11   
+
+
+
+bool result = elements.Add(17);
+foreach (int element in elements)  
+           Console.Write(string.Format(" {0}", element)); 
+Output: 1 2 4 5 9 11 17
+
+//Getting a Subset of a SortedSet<T> Collection
+var subSet = elements.GetViewBetween(2, 9);
+foreach (int element in subSet)  
+           Console.Write(string.Format(" {0}", element));
+Output: 2 4 5 9		   
+
+var subSet = elements.GetViewBetween(2, 9);
+bool result = subSet.Add(7);
+foreach (int element in elements)  
+   Console.Write(string.Format(" {0}", element)); 
+Output: 1 2 4 5 7 9 11   
+
+//Removing Element(s) from a SortedSet<T> Collection
+elements.Remove(1);
+
+foreach (int element in elements)
+   Console.Write(string.Format(" {0}", element));
+Output: 2 4 5 9 11   
+
+// predicate 
+elements.RemoveWhere(P => P % 2 == 0);
+ foreach (int element in elements)
+    Console.Write(string.Format(" {0}", element));
+	
+//Max and Min Values of a SortedSet<T> Collection
+Console.Write(string.Format("Max: {0}, Min: {1}", elements.Max, elements.Min)); 
+
+//Union(U), Intersection(∩) and Difference(-) operations
+var A = new SortedSet<int>() { 1, 2, 3, 4, 5, 11, };
+var B = new SortedSet<int>() { 6, 7, 8, 9, 10, 11 };	
+
+var union = A.Union(B);
+foreach (int element in union)
+   Console.Write(string.Format(" {0}", element));
+Output (AUB): 1 2 3 4 5 11 6 7 8 9 10
+
+var intersection = A.Intersect(B);
+foreach (int element in intersection)
+   Console.Write(string.Format(" {0}", element));
+
+Output (A∩B): 11
+
+
+var difference = A.Except(B);
+foreach (int element in difference)
+   Console.Write(string.Format(" {0}", element));
+ Output (A-B): 1 2 3 4 5  
+ 
+//Merging of two SortedSet<T> Collection 
+var merged = A.Zip(B, (P, Q) => P + Q);
+
+foreach (int element in merged)
+   Console.Write(string.Format(" {0}", element));
+   
+//CopyTo Method of SortedSet<T> Collection
+It is a very useful method. It has three constructors - CopyTo(T()), CopyTo(T(), Int32) & CopyTo(T(), Int32, Int32).
+
+CopyTo(T()): It copies the complete SortedSet<T> to a compatible one-dimensional array, starting at the beginning of the target array.
+var target = new SortedSet<int>() {13, 2, 4, 10, 1, 7 };
+
+int[] array = new int[10];
+
+target.CopyTo(array);
+
+for (int n = 0; n < array.Length; ++n)
+   Console.Write(string.Format("Index: {0}, Value: {1}<br />", n, array[n]));
+
+```   
