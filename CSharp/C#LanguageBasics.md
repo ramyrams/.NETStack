@@ -10,8 +10,6 @@
 * [Exception Handling](#exception-handling)
 * [Structs](#structs)
 * [Namespaces](#namespaces)
-* [Collection](#collection)
-* [Enumerators and Iterators](#enumerators-and-iterators)
 * [Preprocessor Directives](#preprocessor-directives)
 * [File I/O](#file-i/o)
 * [Regular Expressions](#regular-expressions)
