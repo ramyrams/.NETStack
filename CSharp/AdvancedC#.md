@@ -1,6 +1,113 @@
 
 # Delegates
 
+```cs
+class Program
+{
+    delegate void D(string value);
+
+    static void Main()
+    {
+	// ... Specify delegate with lambda expression.
+	D d = v => Console.WriteLine(v);
+	// ... Invoke delegate.
+	d.Invoke("cat");
+    }
+}
+
+Output
+cat
+
+```
+
+
+### 
+```cs
+using System;
+
+class Program
+{
+    delegate string UppercaseDelegate(string input);
+
+    static string UppercaseFirst(string input)
+    {
+	char[] buffer = input.ToCharArray();
+	buffer[0] = char.ToUpper(buffer[0]);
+	return new string(buffer);
+    }
+
+    static string UppercaseLast(string input)
+    {
+	char[] buffer = input.ToCharArray();
+	buffer[buffer.Length - 1] = char.ToUpper(buffer[buffer.Length - 1]);
+	return new string(buffer);
+    }
+
+    static string UppercaseAll(string input)
+    {
+	return input.ToUpper();
+    }
+
+    static void WriteOutput(string input, UppercaseDelegate del)
+    {
+	Console.WriteLine("Your string before: {0}", input);
+	Console.WriteLine("Your string after: {0}", del(input));
+    }
+
+    static void Main()
+    {
+	// Wrap the methods inside delegate instances and pass to the method.
+	WriteOutput("perls", new UppercaseDelegate(UppercaseFirst));
+	WriteOutput("perls", new UppercaseDelegate(UppercaseLast));
+	WriteOutput("perls", new UppercaseDelegate(UppercaseAll));
+    }
+}
+
+Output
+
+Your string before: perls
+Your string after: Perls
+Your string before: perls
+Your string after: perlS
+Your string before: perls
+Your string after: PERLS
+```
+
+## Predicate
+```cs
+class Program
+{
+    static void Main()
+    {
+	//
+	// This Predicate instance returns true if the argument is one.
+	//
+	Predicate<int> isOne =
+	    x => x == 1;
+	//
+	// This Predicate returns true if the argument is greater than 4.
+	//
+	Predicate<int> isGreaterEqualFive =
+	    (int x) => x >= 5;
+
+	//
+	// Test the Predicate instances with various parameters.
+	//
+	Console.WriteLine(isOne.Invoke(1));
+	Console.WriteLine(isOne.Invoke(2));
+	Console.WriteLine(isGreaterEqualFive.Invoke(3));
+	Console.WriteLine(isGreaterEqualFive.Invoke(10));
+    }
+}
+
+Output
+
+True
+False
+False
+True
+```
+
 ## very basic Delegate
 ```cs
 namespace Akadia.BasicDelegate
@@ -262,6 +369,211 @@ Process() begin
 Process() end
 ```
 
+
+# Lambda
+```cs
+//Input Parameters => Expression/Statement Block;
+x => x * 2 
+```
+
+### Parameters Type 
+```cs
+//parameters of the lambda expression can be explicitly or implicitly typed. 
+(int p) => p * 4; 	// Explicitly Typed Parameter
+q => q * 4; 	// Implicitly Typed Parameter
+```
+
+### Use Simple Lambda Expression
+```cs
+//Lambda Expression which returns a list of numbers greater than 8.
+int[] numbers = {1,2,3,4,5,6,7,8,9,10 };   
+var  returnedList = numbers.Where(n => (n > 8));
+```
+
+### use anonymous method for returning the same list.
+```cs
+int[] numbers = {1,2,3,4,5,6,7,8,9,10 };
+var returnedList = numbers.Where(delegate(int i) { return i > 8; });
+```
+
+### Statement Block in Lambda Expression
+```cs
+//Statement block in the lambda expression. This expression returns a list of numbers less than 4 and greater than 8.
+int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+```
+
+### Use Lambda with More than One Parameter
+```cs
+//You can also write lambda which takes more than one parameter. Here is an example of lambda which adds two integer numbers:
+delegate int AddInteger(int n1, int n2);
+
+AddInteger addInt = (x, y) => x + y;
+int result = addInt(10,4); // return 14
+```
+
+### Use Lambda with Zero Parameter
+```cs
+//Here is an example of lambda which takes no parameter and returns new Guid.
+delegate Guid GetNextGuid();
+
+GetNextGuid getNewGuid = () => (Guid.NewGuid());
+Guid newguid = getNewGuid();
+```
+
+### Use Lambda that Returns Nothing
+```cs
+//You can also write lambda which returns void. Here is an example that lambda is only showing message and returns nothing.
+delegate void ShowMessageDelegate();
+
+ShowMessageDelegate msgdelegate = () => MessageBox.Show("It returns nothing.");
+msgdelegate();
+
+var returnedList = numbers.Where(n =>
+                           {
+                              if (n < 4)
+                                  return true;
+                              else if (n > 8)
+                                  return true;
+
+                               return false;
+                           }
+                        );
+						
+						
+class Program
+{
+    static void Main()
+    {
+		List<int> elements = new List<int>() { 10, 20, 31, 40 };
+		// ... Find index of first odd element.
+		int oddIndex = elements.FindIndex(x => x % 2 != 0);
+		Console.WriteLine(oddIndex);
+    }
+}
+
+Output
+2
+
+Lambda details
+
+x          The argument name.
+=>         Separates argument list from result expression.
+x % 2 !=0  Returns true if x is not even.
+```
+
+
+```cs
+string[] words = { "cherry", "apple", "blueberry" };
+
+// Use method syntax to apply a lambda expression to each element
+// of the words array. 
+int shortestWordLength = words.Min(w => w.Length);
+Console.WriteLine(shortestWordLength);
+
+// Compare the following code that uses query syntax.
+// Get the lengths of each word in the words array.
+var query = from w in words
+            select w.Length;
+// Apply the Min method to execute the query and get the shortest length.
+int shortestWordLength2 = query.Min();
+Console.WriteLine(shortestWordLength2);
+
+// Output: 
+// 5
+// 5
+```
+
+
+
+```cs
+static void Main(string[] args)
+{
+    string[] digits = { "zero", "one", "two", "three", "four", "five", 
+            "six", "seven", "eight", "nine" };
+
+    Console.WriteLine("Example that uses a lambda expression:");
+    var shortDigits = digits.Where((digit, index) => digit.Length < index);
+    foreach (var sD in shortDigits)
+    {
+        Console.WriteLine(sD);
+    }
+
+    // Output:
+    // Example that uses a lambda expression:
+    // five
+    // six
+    // seven
+    // eight
+    // nine
+}
+```
+
+### C# program that uses lambda expressions
+```cs
+class Program
+{
+    static void Main()
+    {
+	//
+	// Use implicitly typed lambda expression.
+	// ... Assign it to a Func instance.
+	//
+	Func<int, int> func1 = x => x + 1;
+	//
+	// Use lambda expression with statement body.
+	//
+	Func<int, int> func2 = x => { return x + 1; };
+	//
+	// Use formal parameters with expression body.
+	//
+	Func<int, int> func3 = (int x) => x + 1;
+	//
+	// Use parameters with a statement body.
+	//
+	Func<int, int> func4 = (int x) => { return x + 1; };
+	//
+	// Use multiple parameters.
+	//
+	Func<int, int, int> func5 = (x, y) => x * y;
+	//
+	// Use no parameters in a lambda expression.
+	//
+	Action func6 = () => Console.WriteLine();
+	//
+	// Use delegate method expression.
+	//
+	Func<int, int> func7 = delegate(int x) { return x + 1; };
+	//
+	// Use delegate expression with no parameter list.
+	//
+	Func<int> func8 = delegate { return 1 + 1; };
+	//
+	// Invoke each of the lambda expressions and delegates we created.
+	// ... The methods above are executed.
+	//
+	Console.WriteLine(func1.Invoke(1));
+	Console.WriteLine(func2.Invoke(1));
+	Console.WriteLine(func3.Invoke(1));
+	Console.WriteLine(func4.Invoke(1));
+	Console.WriteLine(func5.Invoke(2, 2));
+	func6.Invoke();
+	Console.WriteLine(func7.Invoke(1));
+	Console.WriteLine(func8.Invoke());
+    }
+}
+
+Output
+
+2
+2
+2
+2
+4
+
+2
+2
+
+```
 
 # Events
 
@@ -673,7 +985,6 @@ class IntStack : Stack<int> {...}
 # Disposal and Garbage Collection
 # Serialization
 # Application Domains
-# Lambda
 # Threading
 # Asynchronous Programming
 # Parallel Programming
