@@ -61,6 +61,7 @@
 
 
 # URL
+* [Coding Standard Best Practices In C#](http://www.c-sharpcorner.com/article/coding-standard-best-practices-in-c-sharp/)
 * [2,000 Things You Should Know About C#](https://csharp.2000things.com/index/)
 * [Introduction to Object Oriented Programming Concepts ](http://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep)
 * [Fastest COllection](http://cc.davelozinski.com/c-sharp/fastest-collection-for-string-lookups)
