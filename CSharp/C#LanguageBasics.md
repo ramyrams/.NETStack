@@ -1451,7 +1451,11 @@ catch(ArgumentOutOfRangeException e)
 {
 	// Process ArgumentOutOfRangeException.
 }
-
+catch (SomeException e) when (passesFilter(e))
+{
+	//filter exception
+    // expression following the when keyword evaluates to true,
+}
 catch (InvalidOperationException)
 {
 	// Use the "throw" keyword to raise an exception. 
