@@ -28,6 +28,8 @@
 * Inheritance
 
 ### OOPS Basic
+* [Object-oriented programming with C#](https://github.com/TelerikAcademy/Object-Oriented-Programming)
+* [OOP course](https://github.com/SoftUni/Object-Oriented-Programming)
 * [Object Oriented Programming Concepts (OOP)](http://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep)
 * [Diving in OOP](http://www.codeproject.com/Articles/771455/Diving-in-OOP-Day-Polymorphism-and-Inheritance-Ear)
 
