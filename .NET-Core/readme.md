@@ -14,3 +14,4 @@
 * [Building NuGet (.NET Core) using Atlassian Bitbucket Pipelines](https://blog.maartenballiauw.be/post/2016/08/17/building-nuget-netcore-using-atlassian-bitbucket-pipelines.html)
 * [.NET Core CLI - Add your own tools](https://channel9.msdn.com/coding4fun/blog/Do-you-dotnet-cli-Heres-how-you-can-add-your-own-tools)
 
+http://weblogs.asp.net/ricardoperes/missing-features-in-entity-framework-core-1
