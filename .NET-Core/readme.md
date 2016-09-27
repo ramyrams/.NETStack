@@ -1,4 +1,5 @@
 
+* [Introducing .NET Standard](https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/)
 * [Core.NET Documentation](https://docs.asp.net/en/latest/intro.html)
 * [.NET Core CLI Basics](http://codeopinion.com/net-cli-basics/)
 * [Introducing .NET Core](https://blogs.msdn.microsoft.com/dotnet/2014/12/04/introducing-net-core/)
