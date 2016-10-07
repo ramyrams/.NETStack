@@ -1,6 +1,12 @@
 
 
 
+* [LINQ Cheat Sheet](https://weblogs.asp.net/bradvincent/linq-cheat-sheet)
+* [Understanding LINQ](http://www.codeproject.com/Articles/19154/Understanding-LINQ-C)
+
+
+
+
 ![1](http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ.gif)
 ![1](http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ1.png)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC176601.jpeg)
