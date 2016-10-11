@@ -30,7 +30,6 @@
 ![1](http://www.academictutorials.com/images/languages.gif)
 ![1](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQS7n1n3bmvwVrNM1GESlUy1qfiKwShVO6CIrOZmCq3asN8nTTQuQ)
 ![1](http://2.bp.blogspot.com/-uZW0W4MeQ8I/UiWICb7-_TI/AAAAAAAABMM/UonVL6mZJu8/s1600/clr.jpg)
-![1](https://rthumati.files.wordpress.com/2009/05/visual-studio2.jpg?w=490&h=539)
 ![1](http://www.codeguru.com/images/article/8245/Image1.jpg)
 
 
