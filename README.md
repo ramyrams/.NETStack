@@ -4,9 +4,8 @@
 
 * [Code Execution Process](http://www.c-sharpcorner.com/uploadfile/8911c4/code-execution-process/)
 
-
-https://petabridge.com/blog/the-new-dot-net-stack/
-
+## .NET Framework Basic
+Go to .NET Framework Basic [Page](https://github.com/ramyrams/.NETStack/tree/master/.NETFrameworkBasic)
 
 ## .NET Core
 Go to .NET core [Page](https://github.com/ramyrams/.NETStack/blob/master/.NET-Core/readme.md)
