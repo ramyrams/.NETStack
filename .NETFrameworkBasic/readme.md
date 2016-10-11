@@ -56,6 +56,10 @@
 ![1](http://www.infinitezest.com/images/dotnet-framework-structure.jpg)
 ![1](http://www.techstrikers.com/images/dotnetclr.png)
 
+
+http://www.cnblogs.com/sunkang/archive/2011/04/28/2038821.html
+
+
 # CLR Features
 * Manages memory
 * Thread execution support
