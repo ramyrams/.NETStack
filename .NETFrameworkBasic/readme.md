@@ -56,9 +56,11 @@
 ![1](http://www.infinitezest.com/images/dotnet-framework-structure.jpg)
 ![1](http://www.techstrikers.com/images/dotnetclr.png)
 
-
+http://flylib.com/books/en/4.320.1.27/1/
 http://www.cnblogs.com/sunkang/archive/2011/04/28/2038821.html
-
+http://www.cnblogs.com/huangyu/archive/2004/08/07/31000.html
+https://abdelrahmanhosny.com/2012/07/24/introduction-to-microsoft-net-framework-solution/
+http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framework-or-clr/
 
 # CLR Features
 * Manages memory
