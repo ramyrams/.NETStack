@@ -32,21 +32,12 @@
 ![1](http://2.bp.blogspot.com/-uZW0W4MeQ8I/UiWICb7-_TI/AAAAAAAABMM/UonVL6mZJu8/s1600/clr.jpg)
 ![1](http://www.codeguru.com/images/article/8245/Image1.jpg)
 
-
-
-
 # CLR
-![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
-![1](http://kishore1021.files.wordpress.com/2012/02/image24.png)
-![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET2.gif)
 ![1](http://archive.cnx.org/resources/ef7359b3c8d9f5e872afaad0a99ccd9d92d80ca5/graphics1.jpg)
-![1](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CLR_diag.svg/400px-CLR_diag.svg.png)
+![1](http://kishore1021.files.wordpress.com/2012/02/image24.png)
 ![1](http://www.academictutorials.com/images/clr.gif)
 ![1](http://www.academictutorials.com/images/clr-simple.gif)
-![1](https://coddertube.wordpress.com/files/2009/08/clr.jpg)
-![1](http://i.stack.imgur.com/5RjWm.jpg)
-![1](http://flylib.com/books/4/320/1/html/2/files/0102fig03.gif)
-![1](http://4.bp.blogspot.com/-GFJ_9pm3KLc/U-rZNCw79ZI/AAAAAAAABjw/4XpcJLOdFXQ/s1600/Load%2BThe%2BCLR.PNG)
+
 
 # CLR Architecture
 * Class loader - This will loads classes into CLR.
@@ -61,7 +52,7 @@
 * COM Marshaler - Allows .NET applications to exchange data with COM applications.
 * Base class library - Provides the classes (types) that the applications need at run time.
 
-
+![1](http://www.onlinebuff.com/artimages/clr.jpg)
 ![1](http://www.infinitezest.com/images/dotnet-framework-structure.jpg)
 ![1](http://www.techstrikers.com/images/dotnetclr.png)
 
@@ -81,31 +72,31 @@
 ![1](http://mattblagden.com/blog/acronyms_galore/dotnetacronymvenndiagram.png)
 ![1](https://www.safaribooksonline.com/library/view/net-framework-essentials/0596001657/tagoreillycom20070221oreillyimages74612.png)
 
-# CLR Execution
-![1](http://flylib.com/books/4/320/1/html/2/files/0102fig04.gif)
-![1](http://flylib.com/books/4/320/1/html/2/files/0102fig03.gif)
-![1](http://images.cnblogs.com/cnblogs_com/huangyu/net.gif)
-![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled8.png?w=768)
-![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled9.png?w=768)
+# CLR Compiler
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET2.gif)
+![1](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CLR_diag.svg/400px-CLR_diag.svg.png)
+![1](https://coddertube.wordpress.com/files/2009/08/clr.jpg)
+![1](http://3.bp.blogspot.com/-pWtfuKXU9-U/UwZYHUJ-QuI/AAAAAAAAAL0/gv02vauZQdU/s1600/Code+Execution+in+Dot+Net.PNG)
 ![1](https://i.ytimg.com/vi/yL3cNP0-tFc/maxresdefault.jpg)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8911c4/code-execution-process/Images/Code-Execution-Process.jpg)
-![1](http://3.bp.blogspot.com/-pWtfuKXU9-U/UwZYHUJ-QuI/AAAAAAAAAL0/gv02vauZQdU/s1600/Code+Execution+in+Dot+Net.PNG)
-
-
-## Role of CLR
-![1](http://www.onlinebuff.com/artimages/clr.jpg)
-![1](http://etutorials.org/shared/images/tutorials/tutorial_10/nfe3_0204.gif)
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled8.png?w=768)
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled9.png?w=768)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/sss.gif)
+
+# CLR Execution
+![1](http://i.stack.imgur.com/5RjWm.jpg)
+![1](http://etutorials.org/shared/images/tutorials/tutorial_10/nfe3_0204.gif)
+![1](http://flylib.com/books/4/320/1/html/2/files/0102fig03.gif)
+![1](http://flylib.com/books/4/320/1/html/2/files/0102fig04.gif)
+![1](http://4.bp.blogspot.com/-GFJ_9pm3KLc/U-rZNCw79ZI/AAAAAAAABjw/4XpcJLOdFXQ/s1600/Load%2BThe%2BCLR.PNG)
+![1](http://images.cnblogs.com/cnblogs_com/huangyu/net.gif)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/runningOfApplication.gif)
-![1](http://images.slideplayer.com/25/7654501/slides/slide_9.jpg)
 
-
-
-# Common Intermediate Language (CIL)
-![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
-![1](http://nikgrozev.com/images/blog/NET%20for%20Java%20Devs%20in%20a%20nutshell/dot_net.jpg)
+# Common Language Infrastructure (CLI)
 ![1](http://4.bp.blogspot.com/-wuiRLJOJfCY/U-ru1od5DJI/AAAAAAAABkY/iqjQMyPaeDw/s1600/.NET.png)
-
+![1](http://nikgrozev.com/images/blog/NET%20for%20Java%20Devs%20in%20a%20nutshell/dot_net.jpg)
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
 
 # Framework Class Library (FCL)
 ![1](http://i.stack.imgur.com/SxbSG.jpg)
@@ -115,8 +106,6 @@
 ![1](http://modernpathshala.com/Images/dot-net-interview/Question/1947177520160401113030Base-class-library.JPG)
 ![1](https://devreminder.files.wordpress.com/2011/03/aspnetbcl.gif)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled7.png?w=768)
-
-
 
 
 # Common Language Specification (CLS)
@@ -145,6 +134,9 @@
 ![1](http://dotnet.edu.vn/Upload/Blog/2013/Thang8_2012/quatrinhbiendichvachay2.jpg)
 ![1](http://dotnet.edu.vn/Upload/Blog/2013/Thang8_2012/clr2.jpg)
 
+# Common Intermediate Language (CIL)
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
 
 
 # Just In Time Compilers (JITers)
@@ -166,20 +158,12 @@ This compiler compile methods when called at runtime and removes them from memor
 This compiles entire assembly into native code instead of used methods.
 
 
-http://www.techstrikers.com/images/Compile.PNG
+![1](http://www.techstrikers.com/images/Compile.PNG)
 ![1](http://4.bp.blogspot.com/-5uexl8g32GQ/UiWKNW5ZoyI/AAAAAAAABMg/AOTw3UuxKOo/s640/jit.jpg)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/Images/JIT%20Types.jpg)
-![1](http://1.bp.blogspot.com/-KymNpDMPmf0/UTHJqDVD8VI/AAAAAAAAHO8/ZCse_fVljX4/s1600/meta.png)
-
-http://www.techstrikers.com/images/normaljitcompiler.PNG
-http://www.techstrikers.com/images/econojitcompiler.PNG
-http://www.techstrikers.com/images/prejitcompiler.PNG
-
-
-
-
-
-
+![1](http://www.techstrikers.com/images/normaljitcompiler.PNG)
+![1](http://www.techstrikers.com/images/econojitcompiler.PNG)
+![1](http://www.techstrikers.com/images/prejitcompiler.PNG)
 
 # Garbage Collector (GC)
 ![1](http://4.bp.blogspot.com/-1obqc0tpclc/UZe6inxIzOI/AAAAAAAAA0s/CSl5tGU_8QQ/s640/GC.jpg)
