@@ -91,10 +91,33 @@
 
 
 
-Just In Time Compilers (JITers)
+# Just In Time Compilers (JITers)
+
+## Different Types of JIT
+* Normal JIT
+* Econo JIT
+* Pre JIT
+
+### Normal JIT
+Normal JIT Compiler compile the methods at run time and then they are stored in memory cache. This memory cache is commonly referred as "JITTED".
+
+Once stored in cache, no further compilation is required for the same method. Subsequent method calls are accessible directly from the memory cache.
+
+### Econo JIT
+This compiler compile methods when called at runtime and removes them from memory once execution completed.
+
+### Pre JIT
+This compiles entire assembly into native code instead of used methods.
+
+
+http://www.techstrikers.com/images/Compile.PNG
 ![1](http://4.bp.blogspot.com/-5uexl8g32GQ/UiWKNW5ZoyI/AAAAAAAABMg/AOTw3UuxKOo/s640/jit.jpg)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/Images/JIT%20Types.jpg)
 ![1](http://1.bp.blogspot.com/-KymNpDMPmf0/UTHJqDVD8VI/AAAAAAAAHO8/ZCse_fVljX4/s1600/meta.png)
+
+http://www.techstrikers.com/images/normaljitcompiler.PNG
+http://www.techstrikers.com/images/econojitcompiler.PNG
+http://www.techstrikers.com/images/prejitcompiler.PNG
 
 
 # CLR Features
@@ -106,8 +129,8 @@ Just In Time Compilers (JITers)
 * Code Security 
 
 # Framework Class Library (FCL)
-http://i.stack.imgur.com/SxbSG.jpg
-http://www.codeproject.com/KB/dotnet/NETBasics/FCL.jpg
+![1](http://i.stack.imgur.com/SxbSG.jpg)
+![1](http://www.codeproject.com/KB/dotnet/NETBasics/FCL.jpg)
 
 # Base Class Library (BCL)
 ![1](http://modernpathshala.com/Images/dot-net-interview/Question/1947177520160401113030Base-class-library.JPG)
