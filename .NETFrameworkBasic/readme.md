@@ -1,3 +1,22 @@
+.NET Framework Basics
+
+* .NET Framework Architecture
+* CLR Architecture
+* CLR Features
+* CLR Execution
+* Role of CLR
+* MSIL (Microsoft Intermediate Language) 
+* Just In Time Compilers (JITers)
+* Framework Class Library (FCL)
+* Base Class Library (BCL)
+* Common Intermediate Language (CIL)
+* Common Language Specification (CLS)
+* Common Type System (CTS)
+* Garbage Collector (GC)
+* .NET Assemblies
+* Application Domain
+
+
 # .NET Framework Architecture
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC104620.jpeg)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET1.gif)
@@ -80,7 +99,7 @@
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/runningOfApplication.gif)
 ![1](http://images.slideplayer.com/25/7654501/slides/slide_9.jpg)
 
-& MSIL (Microsoft Intermediate Language)
+# MSIL (Microsoft Intermediate Language)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC156451.gif)
 ![1](http://image.slidesharecdn.com/lsauer-microsoftdotnetframework2003-2004overviewandwebservicesms-net-130313035655-phpapp02/95/microsoft-net-dotnet-framework-2003-2004-overview-and-web-services-15-638.jpg?cb=1363572651)
 ![1](https://ttdoanst.files.wordpress.com/2007/08/wordpress.png)
