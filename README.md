@@ -1,7 +1,6 @@
 # .NETStack
 
 * [.NET Poster](http://download.microsoft.com/download/E/6/A/E6A8A715-7695-493C-8CFA-8E0C23A4BE1D/098-115952-NETFX4-Poster.pdf)
-
 * [Code Execution Process](http://www.c-sharpcorner.com/uploadfile/8911c4/code-execution-process/)
 
 ## .NET Framework Basic
@@ -30,29 +29,3 @@ Go to SQLServer# [Page](https://github.com/ramyrams/CSharp/blob/master/README.md
  
 
 
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC104620.jpeg)
-![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET1.gif)
-![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET2.gif)
-![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET3.gif)
-![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/net-framework-and-architecture/Images/managed_code.gif)
-![1](http://www.codeproject.com/KB/dotnet/DotNetWhitePaper/image002.gif)
-![1](http://www.codeproject.com/KB/dotnet/DotNetWhitePaper/image003.gif)
-![1](http://www.codeproject.com/KB/dotnet/DotNetWhitePaper/image004.jpg)
-![1](http://www.codeproject.com/KB/dotnet/DotNetWhitePaper/image005.jpg)
-![1](http://www.codeproject.com/KB/dotnet/DotNetWhitePaper/image006.jpg)
-![1](http://www.codeguru.com/images/article/8245/Image1.jpg)
-![1](https://blogs.utmb.edu/watercooler/wp-content/uploads/sites/9/2013/09/net-300x252.jpg)
-![1](https://i.ytimg.com/vi/yL3cNP0-tFc/maxresdefault.jpg)
-![1](https://silvrback.s3.amazonaws.com/uploads/971abb6a-0664-4cfc-8ebc-ea574cbc2416/ASP.NET%205_large.png)
-![1](http://www.galcho.com/Blog/content/binary/WindowsLiveWriter/fd2ae95312ea.NETLayerCake_1219C/dotNet4_thumb.png)
-![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8911c4/code-execution-process/Images/Code-Execution-Process.jpg)
-![1](http://www.developerin.net/include/ArticleImages/1/dotnet%20framework%20stack.png)
-![1](http://www.arihantsatiate.com/ACD/marquee/asp.net/ASP.NET2.jpg)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC148840.jpg)
-![1](http://www.heikniemi.net/hardcoded/wp-content/uploads/2011/10/WhatsNewNET45-en.png)
-![1](https://www.safaribooksonline.com/library/view/c-60-in/9781491927090/assets/csn6_0101.png)
-![1](http://www.bogotobogo.com/CSharp/images/framework/assembly2.png)
-![1](http://image.slidesharecdn.com/csharpjn-090514144345-phpapp02/95/c-sharp-jn-21-728.jpg?cb=1242312262)
-![1](http://kishore1021.files.wordpress.com/2012/02/image24.png)
-![1](http://images.slideplayer.com/24/7321493/slides/slide_35.jpg)
-![1](http://1.bp.blogspot.com/-NH5ybIP8lA4/UajDd8GVPGI/AAAAAAAACRM/jWJ6wpz2dDo/s1600/AppDomains.png)
