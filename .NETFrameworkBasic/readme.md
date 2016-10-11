@@ -20,14 +20,8 @@
 # .NET Framework Architecture
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC104620.jpeg)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET1.gif)
-![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET2.gif)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET3.gif)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/net-framework-and-architecture/Images/managed_code.gif)
-![1](http://www.codeproject.com/KB/dotnet/DotNetWhitePaper/image002.gif)
-![1](http://www.codeproject.com/KB/dotnet/DotNetWhitePaper/image003.gif)
-![1](http://www.codeproject.com/KB/dotnet/DotNetWhitePaper/image004.jpg)
-![1](http://www.codeproject.com/KB/dotnet/DotNetWhitePaper/image005.jpg)
-![1](http://www.codeproject.com/KB/dotnet/DotNetWhitePaper/image006.jpg)
 ![1](http://www.codeguru.com/images/article/8245/Image1.jpg)
 ![1](https://blogs.utmb.edu/watercooler/wp-content/uploads/sites/9/2013/09/net-300x252.jpg)
 ![1](https://i.ytimg.com/vi/yL3cNP0-tFc/maxresdefault.jpg)
@@ -52,8 +46,9 @@
 ![1](https://rthumati.files.wordpress.com/2009/05/visual-studio2.jpg?w=490&h=539)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
+
+
 ![1](http://mattblagden.com/blog/acronyms_galore/dotnetacronymvenndiagram.png)
-![1](http://nikgrozev.com/images/blog/NET%20for%20Java%20Devs%20in%20a%20nutshell/dot_net.jpg)
 
 
 # CLR
@@ -106,6 +101,13 @@
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/runningOfApplication.gif)
 ![1](http://images.slideplayer.com/25/7654501/slides/slide_9.jpg)
 
+
+
+# Common Intermediate Language (CIL)
+![1](http://nikgrozev.com/images/blog/NET%20for%20Java%20Devs%20in%20a%20nutshell/dot_net.jpg)
+![1](http://4.bp.blogspot.com/-wuiRLJOJfCY/U-ru1od5DJI/AAAAAAAABkY/iqjQMyPaeDw/s1600/.NET.png)
+
+
 # Framework Class Library (FCL)
 ![1](http://i.stack.imgur.com/SxbSG.jpg)
 ![1](http://www.codeproject.com/KB/dotnet/NETBasics/FCL.jpg)
@@ -115,8 +117,7 @@
 ![1](https://devreminder.files.wordpress.com/2011/03/aspnetbcl.gif)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled7.png?w=768)
 
-# Common Intermediate Language (CIL)
-![1](http://4.bp.blogspot.com/-wuiRLJOJfCY/U-ru1od5DJI/AAAAAAAABkY/iqjQMyPaeDw/s1600/.NET.png)
+
 
 
 # Common Language Specification (CLS)
