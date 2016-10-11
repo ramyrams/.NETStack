@@ -1,5 +1,10 @@
 # .NETStack
 
+* [.NET Poster](http://download.microsoft.com/download/E/6/A/E6A8A715-7695-493C-8CFA-8E0C23A4BE1D/098-115952-NETFX4-Poster.pdf)
+
+* [Code Execution Process](http://www.c-sharpcorner.com/uploadfile/8911c4/code-execution-process/)
+
+
 https://petabridge.com/blog/the-new-dot-net-stack/
 
 
