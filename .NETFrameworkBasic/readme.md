@@ -22,7 +22,8 @@
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET1.gif)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET3.gif)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/net-framework-and-architecture/Images/managed_code.gif)
-![1](http://www.codeguru.com/images/article/8245/Image1.jpg)
+
+
 ![1](https://blogs.utmb.edu/watercooler/wp-content/uploads/sites/9/2013/09/net-300x252.jpg)
 ![1](https://i.ytimg.com/vi/yL3cNP0-tFc/maxresdefault.jpg)
 ![1](https://silvrback.s3.amazonaws.com/uploads/971abb6a-0664-4cfc-8ebc-ea574cbc2416/ASP.NET%205_large.png)
@@ -47,7 +48,7 @@
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
 
-
+![1](http://www.codeguru.com/images/article/8245/Image1.jpg)
 ![1](http://mattblagden.com/blog/acronyms_galore/dotnetacronymvenndiagram.png)
 
 
