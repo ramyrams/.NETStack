@@ -22,12 +22,24 @@
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET1.gif)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET3.gif)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/net-framework-and-architecture/Images/managed_code.gif)
-
+![1](http://www.galcho.com/Blog/content/binary/WindowsLiveWriter/fd2ae95312ea.NETLayerCake_1219C/dotNet4_thumb.png)
+![1](http://www.developerin.net/include/ArticleImages/1/dotnet%20framework%20stack.png)
+![1](http://www.arihantsatiate.com/ACD/marquee/asp.net/ASP.NET2.jpg)
+![1](http://www.heikniemi.net/hardcoded/wp-content/uploads/2011/10/WhatsNewNET45-en.png)
+![1](https://www.safaribooksonline.com/library/view/c-60-in/9781491927090/assets/csn6_0101.png)
+![1](http://www.academictutorials.com/images/languages.gif)
+![1](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQS7n1n3bmvwVrNM1GESlUy1qfiKwShVO6CIrOZmCq3asN8nTTQuQ)
+![1](http://2.bp.blogspot.com/-uZW0W4MeQ8I/UiWICb7-_TI/AAAAAAAABMM/UonVL6mZJu8/s1600/clr.jpg)
+![1](https://rthumati.files.wordpress.com/2009/05/visual-studio2.jpg?w=490&h=539)
+![1](http://www.codeguru.com/images/article/8245/Image1.jpg)
 
 
 
 
 # CLR
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
+![1](http://kishore1021.files.wordpress.com/2012/02/image24.png)
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET2.gif)
 ![1](http://archive.cnx.org/resources/ef7359b3c8d9f5e872afaad0a99ccd9d92d80ca5/graphics1.jpg)
 ![1](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CLR_diag.svg/400px-CLR_diag.svg.png)
 ![1](http://www.academictutorials.com/images/clr.gif)
@@ -68,6 +80,9 @@
 ![1](http://images.cnblogs.com/cnblogs_com/huangyu/net.gif)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled8.png?w=768)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled9.png?w=768)
+![1](https://i.ytimg.com/vi/yL3cNP0-tFc/maxresdefault.jpg)
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8911c4/code-execution-process/Images/Code-Execution-Process.jpg)
+![1](http://3.bp.blogspot.com/-pWtfuKXU9-U/UwZYHUJ-QuI/AAAAAAAAAL0/gv02vauZQdU/s1600/Code+Execution+in+Dot+Net.PNG)
 
 
 ## Role of CLR
@@ -80,6 +95,8 @@
 
 
 # Common Intermediate Language (CIL)
+![1](http://mattblagden.com/blog/acronyms_galore/dotnetacronymvenndiagram.png)
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
 ![1](http://nikgrozev.com/images/blog/NET%20for%20Java%20Devs%20in%20a%20nutshell/dot_net.jpg)
 ![1](http://4.bp.blogspot.com/-wuiRLJOJfCY/U-ru1od5DJI/AAAAAAAABkY/iqjQMyPaeDw/s1600/.NET.png)
 
@@ -181,7 +198,12 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 
 # .NET Assemblies
 ![1](http://1.bp.blogspot.com/-5jjtRrek4OU/U-ekAEzxkpI/AAAAAAAABjE/LMvHqynlmxc/s1600/.NET-Aware+Compilers.PNG)
-
+![1](http://images.slideplayer.com/24/7321493/slides/slide_35.jpg)
+![1](http://www.bogotobogo.com/CSharp/images/framework/assembly2.png)
+![1](http://image.slidesharecdn.com/csharpjn-090514144345-phpapp02/95/c-sharp-jn-21-728.jpg?cb=1242312262)
 
 # Application Domain
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/Images/Windows%20process.jpg)
+![1](http://1.bp.blogspot.com/-NH5ybIP8lA4/UajDd8GVPGI/AAAAAAAACRM/jWJ6wpz2dDo/s1600/AppDomains.png)
+
+
