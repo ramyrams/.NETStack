@@ -1,4 +1,4 @@
-.NET Framework Basics
+# .NET Framework Basics
 
 * .NET Framework Architecture
 * CLR Architecture
@@ -83,6 +83,13 @@
 ![1](http://www.infinitezest.com/images/dotnet-framework-structure.jpg)
 ![1](http://www.techstrikers.com/images/dotnetclr.png)
 
+# CLR Features
+* Manages memory
+* Thread execution support
+* Code execution
+* Code safety verification
+* Compilation
+* Code Security 
 
 # CLR Execution
 ![1](http://flylib.com/books/4/320/1/html/2/files/0102fig04.gif)
@@ -98,6 +105,36 @@
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/sss.gif)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/runningOfApplication.gif)
 ![1](http://images.slideplayer.com/25/7654501/slides/slide_9.jpg)
+
+# Framework Class Library (FCL)
+![1](http://i.stack.imgur.com/SxbSG.jpg)
+![1](http://www.codeproject.com/KB/dotnet/NETBasics/FCL.jpg)
+
+# Base Class Library (BCL)
+![1](http://modernpathshala.com/Images/dot-net-interview/Question/1947177520160401113030Base-class-library.JPG)
+![1](https://devreminder.files.wordpress.com/2011/03/aspnetbcl.gif)
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled7.png?w=768)
+
+# Common Intermediate Language (CIL)
+![1](http://4.bp.blogspot.com/-wuiRLJOJfCY/U-ru1od5DJI/AAAAAAAABkY/iqjQMyPaeDw/s1600/.NET.png)
+
+
+# Common Language Specification (CLS)
+![1](http://image.slidesharecdn.com/1philosophyofnet-1326119636943-phpapp02-120109083526-phpapp02/95/1philosophy-of-net-25-728.jpg?cb=1326098809)
+![1](http://3.bp.blogspot.com/-1rKKRUyiU2c/U-rcyQkw2EI/AAAAAAAABj8/wi4l-MoKM2c/s1600/The%2BCommon%2BLanguage%2BSpecification.PNG)
+
+
+# Common Type System (CTS)
+![1](http://3.bp.blogspot.com/-BH1SXgx2TGM/U-rSMMAy1CI/AAAAAAAABjk/3RiwLG15DP0/s1600/CTS%2BDataType%2BRelationship.PNG)
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/cts-type-hei.gif)
+![1](http://2.bp.blogspot.com/-lEr9_U40J1A/UiWI0qzbCsI/AAAAAAAABMU/epiiI4jkA38/s640/Common+Type+System+Architecture.jpg)
+![1](http://image.slidesharecdn.com/csharpjn-090514144345-phpapp02/95/c-sharp-jn-13-728.jpg?cb=1242312262)
+![1](https://rthumati.files.wordpress.com/2009/05/visual-studio7.jpg?w=637&h=352)
+![1](http://dotnetcoderclues.com/StudyImages/common-type-system.png)
+![1](http://ecomputernotes.com/images/Comman-type-System.jpg)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC161031.gif)
+![1](http://image.slidesharecdn.com/introductionto-140916042152-phpapp02/95/introduction-to-net-framework-by-quontrasolutions-35-638.jpg?cb=1410841557)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC56291.gif)
 
 # MSIL (Microsoft Intermediate Language)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC156451.gif)
@@ -139,43 +176,9 @@ http://www.techstrikers.com/images/econojitcompiler.PNG
 http://www.techstrikers.com/images/prejitcompiler.PNG
 
 
-# CLR Features
-* Manages memory
-* Thread execution support
-* Code execution
-* Code safety verification
-* Compilation
-* Code Security 
-
-# Framework Class Library (FCL)
-![1](http://i.stack.imgur.com/SxbSG.jpg)
-![1](http://www.codeproject.com/KB/dotnet/NETBasics/FCL.jpg)
-
-# Base Class Library (BCL)
-![1](http://modernpathshala.com/Images/dot-net-interview/Question/1947177520160401113030Base-class-library.JPG)
-![1](https://devreminder.files.wordpress.com/2011/03/aspnetbcl.gif)
-![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled7.png?w=768)
-
-# Common Intermediate Language (CIL)
-![1](http://4.bp.blogspot.com/-wuiRLJOJfCY/U-ru1od5DJI/AAAAAAAABkY/iqjQMyPaeDw/s1600/.NET.png)
 
 
-# Common Language Specification (CLS)
-![1](http://image.slidesharecdn.com/1philosophyofnet-1326119636943-phpapp02-120109083526-phpapp02/95/1philosophy-of-net-25-728.jpg?cb=1326098809)
-![1](http://3.bp.blogspot.com/-1rKKRUyiU2c/U-rcyQkw2EI/AAAAAAAABj8/wi4l-MoKM2c/s1600/The%2BCommon%2BLanguage%2BSpecification.PNG)
 
-
-# Common Type System (CTS)
-![1](http://3.bp.blogspot.com/-BH1SXgx2TGM/U-rSMMAy1CI/AAAAAAAABjk/3RiwLG15DP0/s1600/CTS%2BDataType%2BRelationship.PNG)
-![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/cts-type-hei.gif)
-![1](http://2.bp.blogspot.com/-lEr9_U40J1A/UiWI0qzbCsI/AAAAAAAABMU/epiiI4jkA38/s640/Common+Type+System+Architecture.jpg)
-![1](http://image.slidesharecdn.com/csharpjn-090514144345-phpapp02/95/c-sharp-jn-13-728.jpg?cb=1242312262)
-![1](https://rthumati.files.wordpress.com/2009/05/visual-studio7.jpg?w=637&h=352)
-![1](http://dotnetcoderclues.com/StudyImages/common-type-system.png)
-![1](http://ecomputernotes.com/images/Comman-type-System.jpg)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC161031.gif)
-![1](http://image.slidesharecdn.com/introductionto-140916042152-phpapp02/95/introduction-to-net-framework-by-quontrasolutions-35-638.jpg?cb=1410841557)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC56291.gif)
 
 
 # Garbage Collector (GC)
