@@ -73,6 +73,14 @@
 * Compilation
 * Code Security 
 
+# Virtual Execution System (VES)
+* The Common Language Runtime (CLR) is the .NET Framework's implementation of the VES.
+
+* It provides direct support for a set of built-in data types, defines a hypothetical machine with an associated machine model and state, a set of control flow constructs, and an exception handling model.
+* To a large extent, the purpose of the VES is to provide the support required to execute the Common Intermediate Language instruction set.
+![1](http://mattblagden.com/blog/acronyms_galore/dotnetacronymvenndiagram.png)
+![1](https://www.safaribooksonline.com/library/view/net-framework-essentials/0596001657/tagoreillycom20070221oreillyimages74612.png)
+
 # CLR Execution
 ![1](http://flylib.com/books/4/320/1/html/2/files/0102fig04.gif)
 ![1](http://flylib.com/books/4/320/1/html/2/files/0102fig03.gif)
@@ -94,7 +102,6 @@
 
 
 # Common Intermediate Language (CIL)
-![1](http://mattblagden.com/blog/acronyms_galore/dotnetacronymvenndiagram.png)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
 ![1](http://nikgrozev.com/images/blog/NET%20for%20Java%20Devs%20in%20a%20nutshell/dot_net.jpg)
 ![1](http://4.bp.blogspot.com/-wuiRLJOJfCY/U-ru1od5DJI/AAAAAAAABkY/iqjQMyPaeDw/s1600/.NET.png)
