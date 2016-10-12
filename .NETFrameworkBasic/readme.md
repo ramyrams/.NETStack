@@ -219,3 +219,10 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 ![1](https://srinivasgandu.files.wordpress.com/2011/05/assemblyheader.jpg)
 ![1](http://etutorials.org/shared/images/tutorials/tutorial_10/nfe3_0202.gif)
 ![1](http://images.slideplayer.com/16/5175061/slides/slide_28.jpg)
+
+
+# Global Assembly Cache (GAC)
+![1](http://help.infragistics.com/Help/Doc/ASPNET/2011.2/CLR4.0/html/images/Web_DeploymentGuide_DeploymentUsingtheGAC_02.png)
+![1](http://help.infragistics.com/Help/Doc/WinForms/2012.1/CLR2.0/html/images%5CWin_DeploymentGuide_DeploymentUsingtheGAC_01.png)
+![1](http://www.onlinebuff.com/artimages/gac6.jpg)
+
