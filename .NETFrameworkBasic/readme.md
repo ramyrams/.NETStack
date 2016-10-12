@@ -193,6 +193,13 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 
 
 # .NET Assemblies
+
+## DLL HELL
+![1](http://i1.wp.com/codehotfix.com/wp-content/uploads/2015/11/Dll-hell-problem.jpg?resize=1024%2C591)
+![1](http://lh5.ggpht.com/kaushik810/SPrs3VulKLI/AAAAAAAADGs/ojPlyayORes/remove-dll%5B4%5D.gif?imgmax=800)
+![1](http://www.itwriting.com/images/vcrterr1.gif)
+
+
 ![1](http://1.bp.blogspot.com/-5jjtRrek4OU/U-ekAEzxkpI/AAAAAAAABjE/LMvHqynlmxc/s1600/.NET-Aware+Compilers.PNG)
 ![1](http://images.slideplayer.com/24/7321493/slides/slide_35.jpg)
 ![1](http://www.bogotobogo.com/CSharp/images/framework/assembly2.png)
