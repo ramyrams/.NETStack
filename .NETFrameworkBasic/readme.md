@@ -226,3 +226,17 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 ![1](http://help.infragistics.com/Help/Doc/WinForms/2012.1/CLR2.0/html/images%5CWin_DeploymentGuide_DeploymentUsingtheGAC_01.png)
 ![1](http://www.onlinebuff.com/artimages/gac6.jpg)
 
+
+# Code Access Security
+![1](https://i-technet.sec.s-msft.com/dynimg/IC25758.gif)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/1.JPG)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/2.JPG)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/3.JPG)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/7.JPG)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/9.JPG)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/10.JPG)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC92522.gif)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC54972.gif)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC3440.jpeg)
+
+
