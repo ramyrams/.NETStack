@@ -210,3 +210,12 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 ![1](http://1.bp.blogspot.com/-NH5ybIP8lA4/UajDd8GVPGI/AAAAAAAACRM/jWJ6wpz2dDo/s1600/AppDomains.png)
 
 
+# # Managed/Unmanaged code
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/Images/CLR.jpg)
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/managed-code-and-unmanaged-code-in-net/Images/unmanaged_code_RCW.gif)
+
+
+# Portable executable (PE)
+![1](https://srinivasgandu.files.wordpress.com/2011/05/assemblyheader.jpg)
+![1](http://etutorials.org/shared/images/tutorials/tutorial_10/nfe3_0202.gif)
+![1](http://images.slideplayer.com/16/5175061/slides/slide_28.jpg)
