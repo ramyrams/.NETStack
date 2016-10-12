@@ -181,6 +181,8 @@ This compiles entire assembly into native code instead of used methods.
 ![1](http://images.techhive.com/images/article/2015/09/garbage-collection-in-.net-100617168-primary.idge.png)
 ![1](http://www.telerik.com/sfimages/default-source/blogs/figure-3-png)
 ![1](http://www.codeproject.com/KB/aspnet/DONETBestPracticeNo2/8.jpg)
+![1](http://dailydotnettips.com/wp-content/uploads/2014/01/15-01-2014-04-18-35.jpg)
+https://ramanisandeep.wordpress.com/2010/01/20/net-memory-management-garbage-collection-2/
 
 
 ## URL
