@@ -208,11 +208,14 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 # Application Domain
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/Images/Windows%20process.jpg)
 ![1](http://1.bp.blogspot.com/-NH5ybIP8lA4/UajDd8GVPGI/AAAAAAAACRM/jWJ6wpz2dDo/s1600/AppDomains.png)
-
+![1](http://diranieh.com/NET/Figures/AppDomain.gif)
 
 # # Managed/Unmanaged code
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/Images/CLR.jpg)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/managed-code-and-unmanaged-code-in-net/Images/unmanaged_code_RCW.gif)
+
+# Stong Name Key
+![1](http://al-atari.net/wp-content/uploads/2009/10/3.jpg)
 
 
 # Portable executable (PE)
@@ -239,4 +242,62 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC54972.gif)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC3440.jpeg)
 
+# Assembly
+![1](http://images.slideplayer.com/24/7317073/slides/slide_20.jpg)
+
+# Satellite Assembly
+![1](http://www.lingobit.com/solutions/dotnet/dotnet.png)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC102672.jpeg)
+![1](http://www.codeproject.com/KB/cs/352105/UI.jpg)
+![1](http://www.codeproject.com/KB/cs/352105/1.jpg)
+![1](http://www.codeproject.com/KB/cs/352105/assemblynew.jpg)
+![1](http://www.codeproject.com/KB/cs/801343/LanguageFolder.png)
+
+
+# Strong-Named Assemblies
+
+### Strong-name with no-delay sign
+![1](http://www.diranieh.com/NETAssemblies/Figures/StrongName_NoDelay.jpg)
+
+### Strong-name with delay sign
+![1](http://www.diranieh.com/NETAssemblies/Figures/StrongName_Delay.jpg)
+
+## Loading and Resolving Assemblies
+![1](http://www.diranieh.com/NETAssemblies/Figures/AssemblyLoadResolver.jpg)
+![1](http://www.diranieh.com/NETAssemblies/Figures/LocatingAssemblies.jpg)
+
+# Side-By-Side Execution
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC17891.jpeg)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC123595.jpeg)
+![1](http://i.stack.imgur.com/ZFVzN.png)
+![1](http://i.stack.imgur.com/ZFVzN.png)
+
+
+# Assembly Versioning
+![1](http://www.codemag.com/Article/Image/0207071/Figure%201.jpg)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC164166.jpeg)
+
+# Assembly Locating Binding and Ddeploying
+![1](http://www.codeproject.com/KB/install/assemblydeployment/assemblydeployment1.gif)
+![1](http://www.codeproject.com/KB/install/assemblydeployment/assemblydeployment2.gif)
+![1](http://www.codeproject.com/KB/install/assemblydeployment/assemblydeployment3.gif)
+
+http://www.codeproject.com/Articles/12215/Assemblies-locating-binding-and-deploying
+
+## Side-by-side Assembly Sharing
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC534359.png)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC534360.png)
+
+# Manifest
+![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly3.png)
+![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly1.png)
+![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly8.png)
+![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly10.png)
+![1](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/BlogFileStorage/blogs_msdn/vsto/WindowsLiveWriter/ResigningClickOncemanifests101_AC30/clip_image006_05d1e115-155e-4b0c-8701-ae598a169596.gif)
+
+# Managed/Unmanged Code
+![1](http://www.codeproject.com/KB/COM/cominterop/RCWCOMInterop.gif)
+![1](http://www.codeproject.com/KB/COM/cominterop/ConnectPointDelegates_small.gif)
+![1](http://www.codeproject.com/KB/COM/cominterop/CollectionEnumeration.gif)
+![1](http://www.codeproject.com/KB/COM/cominterop/CCWInteraction_small.gif)
 
