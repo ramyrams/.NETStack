@@ -104,15 +104,21 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
 
-# Framework Class Library (FCL)
-![1](http://i.stack.imgur.com/SxbSG.jpg)
-![1](http://www.codeproject.com/KB/dotnet/NETBasics/FCL.jpg)
-
 # Base Class Library (BCL)
 ![1](http://modernpathshala.com/Images/dot-net-interview/Question/1947177520160401113030Base-class-library.JPG)
 ![1](https://devreminder.files.wordpress.com/2011/03/aspnetbcl.gif)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled7.png?w=768)
 
+
+# Framework Class Library (FCL) - 
+* Superset of BCL
+![1](http://i.stack.imgur.com/SxbSG.jpg)
+![1](http://www.codeproject.com/KB/dotnet/NETBasics/FCL.jpg)
+http://image.slidesharecdn.com/netintroduction-1221908697118367-9/95/net-introduction-4-728.jpg
+http://csharpprogramming.ru/wp-content//img/4/fcl_bcl.png
+http://3.bp.blogspot.com/_QottG71972s/S13xZZiujeI/AAAAAAAAAAk/6d8eahYkoUA/s400/bcl_fcl.png
+
+http://chennadi.blogspot.com/2010/01/what-are-components-of-dotnet-framework.html
 
 # Common Language Specification (CLS)
 ![1](http://image.slidesharecdn.com/1philosophyofnet-1326119636943-phpapp02-120109083526-phpapp02/95/1philosophy-of-net-25-728.jpg?cb=1326098809)
@@ -131,6 +137,12 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 ![1](http://image.slidesharecdn.com/introductionto-140916042152-phpapp02/95/introduction-to-net-framework-by-quontrasolutions-35-638.jpg?cb=1410841557)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC56291.gif)
 
+# Common Intermediate Language (CIL)
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
+![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
+http://images.slideplayer.com/24/7317073/slides/slide_8.jpg
+
+
 # MSIL (Microsoft Intermediate Language)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC156451.gif)
 ![1](http://image.slidesharecdn.com/lsauer-microsoftdotnetframework2003-2004overviewandwebservicesms-net-130313035655-phpapp02/95/microsoft-net-dotnet-framework-2003-2004-overview-and-web-services-15-638.jpg?cb=1363572651)
@@ -139,10 +151,6 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 ![1](http://dotnet.edu.vn/Upload/Blog/2013/Thang8_2012/msil.jpg)
 ![1](http://dotnet.edu.vn/Upload/Blog/2013/Thang8_2012/quatrinhbiendichvachay2.jpg)
 ![1](http://dotnet.edu.vn/Upload/Blog/2013/Thang8_2012/clr2.jpg)
-
-# Common Intermediate Language (CIL)
-![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
-![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
 
 
 # Just In Time Compilers (JITers)
