@@ -336,4 +336,20 @@ http://www.slideshare.net/EyalV/aspnet-mvc-30-validation
 
 
 
+http://www.codeproject.com/KB/aspnet/ASP_NET_Validators/PageLifeCycle.JPG
+http://tr1.cbsistatic.com/hub/i/2015/06/03/a55199a2-0986-11e5-940f-14feb5cc3d2a/u00220020415pst01_01.gif
+http://image.slidesharecdn.com/dotnettechnology-160513194540/95/validation-controls-in-aspnet-11-638.jpg?cb=1463168857
+http://image.slidesharecdn.com/dotnettechnology-160513194540/95/validation-controls-in-aspnet-17-638.jpg?cb=1463168857
+http://image.slidesharecdn.com/dotnettechnology-160513194540/95/validation-controls-in-aspnet-15-638.jpg?cb=1463168857
+http://image.slidesharecdn.com/dotnettechnology-160513194540/95/validation-controls-in-aspnet-11-638.jpg?cb=1463168857
+http://image.slidesharecdn.com/dotnettechnology-160513194540/95/validation-controls-in-aspnet-13-638.jpg?cb=1463168857
+http://image.slidesharecdn.com/dotnettechnology-160513194540/95/validation-controls-in-aspnet-10-638.jpg?cb=1463168857
+http://image.slidesharecdn.com/dotnettechnology-160513194540/95/validation-controls-in-aspnet-9-638.jpg?cb=1463168857
+
+
+https://mvcandjavascriptui.files.wordpress.com/2013/08/image_thumb40.png?w=592&h=181
+http://www.aspnetbook.com/images/tips/aspnet-validation-server-controls_clip_image001.png
+http://image.slidesharecdn.com/validation-110525144831-phpapp01/95/aspnet-mvc-30-validation-3-728.jpg?cb=1306335247
+http://www.codeproject.com/KB/aspnet/ASP_NET_Validators/casestudy2aspx_small.gif
+http://dailydotnettips.com/wp-content/uploads/2010/12/untitled.bmp
 
