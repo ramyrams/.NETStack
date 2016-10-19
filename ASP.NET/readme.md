@@ -10,6 +10,12 @@ http://www.codeproject.com/KB/aspnet/331962/mcts.JPG
 
 http://www.codeproject.com/KB/aspnet/331962/mcts2.JPG
 
+State Managment
+http://www.dotnetcurry.com/images/aspnet/fc9337600a40_A6EB/aspnet-state-management.png
+http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/2072a9/state-management-in-Asp-Net/Images/State%20Management%20Techniques.jpg
+
+
+http://www.c-sharpcorner.com/UploadFile/2072a9/state-management-in-Asp-Net/
 
 
 These types are further classified in levels.
@@ -26,6 +32,16 @@ A2A Level i.e. Application to Application Level : Management between 2 different
 * [Understanding Session Management Techniques in ASP.NET](http://www.codeproject.com/Articles/416137/Understanding-Session-Management-Techniques-in-ASP)
 
 
+HttpHandlers and HttpModules in ASP.NET?
+
+
+
+State Management
+http://www.webdevelopmenthelp.net/wp-content/uploads/2014/03/ASP.NETEngine.png
+
+
+
+http://www.webdevelopmenthelp.net/wp-content/uploads/2014/03/Application-Vs-Session.png
 
 https://msdn.microsoft.com/en-us/library/z1hkazw7.aspx
 
