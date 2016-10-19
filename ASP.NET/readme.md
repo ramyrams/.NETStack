@@ -18,6 +18,27 @@
 * Debugging
 * Security
 * Configuration
+Directive
+Global.asax
+HttpServerUtility
+Routes
+Web Forms
+Webform vs MVC
+Custom Control
+Caching
+Performance
+optimizations
+ASP.NET Configuration
+.
+HTTP Handlers, Modules, and
+Routing
+Anatomy of an ASP.NET Page
+Infrastructure of the Application
+
+HTTP Request Context
+ASP.NET State Management
+ASP.NET Caching
+ASP.NET Security
 
 
 
@@ -305,6 +326,12 @@ http://www.dotnetcurry.com/images/aspnet/How.NET-Application-Life-Cycle-and-Page
 http://www.dotnetcurry.com/images/aspnet/How.NET-Application-Life-Cycle-and-Page-_7929/aspnet-page-lifecycle.png
 
 http://www.dotnetcurry.com/images/aspnet/How.NET-Application-Life-Cycle-and-Page-_7929/aspnet-postback-lifecycle.png
+
+
+http://www.disenoactivo.es/programadores/files/2015-11/mvc-versiones.jpg
+
+
+http://www.slideshare.net/EyalV/aspnet-mvc-30-validation
 
 
 
