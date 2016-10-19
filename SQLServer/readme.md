@@ -3,6 +3,7 @@
 Ad hoc queries vs stored procedures vs Dynamic SQ
 http://stackoverflow.com/questions/2934634/ad-hoc-queries-vs-stored-procedures-vs-dynamic-sql
 
+https://www.simple-talk.com/sql/database-administration/retrieving-sql-server-query-execution-plans/
 
 # SQL
 
