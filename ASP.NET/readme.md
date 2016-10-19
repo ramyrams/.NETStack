@@ -238,6 +238,26 @@ http://www.edandersen.com/2013/05/30/asp-net-mvc-basics-part-2-viewmodel-to-mode
 
 http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/06/image_thumb.png
 
+http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/06/image_thumb.png
+http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/06/image_thumb1.png
+
+http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/06/image_thumb2.png
+
+http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/06/image_thumb3.png
+
+http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/06/image_thumb5.png
+
+
+
+http://blog.thedigitalgroup.com/chetanv/2015/06/30/a-detailed-walkthrough-of-asp-net-mvc-request-life-cycle/
+
+
+# HTTP pipeline 
+https://mycodelines.files.wordpress.com/2009/02/httphandlers.jpg
+
+
+http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/06/image_thumb6.png
+
 
 http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/06/image_thumb17.png
 
