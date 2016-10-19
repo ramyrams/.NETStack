@@ -13,19 +13,19 @@ Go to .NET core [Page](https://github.com/ramyrams/.NETStack/blob/master/.NET-Co
 Go to C# [Page](https://github.com/ramyrams/.NETStack/tree/master/CSharp)
 
 ## ASP.NET	
-Go to ASP.NET [Page](https://github.com/ramyrams/CSharp/blob/master/README.md)
+Go to ASP.NET [Page](https://github.com/ramyrams/.NETStack/tree/master/ASP.NET)
 
 ## WebAPI
-Go to WebAPI [Page](https://github.com/ramyrams/CSharp/blob/master/README.md)
+Go to WebAPI [Page](https://github.com/ramyrams/.NETStack/tree/master/WebAPI)
 
 ## EntityFramework	
-Go to EntityFramework [Page](https://github.com/ramyrams/CSharp/blob/master/README.md)
+Go to EntityFramework [Page](https://github.com/ramyrams/.NETStack/tree/master/EntityFramework)
 
 ## LINQ	
-Go to LINQ [Page](https://github.com/ramyrams/CSharp/blob/master/README.md)
+Go to LINQ [Page](https://github.com/ramyrams/.NETStack/tree/master/LINQ)
 
 ## SQLServer
-Go to SQLServer# [Page](https://github.com/ramyrams/CSharp/blob/master/README.md)
+Go to SQLServer# [Page](https://github.com/ramyrams/.NETStack/tree/master/SQLServer)
  
 
 
