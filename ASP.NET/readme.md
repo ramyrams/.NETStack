@@ -1,44 +1,35 @@
-* # ASP.NET
+# ASP.NET
 
 * ASP.NET Life Cycle
 * ASP.Net Page Life cycle
 * MVC Page Life Cycle
-* View State
+* Anatomy of an ASP.NET Page
+* HTTP Request Context
 * HTTP Modules
 * HTTP Handlers
+* View State
+* Directives
+* Validators
 * Event Handling
 * Server Side
 * Server Controls
 * HTML Server
 * Client Side
-* Directives
-* Managing State
-* Validators
 * Error Handling
 * Debugging
-* Security
-* Configuration
-Directive
-Global.asax
-HttpServerUtility
-Routes
-Web Forms
-Webform vs MVC
-Custom Control
-Caching
-Performance
-optimizations
-ASP.NET Configuration
-.
-HTTP Handlers, Modules, and
-Routing
-Anatomy of an ASP.NET Page
-Infrastructure of the Application
-
-HTTP Request Context
-ASP.NET State Management
-ASP.NET Caching
-ASP.NET Security
+* Global.asax
+* HttpServerUtility
+* Routes
+* Web Forms
+* Webform vs MVC
+* Custom Control
+* Performance
+* optimizations
+* ASP.NET Configuration
+* Infrastructure of the Application
+* ASP.NET State Management
+* ASP.NET Caching
+* ASP.NET Security
 
 
 
