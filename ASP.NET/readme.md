@@ -1,9 +1,28 @@
-# ASP.NET
+* # ASP.NET
 
 * ASP.NET Life Cycle
 * ASP.Net Page Life cycle
 * MVC Page Life Cycle
 * View State
+* HTTP Modules
+* HTTP Handlers
+* Event Handling
+* Server Side
+* Server Controls
+* HTML Server
+* Client Side
+* Directives
+* Managing State
+* Validators
+* Error Handling
+* Debugging
+* Security
+* Configuration
+
+
+
+
+
 
 # ASP.NET - Life Cycle
 ![1](http://www.guru99.com/images/asp-net/061516_0807_ASPNetIntro2.png)
@@ -120,3 +139,112 @@ https://msdn.microsoft.com/en-us/library/z1hkazw7.aspx
 
 #ASP.NET Course
 * [ASP.NET MVC Course](https://github.com/TelerikAcademy/ASP.NET-MVC)
+
+
+
+
+
+
+
+https://media-www-asp.azureedge.net/images-legacy/asp.net/images/security/03/images/aspnet_tutorial03_authadvanced_cs_figure02s.png
+
+
+https://media-www-asp.azureedge.net/images-legacy/asp.net/images/security/03/images/aspnet_tutorial03_authadvanced_cs_figure07.png
+
+
+http://i.stack.imgur.com/WZR3G.png
+
+
+
+
+
+# ASP.NET Architecture
+http://www.codemag.com/Article/Image/0511061/Figure%201.png
+http://www.codemag.com/Article/Image/0511061/Figure%202.png
+http://www.codemag.com/Article/Image/0511061/Figure%204.png
+http://www.codemag.com/Article/Image/0511061/Figure%206.png
+http://www.codemag.com/Article/Image/0511061/Figure%207.png
+http://www.west-wind.com/presentations/howaspnetworks/Figure%202.png
+
+http://www.west-wind.com/presentations/howaspnetworks/howaspnetworks.asp
+
+
+# ASP.NET MVC Cheat Sheets
+http://www.sadev.co.za/files/Slide3.png
+http://www.sadev.co.za/files/Slide2.png
+http://www.sadev.co.za/files/Slide4.png
+http://www.sadev.co.za/files/Slide1.png
+
+https://abhijitjana.files.wordpress.com/2011/01/image_thumb9.png?w=129&h=151
+https://abhijitjana.files.wordpress.com/2011/01/image_thumb10.png?w=313&h=293
+http://image.slidesharecdn.com/insideiisrequestprocessaspnetpagelifecycle-111215051805-phpapp01/95/inside-iis-request-processing-and-aspnet-page-lifecycle-12-728.jpg?cb=1323927511
+
+http://www.hanselman.com/blog/content/binary/Windows-Live-Writer/fcafa28f54d3_C700/image_15.png
+
+
+
+https://ppandey07.wordpress.com/2013/10/31/
+
+http://player.slideplayer.com/19/5725254/data/images/img46.png
+
+http://player.slideplayer.com/19/5725254/data/images/img48.png
+
+http://player.slideplayer.com/19/5725254/data/images/img54.png
+
+
+
+http://image.slidesharecdn.com/IIS70ArchitectureandIntegrationwithASPNET-122847529825-phpapp03/95/iis-70-architecture-and-integration-with-aspnet-37-728.jpg?cb=1228456520
+
+
+http://image.slidesharecdn.com/IIS70ArchitectureandIntegrationwithASPNET-122847529825-phpapp03/95/iis-70-architecture-and-integration-with-aspnet-5-728.jpg?cb=1228456520
+
+http://www.slideshare.net/mannysiddiqui/IIS-70-Architecture-and-Integration-with-ASPNET
+
+
+
+http://www.completecsharptutorial.com/wp-content/uploads/2016/07/COoJVerVAAEOuXS.jpg?189db0
+
+
+http://www.completecsharptutorial.com/wp-content/uploads/2016/07/1.png
+http://www.completecsharptutorial.com/wp-content/uploads/2016/07/COoJVerVAAEOuXS.jpg
+
+
+http://www.dotnetcurry.com/images/aspnet/How.NET-Application-Life-Cycle-and-Page-_7929/aspnet-architecture.png
+
+App Rest
+http://www.dotnetcurry.com/images/aspnet/How.NET-Application-Life-Cycle-and-Page-_7929/app-request-cycle.png
+
+
+http://www.dotnetcurry.com/aspnet/747/http-request-lifecycle-events-iis-pipeline-aspnet
+
+https://i-msdn.sec.s-msft.com/dynimg/IC142724.png
+
+https://az787680.vo.msecnd.net/user/newmonkey48/1309/201391704421888.png
+
+https://abhijitjana.files.wordpress.com/2011/06/image48.png?w=660&h=248
+
+
+http://cdn.nitrix-reloaded.com/publicdocs/asp.net_life_cycle_cheatsheet.pdf
+
+
+http://www.dotnetcurry.com/images/mvc/ASP.NET-MVC-5-Using-a-Simple-Repository-_6AFF/repository-aspnet-mvc.png
+
+### Model Mapping flow
+http://www.edandersen.com/wp-content/uploads/2013/05/viewmodel-model-mapping.png
+
+
+http://www.edandersen.com/2013/05/30/asp-net-mvc-basics-part-2-viewmodel-to-model-mapping-and-editing/
+
+
+http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/06/image_thumb.png
+
+
+http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/06/image_thumb17.png
+
+
+http://blog.thedigitalgroup.com/chetanv/2015/06/30/a-detailed-walkthrough-of-asp-net-mvc-request-life-cycle/
+
+
+http://content.leansentry.com/dashboard/help/diagnostics/hangs/hang_diagnostic_diagram.png
+
+https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/01/46/38/metablogapi/3146.ASP.NET_MVC4_WebAPI_StackDiagram_RC_6FDE2008.jpg
