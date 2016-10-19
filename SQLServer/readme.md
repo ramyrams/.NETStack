@@ -1,4 +1,9 @@
 
+
+Ad hoc queries vs stored procedures vs Dynamic SQ
+http://stackoverflow.com/questions/2934634/ad-hoc-queries-vs-stored-procedures-vs-dynamic-sql
+
+
 # SQL
 
 ## Table of Content
