@@ -344,3 +344,55 @@ http://image.slidesharecdn.com/validation-110525144831-phpapp01/95/aspnet-mvc-30
 http://www.codeproject.com/KB/aspnet/ASP_NET_Validators/casestudy2aspx_small.gif
 http://dailydotnettips.com/wp-content/uploads/2010/12/untitled.bmp
 
+
+http://www.csharpstar.com/wp-content/uploads/2015/11/Identity.jpg
+
+
+# Routing
+http://www.csharpstar.com/wp-content/uploads/2015/11/mvc4.jpg
+
+# ASP.NET MVC Action Filters
+http://www.csharpstar.com/wp-content/uploads/2015/11/mvc5.jpg
+
+
+# ViewData, ViewBag, and TempData
+http://www.infragistics.com/community/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/dhananjay_5F00_kumar.Maria_5F00_Blogs.November/3757.DJ_5F00_post_5F00_1_5F00_pic.png
+https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAVFAAAAJGQ1N2I4YjYyLTFmNDEtNDMyYi05ZmM0LTNiMGQyZTQ1ODAyZg.png
+http://www.planetofcoders.com/wp-content/uploads/difference-between-tempdata-viewdata-and-viewbag.png
+http://www.planetofcoders.com/wp-content/uploads/dynamic-keyword.png
+https://sandippatilprogrammer.files.wordpress.com/2013/12/zxz.png
+http://i.stack.imgur.com/XYZyi.png
+https://3.bp.blogspot.com/-_JcjxSh00us/V07Z6lMo09I/AAAAAAAABK4/JgmoaLwSlRYlhkiWL7WJis6Ey-_Z4KbfgCK4B/w1200-h630-p-nu/Differences%2BViewdata%2Bvs%2BViewBag%2Bvs%2BTempData.bmp
+
+
+
+http://www.aspdotnetchamp.com/2016/08/aspnet-mvc-viewbag-viewdata-and-tempdata.html
+http://www.infragistics.com/community/blogs/dhananjay_kumar/archive/2015/11/06/what-are-viewdata-viewbag-and-tempdata-in-asp-net-mvc.aspx
+https://www.linkedin.com/pulse/whats-difference-between-viewdata-viewbag-tempdata-session-patel
+
+
+# Application Manager
+# Hosting environment
+# Application Domain
+http://odetocode.com/articles/305.aspx
+
+# Application Pool
+
+http://www.codeproject.com/Articles/121096/Web-Server-and-ASP-NET-Application-Life-Cycle-in-D
+
+http://www.codeproject.com/KB/aspnet/IISAndAspNETInDepth/HttpInstanceAppDomain3.png
+
+
+# Application Manager
+http://www.codeproject.com/KB/aspnet/IISAndAspNETInDepth/HostingEnvironment1.png
+http://www.codeproject.com/KB/aspnet/IISAndAspNETInDepth/HttpInstanceAppDomain3_small.png
+http://www.codeproject.com/KB/aspnet/IISAndAspNETInDepth/applicationpoolDifference_small.png
+
+http://www.codeproject.com/Articles/121096/Web-Server-and-ASP-NET-Application-Life-Cycle-in-D
+
+
+
+http://www.codeproject.com/KB/aspnet/IISAndAspNETInDepth/HttpApplication1.png
+http://i.stack.imgur.com/OsgAh.png
+http://www.codeproject.com/KB/winsdk/Application_Pools_on_IIS_/cc783014_2f67e1d7-0048-4f4c-b0a0-efba28062ba6_en-us_.png
+
