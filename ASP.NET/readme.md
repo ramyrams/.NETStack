@@ -405,3 +405,12 @@ http://www.codeproject.com/KB/aspnet/IISAndAspNETInDepth/HttpApplication1.png
 http://i.stack.imgur.com/OsgAh.png
 http://www.codeproject.com/KB/winsdk/Application_Pools_on_IIS_/cc783014_2f67e1d7-0048-4f4c-b0a0-efba28062ba6_en-us_.png
 
+http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/2072a9/caching-in-Asp-Net/Images/caching.jpg
+
+http://www.c-sharpcorner.com/UploadFile/2072a9/caching-in-Asp-Net/
+
+
+http://image.slidesharecdn.com/webinar-four-asp-net-optimizations-141208040909-conversion-gate02/95/four-ways-to-improve-asp-net-performance-and-scalability-5-638.jpg?cb=1418012063
+
+http://www.slideshare.net/Alachisoft/four-ways-to-improve-asp-net-performance-and-scalability
+http://www.slideshare.net/MindfireSolutions/aspnet-caching-23892906
