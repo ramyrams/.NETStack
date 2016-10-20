@@ -130,7 +130,16 @@ A2A Level i.e. Application to Application Level : Management between 2 different
 
 * [Understanding Session Management Techniques in ASP.NET](http://www.codeproject.com/Articles/416137/Understanding-Session-Management-Techniques-in-ASP)
 
+http://www.codeproject.com/KB/web-cache/cacheinwebfarmandwebgarde/States.JPG
+http://www.codeproject.com/KB/web-cache/cacheinwebfarmandwebgarde/ALC1.JPG
+http://www.codeproject.com/KB/web-cache/cacheinwebfarmandwebgarde/AppDomaincontains.PNG
+http://www.codeproject.com/KB/web-cache/cacheinwebfarmandwebgarde/webfarm.PNG
+http://www.codeproject.com/KB/web-cache/cacheinwebfarmandwebgarde/appDomainsnew.PNG
+http://www.codeproject.com/KB/web-cache/cacheinwebfarmandwebgarde/filesystemnew.PNG
+http://www.codeproject.com/KB/web-cache/cacheinwebfarmandwebgarde/dbdependency.PNG
 
+
+http://www.codeproject.com/Articles/180726/State-management-and-ways-to-handle-Cache-in-a-Web
 HttpHandlers and HttpModules in ASP.NET?
 
 
