@@ -333,6 +333,46 @@ http://www.disenoactivo.es/programadores/files/2015-11/mvc-versiones.jpg
 
 http://www.slideshare.net/EyalV/aspnet-mvc-30-validation
 
+http://www.dotnetodyssey.com/wp-content/uploads/2015/03/Server-side-client-side.jpg
+http://www.backbonerails.com/assets/series1/Episode-1-Client-Side-Development-MVC-Server-Client-7bdec011cfc0d0a5906c1bc586ddd195.jpg
+
+http://image.slidesharecdn.com/incrementaldom-160331135748/95/incremental-dom-and-recent-trend-of-frontend-development-36-638.jpg?cb=1459432868
+
+http://lostechies.com/jimmybogard/files/2014/08/image.png
+
+https://www.cs.colorado.edu/~kena/classes/7818/f06/lectures/19/arch.png
+
+https://tctechcrunch2011.files.wordpress.com/2013/04/airbnb_render_holy_grail.png?w=1012&h=733
+
+http://i.stack.imgur.com/oX00R.png
+http://1.bp.blogspot.com/-cOYdt6n33-k/U_H-XsKZuYI/AAAAAAAADOc/EfOh3HzXW80/s1600/ViewBag-ViewData.png
+
+http://i.stack.imgur.com/nURnG.jpg
+https://i-msdn.sec.s-msft.com/dynimg/IC407784.png
+https://www.bennadel.com/resources/uploads/2012/application_architecture_diagram.gif
+
+https://merroun.files.wordpress.com/2012/03/architectures1.jpg
+
+
+WebForms Vs. MVC
+http://strategybeach.com/webforms-vs-mvc/
+http://ankitsaxenamvc.blogspot.com/2014/08/difference-between-web-forms-and-mvc.html
+
+
+http://ankitsaxenamvc.blogspot.com/2014/08/aspnet-mvc3-vs-mvc4-vs-mvc5.html
+
+
+
+
+https://help.optimizely.com/@api/deki/files/2849/=201276508.png?revision=1
+https://help.optimizely.com/@api/deki/files/4452/=skitch.png?revision=2
+https://help.optimizely.com/@api/deki/files/2850/=201718980.png?revision=1
+
+
+
+
+http://image.slidesharecdn.com/7jrysm8qpidvjg5sx5fg-signature-7d3b1c5509a87c9b7af1c66dc822a6cfb20a69d3c02afef418de02bbe4a05cf6-poli-150512130532-lva1-app6892/95/javascript-mvc-frameworks-backbone-ember-and-angular-js-9-638.jpg?cb=1431436089
+
 
 
 
