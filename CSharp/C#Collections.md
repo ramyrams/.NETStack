@@ -373,6 +373,21 @@ void TrimExcess()
 
 ```
 
+## DictionaryEntry
+```cs
+// Create hashtable with some keys and values.
+Hashtable hashtable = new Hashtable();
+hashtable.Add(1, "one");
+hashtable.Add(2, "two");
+hashtable.Add(3, "three");
+
+// Enumerate the hashtable.
+foreach (DictionaryEntry entry in hashtable)
+{
+    Console.WriteLine("{0} = {1}", entry.Key, entry.Value);
+}
+```
+
 ## BitArray
 ```cs
 //Creating a BitArray
