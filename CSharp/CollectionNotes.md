@@ -1,5 +1,11 @@
 http://kottans.org/csharp-slides/presentations/9-collections-generics
 
+http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/736ca4/collection-in-C-Sharp/Images/Collection.jpg
+
+http://www.c-sharpcorner.com/uploadfile/736ca4/collection-in-c-sharp/
+
+http://cdn.churchm.ag/wp-content/uploads/2012/07/015.jpg
+
 
 
 # Non-generic collection
