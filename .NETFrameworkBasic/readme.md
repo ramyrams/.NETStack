@@ -8,6 +8,7 @@
 * CLR Execution (.NET Execution Model)
 * Role of CLR
 * Managed/UnManaged Code
+* Common Language Infrastructure(CLI)
 * Intermediate Language
 * Just In Time Compilers (JITers)
 * Framework Class Library (FCL)
