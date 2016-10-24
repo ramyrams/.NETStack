@@ -350,6 +350,13 @@ http://www.codeproject.com/Articles/12215/Assemblies-locating-binding-and-deploy
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC534360.png)
 
 # Manifest
+* An Assembly Manifest is a file that containing Metadata about .NET Assemblies. 
+* Assembly Manifest contains a collection of data that describes how the elements in the assembly relate to each other. 
+* It describes the relationship and dependencies of the components in the Assembly, versioning information, scope information and the security permissions required by the Assembly.
+* The Assembly Manifest can be stored in Portable Executable (PE) file with Microsoft Intermediate Language (MSIL) code. 
+* You can add or change some information in the Assembly Manifest by using assembly attributes in your code. 
+* The Assembly Manifest can be stored in either a PE file (an .exe or .dll) with Microsoft Intermediate Language (MSIL) code or in a standalone PE file that contains only assembly manifest information. Using ILDasm, you can view the manifest information for any managed DLL.
+
 ![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly3.png)
 ![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly1.png)
 ![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly8.png)
