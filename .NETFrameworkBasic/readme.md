@@ -3,6 +3,7 @@
 * .NET Platform vs .NET framework Vs .NET Environment 
 * .NET Platform Standard
 * .NET Framework Architecture
+* .NET Application Type
 * .NET Framework Components
 * Common Language Runtime (CLR)
   * CLR Architecture
@@ -61,6 +62,19 @@
 # .NET Platform Standard
 ![1](http://www.talkingdotnet.com/wp-content/uploads/2016/02/NET-Platform-Standard.png)
 ![1](http://image.slidesharecdn.com/movingforwardwithasp-160530064824/95/moving-forward-with-aspnet-core-12-638.jpg)
+
+# .NET Application Type
+* Console Application
+* Windows or Desktop Application
+* Web Application
+* NT Services - Service Control Manager Sercies
+* Web services
+* REST API
+* Mobile applications
+* Components/libraries 
+* Windows Store Applications
+
+
 
 # CLR
 ![1](http://archive.cnx.org/resources/ef7359b3c8d9f5e872afaad0a99ccd9d92d80ca5/graphics1.jpg)
