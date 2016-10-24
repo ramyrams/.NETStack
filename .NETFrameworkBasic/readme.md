@@ -275,6 +275,35 @@ This compiles entire assembly into native code instead of used methods.
 
 
 # Assembly
+
+# Types of assemblies:
+
+* **Private Assemblies** are accessible by a single application. They reside within the application folder and are unique by name. They can be directly used by copying and pasting them to the bin folder.
+* **Shared Assemblies** are shared between multiple applications to ensure reusability. They are placed in GAC.
+* **Satellite Assemblies** are the assemblies to provide the support for multiple languages based on different cultures. These are kept in different modules based on the different categories available.
+
+![1](http://images.slideplayer.com/24/7321493/slides/slide_12.jpg)
+
+# Static Assemblies vs Dynamic assemblies
+
+Static assemblies can include .NET Framework types (interfaces and classes), as well as resources for the assembly (bitmaps, JPEG files, resource files, and so on). Static assemblies are stored on disk in portable executable (PE) files. You can also use the .NET Framework to create dynamic assemblies, which are run directly from memory and are not saved to disk before execution. You can save dynamic assemblies to disk after they have executed.
+
+## Static Assemblies
+Static Assemblies are those Assemblies which are stored on the disk permanently. 
+They may include .NET Framework classes, interfaces as well as resource file. 
+These assemblies are not loaded directly from the memory instead they are directly loaded from the disk when CLR (Common Language RunTime) requests for them. These Assemblies used to store on the disk as a file or set of file. 
+Whenever one compiles the C# code, one gets STATIC assemblies.
+
+##  Dynamic assemblies
+Dynamic assemblies are those assemblies which are not stored on the disk before execution in fact after execution they get stored on the disk. When .NET runtime calls them they are directly loaded from the memory not from the disk. 
+Reflection emit provides many ways to create dynamic assemblies means These are created in the memory using System.Reflection.emit namespace.
+The System.Reflection.Emit namespace contains classes that allow a compiler or tool to emit metadata and Microsoft intermediate language (MSIL) and optionally generate a PE file on disk. 
+When an application requires the types within these assemblies these dynamic assemblies are created dynamically at run time
+
+![1](http://images.slideplayer.com/24/7321493/slides/slide_9.jpg)
+
+
+
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/ajyadav123/net-assembly-internals-part-1/Images/Assembly%20Structure.jpg)
 ![1](http://images.slideplayer.com/24/7317073/slides/slide_20.jpg)
 ![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-3-728.jpg)
