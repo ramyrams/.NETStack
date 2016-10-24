@@ -21,7 +21,7 @@
 * .NET Assemblies Metadata
 * .NET Applications
 * Application Domain
-
+* NET Garbage Collection
 
 # .NET Framework Architecture
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC104620.jpeg)
