@@ -41,8 +41,6 @@
 ![1](http://www.pixytech.com/rajnish/uploads/images/CLS.jpg)
 
 # .NET Platform Standard
-![1](http://image.slidesharecdn.com/netcorenewplatformbernlucerne2016final-160417201319/95/net-core-a-new-net-platform-9-638.jpg)
-![1](http://image.slidesharecdn.com/netcorenewplatformbernlucerne2016final-160417201319/95/net-core-a-new-net-platform-9-638.jpg)
 ![1](http://www.talkingdotnet.com/wp-content/uploads/2016/02/NET-Platform-Standard.png)
 ![1](http://image.slidesharecdn.com/movingforwardwithasp-160530064824/95/moving-forward-with-aspnet-core-12-638.jpg)
 
