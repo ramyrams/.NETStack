@@ -1,28 +1,41 @@
 # .NET Framework Basics
 
 * .NET Platform vs .NET framework Vs .NET Environment 
+* .NET Platform Standard
 * .NET Framework Architecture
 * .NET Framework Components
-* CLR Architecture
-* CLR Features
-* CLR Execution (.NET Execution Model)
-* Role of CLR
-* Managed/UnManaged Code
+* Common Language Runtime (CLR)
+  * CLR Architecture
+  * CLR Features
+  * CLR Run-time services
+  * CLR Compiler
+  * CLR Execution (.NET Execution Model)
+  * Role of CLR
+  * Virtual Execution System (VES)
 * Common Language Infrastructure(CLI)
 * Intermediate Language
-* Just In Time Compilers (JITers)
+  * Common Intermediate Language (CIL)
+  * Microsoft Intermediate Language (MSIL)
 * Framework Class Library (FCL)
 * Base Class Library (BCL)
-* Common Intermediate Language (CIL)
-* MSIL (Microsoft Intermediate Language)
 * Common Language Specification (CLS)
 * Common Type System (CTS)
-* Garbage Collector (GC)
+* Just In Time Compilers (JITers)
 * .NET Assemblies
-* .NET Assemblies Metadata
+  * Portable executable (PE)
+  * CLR Header
+  * Metadata
+  * Resources
+* Assembly Versioning
+* Satellite Assembly
+Global Assembly Cache (GAC)
+* Managed/UnManaged Code
 * .NET Applications
+* Strong Named Assemblies
+* Side-By-Side Execution
 * Application Domain
-* NET Garbage Collection
+* NET Garbage Collection (GC)
+* Code Access Security
 
 # .NET Framework Architecture
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC104620.jpeg)
