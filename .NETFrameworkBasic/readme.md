@@ -229,18 +229,7 @@ This compiles entire assembly into native code instead of used methods.
 ![1](http://www.techstrikers.com/images/econojitcompiler.PNG)
 ![1](http://www.techstrikers.com/images/prejitcompiler.PNG)
 
-# Garbage Collector (GC)
-![1](http://4.bp.blogspot.com/-1obqc0tpclc/UZe6inxIzOI/AAAAAAAAA0s/CSl5tGU_8QQ/s640/GC.jpg)
-![1](http://jbcdn2.b0.upaiyun.com/2012/12/Net-GC-05.gif)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC112504.gif)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC57444.gif)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC658910.jpeg)
-![1](http://www.c-sharpcorner.com/article/garbage-collector-algorithm/Images/GC.gif)
-![1](http://images.techhive.com/images/article/2015/09/garbage-collection-in-.net-100617168-primary.idge.png)
-![1](http://www.telerik.com/sfimages/default-source/blogs/figure-3-png)
-![1](http://www.codeproject.com/KB/aspnet/DONETBestPracticeNo2/8.jpg)
-![1](http://dailydotnettips.com/wp-content/uploads/2014/01/15-01-2014-04-18-35.jpg)
-https://ramanisandeep.wordpress.com/2010/01/20/net-memory-management-garbage-collection-2/
+
 
 
 ## URL
@@ -274,9 +263,10 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 # # Managed/Unmanaged code
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/Images/CLR.jpg)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/managed-code-and-unmanaged-code-in-net/Images/unmanaged_code_RCW.gif)
-
-# Stong Name Key
-![1](http://al-atari.net/wp-content/uploads/2009/10/3.jpg)
+![1](http://www.codeproject.com/KB/COM/cominterop/RCWCOMInterop.gif)
+![1](http://www.codeproject.com/KB/COM/cominterop/ConnectPointDelegates_small.gif)
+![1](http://www.codeproject.com/KB/COM/cominterop/CollectionEnumeration.gif)
+![1](http://www.codeproject.com/KB/COM/cominterop/CCWInteraction_small.gif)
 
 
 # Portable executable (PE)
@@ -291,20 +281,13 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 ![1](http://www.onlinebuff.com/artimages/gac6.jpg)
 
 
-# Code Access Security
-![1](https://i-technet.sec.s-msft.com/dynimg/IC25758.gif)
-![1](http://www.codeproject.com/KB/aspnet/CASSecurity/1.JPG)
-![1](http://www.codeproject.com/KB/aspnet/CASSecurity/2.JPG)
-![1](http://www.codeproject.com/KB/aspnet/CASSecurity/3.JPG)
-![1](http://www.codeproject.com/KB/aspnet/CASSecurity/7.JPG)
-![1](http://www.codeproject.com/KB/aspnet/CASSecurity/9.JPG)
-![1](http://www.codeproject.com/KB/aspnet/CASSecurity/10.JPG)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC92522.gif)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC54972.gif)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC3440.jpeg)
+
 
 # Assembly
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/ajyadav123/net-assembly-internals-part-1/Images/Assembly%20Structure.jpg)
 ![1](http://images.slideplayer.com/24/7317073/slides/slide_20.jpg)
+![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-3-728.jpg)
+
 
 # Satellite Assembly
 ![1](http://www.lingobit.com/solutions/dotnet/dotnet.png)
@@ -316,6 +299,14 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 
 
 # Strong-Named Assemblies
+![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-9-728.jpg)
+![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-10-728.jpg)
+![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-11-728.jpg)
+![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-12-728.jpg)
+
+
+# Stong Name Key
+![1](http://al-atari.net/wp-content/uploads/2009/10/3.jpg)
 
 ### Strong-name with no-delay sign
 ![1](http://www.diranieh.com/NETAssemblies/Figures/StrongName_NoDelay.jpg)
@@ -333,10 +324,23 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 ![1](http://i.stack.imgur.com/ZFVzN.png)
 ![1](http://i.stack.imgur.com/ZFVzN.png)
 
+## Side-by-side Assembly Sharing
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC534359.png)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC534360.png)
 
 # Assembly Versioning
 ![1](http://www.codemag.com/Article/Image/0207071/Figure%201.jpg)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC164166.jpeg)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC164166.jpeg)
+![1](http://2.bp.blogspot.com/-a8cBxKWXZGs/T3tLZr-pCCI/AAAAAAAANEA/EzehnTb3RgI/s320/assembly+version+1.PNG)
+![1](http://3.bp.blogspot.com/-HLTErxY9QOY/T3vfncMxAFI/AAAAAAAANEI/ZE0Ud-XR3yA/s320/assemblyInfo.PNG)
+![1](http://1.bp.blogspot.com/-DN_SHjSlod4/T3vg3r8WH9I/AAAAAAAANEQ/_Ui7KaINUc0/s400/Assembly+Version+2.PNG)
+![1](http://4.bp.blogspot.com/-CSF4igsTBYs/T3yPki578bI/AAAAAAAANEY/kDOofk6oF-A/s400/AssemblyInfo+2.PNG)
+![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-7-728.jpg)
+![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-8-728.jpg)
+
+Read More - [.NET Assembly Version Numbers](http://oncoding.blogspot.com/2012/04/net-assembly-version-numbers.html)
+
 
 # Assembly Locating Binding and Ddeploying
 ![1](http://www.codeproject.com/KB/install/assemblydeployment/assemblydeployment1.gif)
@@ -345,9 +349,15 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 
 http://www.codeproject.com/Articles/12215/Assemblies-locating-binding-and-deploying
 
-## Side-by-side Assembly Sharing
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC534359.png)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC534360.png)
+
+# Metadata
+![1](http://images.slideplayer.com/14/4294897/slides/slide_33.jpg)
+![1](http://images.slideplayer.com/23/6586025/slides/slide_3.jpg)
+![1](http://images.slideplayer.com/23/6586025/slides/slide_4.jpg)
+![1](http://player.slideplayer.com/23/6586025/data/images/img0.jpg)
+
+http://slideplayer.com/slide/6586025/
+
 
 # Manifest
 * An Assembly Manifest is a file that containing Metadata about .NET Assemblies. 
@@ -363,9 +373,27 @@ http://www.codeproject.com/Articles/12215/Assemblies-locating-binding-and-deploy
 ![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly10.png)
 ![1](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/BlogFileStorage/blogs_msdn/vsto/WindowsLiveWriter/ResigningClickOncemanifests101_AC30/clip_image006_05d1e115-155e-4b0c-8701-ae598a169596.gif)
 
-# Managed/Unmanged Code
-![1](http://www.codeproject.com/KB/COM/cominterop/RCWCOMInterop.gif)
-![1](http://www.codeproject.com/KB/COM/cominterop/ConnectPointDelegates_small.gif)
-![1](http://www.codeproject.com/KB/COM/cominterop/CollectionEnumeration.gif)
-![1](http://www.codeproject.com/KB/COM/cominterop/CCWInteraction_small.gif)
+# Code Access Security
+![1](https://i-technet.sec.s-msft.com/dynimg/IC25758.gif)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/1.JPG)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/2.JPG)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/3.JPG)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/7.JPG)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/9.JPG)
+![1](http://www.codeproject.com/KB/aspnet/CASSecurity/10.JPG)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC92522.gif)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC54972.gif)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC3440.jpeg)
 
+# Garbage Collector (GC)
+![1](http://4.bp.blogspot.com/-1obqc0tpclc/UZe6inxIzOI/AAAAAAAAA0s/CSl5tGU_8QQ/s640/GC.jpg)
+![1](http://jbcdn2.b0.upaiyun.com/2012/12/Net-GC-05.gif)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC112504.gif)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC57444.gif)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC658910.jpeg)
+![1](http://www.c-sharpcorner.com/article/garbage-collector-algorithm/Images/GC.gif)
+![1](http://images.techhive.com/images/article/2015/09/garbage-collection-in-.net-100617168-primary.idge.png)
+![1](http://www.telerik.com/sfimages/default-source/blogs/figure-3-png)
+![1](http://www.codeproject.com/KB/aspnet/DONETBestPracticeNo2/8.jpg)
+![1](http://dailydotnettips.com/wp-content/uploads/2014/01/15-01-2014-04-18-35.jpg)
+https://ramanisandeep.wordpress.com/2010/01/20/net-memory-management-garbage-collection-2/
