@@ -38,6 +38,7 @@
 ![1](http://2.bp.blogspot.com/-uZW0W4MeQ8I/UiWICb7-_TI/AAAAAAAABMM/UonVL6mZJu8/s1600/clr.jpg)
 ![1](http://www.codeguru.com/images/article/8245/Image1.jpg)
 ![1](http://image.slidesharecdn.com/overviewofmicrosoftdotnetplatforms-151027112620-lva1-app6891/95/overview-of-microsoft-dot-net-platforms-11-638.jpg)
+![1](http://www.pixytech.com/rajnish/uploads/images/CLS.jpg)
 
 # CLR
 ![1](http://archive.cnx.org/resources/ef7359b3c8d9f5e872afaad0a99ccd9d92d80ca5/graphics1.jpg)
@@ -62,6 +63,7 @@
 ![1](http://www.onlinebuff.com/artimages/clr.jpg)
 ![1](http://www.infinitezest.com/images/dotnet-framework-structure.jpg)
 ![1](http://www.techstrikers.com/images/dotnetclr.png)
+![1](http://www.pixytech.com/rajnish/uploads/images/CLRInternal.jpg)
 
 http://flylib.com/books/en/4.320.1.27/1/
 http://www.cnblogs.com/sunkang/archive/2011/04/28/2038821.html
