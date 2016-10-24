@@ -85,6 +85,16 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 ![1](http://mattblagden.com/blog/acronyms_galore/dotnetacronymvenndiagram.png)
 ![1](https://www.safaribooksonline.com/library/view/net-framework-essentials/0596001657/tagoreillycom20070221oreillyimages74612.png)
 
+# Managed/Unmanaged
+![1](http://image.slidesharecdn.com/sharepointunderground-100502110607-phpapp01/95/sharepoint-underground-unmanaged-code-and-sharepoint-internals-7-728.jpg)
+![1](http://images.slideplayer.com/25/7612974/slides/slide_17.jpg)
+![1](http://image.slidesharecdn.com/sharepointunderground-100502110607-phpapp01/95/sharepoint-underground-unmanaged-code-and-sharepoint-internals-6-728.jpg)
+![1](http://www.bass.radio42.com/help/media/PInvoke.bmp)
+![1](http://www.jot.fm/issues/issue_2006_11/article1/images/figure3.gif)
+![1](http://foxcentral.net/microsoft/NETforVFPDevelopers_Chapter01_files/image003.jpg)
+![1](http://www.codemag.com/Article/Image/070013/01fig02.jpg)
+
+
 # CLR Compiler
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/09f663/net-architecture-and-net-framework-basics/Images/NET2.gif)
 ![1](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CLR_diag.svg/400px-CLR_diag.svg.png)
@@ -104,6 +114,7 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 ![1](http://4.bp.blogspot.com/-GFJ_9pm3KLc/U-rZNCw79ZI/AAAAAAAABjw/4XpcJLOdFXQ/s1600/Load%2BThe%2BCLR.PNG)
 ![1](http://images.cnblogs.com/cnblogs_com/huangyu/net.gif)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/runningOfApplication.gif)
+![1](http://www.codemag.com/Article/Image/070013/01fig03.jpg)
 
 # Common Language Infrastructure (CLI)
 ![1](http://4.bp.blogspot.com/-wuiRLJOJfCY/U-ru1od5DJI/AAAAAAAABkY/iqjQMyPaeDw/s1600/.NET.png)
@@ -121,9 +132,10 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 * Superset of BCL
 ![1](http://i.stack.imgur.com/SxbSG.jpg)
 ![1](http://www.codeproject.com/KB/dotnet/NETBasics/FCL.jpg)
-http://image.slidesharecdn.com/netintroduction-1221908697118367-9/95/net-introduction-4-728.jpg
-http://csharpprogramming.ru/wp-content//img/4/fcl_bcl.png
-http://3.bp.blogspot.com/_QottG71972s/S13xZZiujeI/AAAAAAAAAAk/6d8eahYkoUA/s400/bcl_fcl.png
+![1](http://image.slidesharecdn.com/netintroduction-1221908697118367-9/95/net-introduction-4-728.jpg)
+![1](http://csharpprogramming.ru/wp-content//img/4/fcl_bcl.png)
+![1](http://3.bp.blogspot.com/_QottG71972s/S13xZZiujeI/AAAAAAAAAAk/6d8eahYkoUA/s400/bcl_fcl.png)
+![1](http://www.codemag.com/Article/Image/070013/01fig04.jpg)
 
 http://chennadi.blogspot.com/2010/01/what-are-components-of-dotnet-framework.html
 
@@ -222,6 +234,7 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 ![1](http://images.slideplayer.com/24/7321493/slides/slide_35.jpg)
 ![1](http://www.bogotobogo.com/CSharp/images/framework/assembly2.png)
 ![1](http://image.slidesharecdn.com/csharpjn-090514144345-phpapp02/95/c-sharp-jn-21-728.jpg?cb=1242312262)
+![1](http://foxcentral.net/microsoft/NETforVFPDevelopers_Chapter01_files/image005.jpg)
 
 # Application Domain
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/Images/Windows%20process.jpg)
