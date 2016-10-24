@@ -139,6 +139,7 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 ![1](http://nikgrozev.com/images/blog/NET%20for%20Java%20Devs%20in%20a%20nutshell/dot_net.jpg)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
+![1](http://www.uadnan.com/media/u/2014/07/common-language-infrastructure.png)
 
 # Base Class Library (BCL)
 ![1](http://modernpathshala.com/Images/dot-net-interview/Question/1947177520160401113030Base-class-library.JPG)
@@ -184,11 +185,12 @@ http://chennadi.blogspot.com/2010/01/what-are-components-of-dotnet-framework.htm
 ![1](http://image.slidesharecdn.com/introductionto-140916042152-phpapp02/95/introduction-to-net-framework-by-quontrasolutions-35-638.jpg?cb=1410841557)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC56291.gif)
 ![1](http://images.slideplayer.com/21/6309780/slides/slide_3.jpg)
+![1](http://www.uadnan.com/media/u/2014/07/common-type-structure.png)
 
 # Common Intermediate Language (CIL)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
-http://images.slideplayer.com/24/7317073/slides/slide_8.jpg
+![1](http://images.slideplayer.com/24/7317073/slides/slide_8.jpg)
 
 
 # MSIL (Microsoft Intermediate Language)
