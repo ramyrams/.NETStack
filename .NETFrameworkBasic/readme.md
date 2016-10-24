@@ -372,6 +372,14 @@ Read More - [Metadata in the.NET assemblies](http://slideplayer.com/slide/658602
 ![1](http://www.codeproject.com/KB/cs/801343/LanguageFolder.png)
 
 
+# How the CLR Resolves Type References
+https://ekrishnakumar.files.wordpress.com/2006/06/untitled2.JPG?w=595
+
+
+# Native Image Generator (Ngen.exe)
+https://i0.wp.com/msdn.microsoft.com/msdnmag/issues/05/04/NGen/fig01.gif
+
+
 
 
 
