@@ -157,7 +157,17 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 http://chennadi.blogspot.com/2010/01/what-are-components-of-dotnet-framework.html
 
 # Common Language Specification (CLS)
-![1](http://image.slidesharecdn.com/1philosophyofnet-1326119636943-phpapp02-120109083526-phpapp02/95/1philosophy-of-net-25-728.jpg?cb=1326098809)
+* CLS is a document that says how computer programs can be turned into MSIL code. 
+* When several languages use the same bytecode, different parts of a program can be written in different languages. 
+* Microsoft uses a Common Language Specification for their .NET Framework. 
+* It was always a dream of Microsoft to unite all different languages into one umbrella and CLS is one step towards that. 
+* Microsoft has defined CLS which are nothing but guidelines for languages to follow so that it can communicate with other .NET languages in a seamless manner.
+* Common Language Specification (CLS) defines a subset of Common Type System (CTS). 
+* (CTS) describes a set of types that can use different .Net languages have in common, which ensure that objects written in different languages can interact with each other. 
+* Most of the members defined by types in the .NET Framework Class Library (FCL) are Common Language Specification (CLS) compliant Types. 
+* Moreover Common Language Specification (CLS) standardized by ECMA .
+
+![1](http://image.slidesharecdn.com/1philosophyofnet-1326119636943-phpapp02-120109083526-phpapp02/95/1philosophy-of-net-25-728.jpg)
 ![1](http://3.bp.blogspot.com/-1rKKRUyiU2c/U-rcyQkw2EI/AAAAAAAABj8/wi4l-MoKM2c/s1600/The%2BCommon%2BLanguage%2BSpecification.PNG)
 
 
