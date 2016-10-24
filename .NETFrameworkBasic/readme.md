@@ -40,6 +40,14 @@
 ![1](http://image.slidesharecdn.com/overviewofmicrosoftdotnetplatforms-151027112620-lva1-app6891/95/overview-of-microsoft-dot-net-platforms-11-638.jpg)
 ![1](http://www.pixytech.com/rajnish/uploads/images/CLS.jpg)
 
+# .NET Platform Standard
+![1](http://image.slidesharecdn.com/netcorenewplatformbernlucerne2016final-160417201319/95/net-core-a-new-net-platform-9-638.jpg)
+![1](http://image.slidesharecdn.com/netcorenewplatformbernlucerne2016final-160417201319/95/net-core-a-new-net-platform-9-638.jpg)
+![1](http://www.talkingdotnet.com/wp-content/uploads/2016/02/NET-Platform-Standard.png)
+![1](http://image.slidesharecdn.com/movingforwardwithasp-160530064824/95/moving-forward-with-aspnet-core-12-638.jpg)
+
+
+
 # CLR
 ![1](http://archive.cnx.org/resources/ef7359b3c8d9f5e872afaad0a99ccd9d92d80ca5/graphics1.jpg)
 ![1](http://kishore1021.files.wordpress.com/2012/02/image24.png)
