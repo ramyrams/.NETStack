@@ -489,6 +489,31 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC54972.gif)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC3440.jpeg)
 
+
+# CLR Hosting
+![1](http://flylib.com/books/4/331/1/html/2/images/0735619883/graphics/02fig01.jpg)
+
+http://www.codeproject.com/Articles/416471/CLR-Hosting-Customizing-the-CLR
+
+# .NET Framework Tools
+* Assembly Generation Utility (al.exe) 
+* Assembly Registration Utility (gacutil.exe) 
+* MSIL Assembler (ilasm.exe) 
+* MSIL Disassembler (ildasm.exe) 
+* C++ Compiler (cl.exe) 
+* C# Compiler (csc.exe) 
+* Visual Basic Compiler (vbc.exe) 
+* PE File Format Viewer (dumpbin.exe) 
+* Type Library Exporter (tlbexp.exe) 
+* Type Library Importer (tlbimp.exe) 
+* XML Schema Definition Tool (xsd.exe) 
+* Shared Name Utility (sn.exe) 
+* Web Service Utility (wsdl.exe) 
+
+* [More Tools](https://msdn.microsoft.com/en-us/library/d9kh6s92(v=vs.110).aspx)
+
+
+
 # How the CLR Resolves Type References
 ![1](https://ekrishnakumar.files.wordpress.com/2006/06/untitled2.JPG?w=595)
 
