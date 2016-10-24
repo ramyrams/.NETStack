@@ -28,7 +28,7 @@
   * Resources
 * Assembly Versioning
 * Satellite Assembly
-Global Assembly Cache (GAC)
+* Global Assembly Cache (GAC)
 * Managed/UnManaged Code
 * .NET Applications
 * Strong Named Assemblies
@@ -405,7 +405,7 @@ Read More - [Metadata in the.NET assemblies](http://slideplayer.com/slide/658602
 ![1](http://4.bp.blogspot.com/-CSF4igsTBYs/T3yPki578bI/AAAAAAAANEY/kDOofk6oF-A/s400/AssemblyInfo+2.PNG)
 ![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-7-728.jpg)
 ![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-8-728.jpg)
-
+![1](http://player.slideplayer.com/24/7321493/data/images/img1.jpg)
 Read More - [.NET Assembly Version Numbers](http://oncoding.blogspot.com/2012/04/net-assembly-version-numbers.html)
 
 
