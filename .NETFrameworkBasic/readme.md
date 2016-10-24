@@ -47,8 +47,6 @@
 ![1](http://www.talkingdotnet.com/wp-content/uploads/2016/02/NET-Platform-Standard.png)
 ![1](http://image.slidesharecdn.com/movingforwardwithasp-160530064824/95/moving-forward-with-aspnet-core-12-638.jpg)
 
-
-
 # CLR
 ![1](http://archive.cnx.org/resources/ef7359b3c8d9f5e872afaad0a99ccd9d92d80ca5/graphics1.jpg)
 ![1](http://kishore1021.files.wordpress.com/2012/02/image24.png)
@@ -105,14 +103,7 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 ![1](http://mattblagden.com/blog/acronyms_galore/dotnetacronymvenndiagram.png)
 ![1](https://www.safaribooksonline.com/library/view/net-framework-essentials/0596001657/tagoreillycom20070221oreillyimages74612.png)
 
-# Managed/Unmanaged
-![1](http://image.slidesharecdn.com/sharepointunderground-100502110607-phpapp01/95/sharepoint-underground-unmanaged-code-and-sharepoint-internals-7-728.jpg)
-![1](http://images.slideplayer.com/25/7612974/slides/slide_17.jpg)
-![1](http://image.slidesharecdn.com/sharepointunderground-100502110607-phpapp01/95/sharepoint-underground-unmanaged-code-and-sharepoint-internals-6-728.jpg)
-![1](http://www.bass.radio42.com/help/media/PInvoke.bmp)
-![1](http://www.jot.fm/issues/issue_2006_11/article1/images/figure3.gif)
-![1](http://foxcentral.net/microsoft/NETforVFPDevelopers_Chapter01_files/image003.jpg)
-![1](http://www.codemag.com/Article/Image/070013/01fig02.jpg)
+
 
 
 # CLR Compiler
@@ -242,13 +233,6 @@ This compiles entire assembly into native code instead of used methods.
 
 
 
-## URL
-http://www.telerik.com/blogs/understanding-net-garbage-collection
-http://www.codeproject.com/Articles/39246/NET-Best-Practice-No-2-Improve-garbage-collector
-http://www.csharpque.com/2013/05/understanding-garbage-collection-in-net.html
-https://msdn.microsoft.com/en-us/library/ms973837.aspx
-http://www.c-sharpcorner.com/uploadfile/riteshratna/garbage-collection-memory-management-in-net/
-https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 
 
 # .NET Assemblies
@@ -277,14 +261,15 @@ https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
 ![1](http://www.codeproject.com/KB/COM/cominterop/ConnectPointDelegates_small.gif)
 ![1](http://www.codeproject.com/KB/COM/cominterop/CollectionEnumeration.gif)
 ![1](http://www.codeproject.com/KB/COM/cominterop/CCWInteraction_small.gif)
+![1](http://image.slidesharecdn.com/sharepointunderground-100502110607-phpapp01/95/sharepoint-underground-unmanaged-code-and-sharepoint-internals-7-728.jpg)
+![1](http://images.slideplayer.com/25/7612974/slides/slide_17.jpg)
+![1](http://image.slidesharecdn.com/sharepointunderground-100502110607-phpapp01/95/sharepoint-underground-unmanaged-code-and-sharepoint-internals-6-728.jpg)
+![1](http://www.bass.radio42.com/help/media/PInvoke.bmp)
+![1](http://www.jot.fm/issues/issue_2006_11/article1/images/figure3.gif)
+![1](http://foxcentral.net/microsoft/NETforVFPDevelopers_Chapter01_files/image003.jpg)
+![1](http://www.codemag.com/Article/Image/070013/01fig02.jpg)
 
 
-
-
-# Global Assembly Cache (GAC)
-![1](http://help.infragistics.com/Help/Doc/ASPNET/2011.2/CLR4.0/html/images/Web_DeploymentGuide_DeploymentUsingtheGAC_02.png)
-![1](http://help.infragistics.com/Help/Doc/WinForms/2012.1/CLR2.0/html/images%5CWin_DeploymentGuide_DeploymentUsingtheGAC_01.png)
-![1](http://www.onlinebuff.com/artimages/gac6.jpg)
 
 
 
@@ -363,6 +348,25 @@ Read More - [Metadata in the.NET assemblies](http://slideplayer.com/slide/658602
 ![1](https://msdnshared.blob.core.windows.net/media/TNBlogsFS/BlogFileStorage/blogs_msdn/vsto/WindowsLiveWriter/ResigningClickOncemanifests101_AC30/clip_image006_05d1e115-155e-4b0c-8701-ae598a169596.gif)
 
 
+# Global Assembly Cache (GAC)
+![1](http://help.infragistics.com/Help/Doc/ASPNET/2011.2/CLR4.0/html/images/Web_DeploymentGuide_DeploymentUsingtheGAC_02.png)
+![1](http://help.infragistics.com/Help/Doc/WinForms/2012.1/CLR2.0/html/images%5CWin_DeploymentGuide_DeploymentUsingtheGAC_01.png)
+![1](http://www.onlinebuff.com/artimages/gac6.jpg)
+
+# Assembly Versioning
+![1](http://www.codemag.com/Article/Image/0207071/Figure%201.jpg)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC164166.jpeg)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC164166.jpeg)
+![1](http://2.bp.blogspot.com/-a8cBxKWXZGs/T3tLZr-pCCI/AAAAAAAANEA/EzehnTb3RgI/s320/assembly+version+1.PNG)
+![1](http://3.bp.blogspot.com/-HLTErxY9QOY/T3vfncMxAFI/AAAAAAAANEI/ZE0Ud-XR3yA/s320/assemblyInfo.PNG)
+![1](http://1.bp.blogspot.com/-DN_SHjSlod4/T3vg3r8WH9I/AAAAAAAANEQ/_Ui7KaINUc0/s400/Assembly+Version+2.PNG)
+![1](http://4.bp.blogspot.com/-CSF4igsTBYs/T3yPki578bI/AAAAAAAANEY/kDOofk6oF-A/s400/AssemblyInfo+2.PNG)
+![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-7-728.jpg)
+![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-8-728.jpg)
+
+Read More - [.NET Assembly Version Numbers](http://oncoding.blogspot.com/2012/04/net-assembly-version-numbers.html)
+
+
 # Satellite Assembly
 ![1](http://www.lingobit.com/solutions/dotnet/dotnet.png)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC102672.jpeg)
@@ -370,18 +374,6 @@ Read More - [Metadata in the.NET assemblies](http://slideplayer.com/slide/658602
 ![1](http://www.codeproject.com/KB/cs/352105/1.jpg)
 ![1](http://www.codeproject.com/KB/cs/352105/assemblynew.jpg)
 ![1](http://www.codeproject.com/KB/cs/801343/LanguageFolder.png)
-
-
-# How the CLR Resolves Type References
-https://ekrishnakumar.files.wordpress.com/2006/06/untitled2.JPG?w=595
-
-
-# Native Image Generator (Ngen.exe)
-https://i0.wp.com/msdn.microsoft.com/msdnmag/issues/05/04/NGen/fig01.gif
-
-
-
-
 
 # Strong-Named Assemblies
 ![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-9-728.jpg)
@@ -413,18 +405,6 @@ https://i0.wp.com/msdn.microsoft.com/msdnmag/issues/05/04/NGen/fig01.gif
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC534359.png)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC534360.png)
 
-# Assembly Versioning
-![1](http://www.codemag.com/Article/Image/0207071/Figure%201.jpg)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC164166.jpeg)
-![1](https://i-msdn.sec.s-msft.com/dynimg/IC164166.jpeg)
-![1](http://2.bp.blogspot.com/-a8cBxKWXZGs/T3tLZr-pCCI/AAAAAAAANEA/EzehnTb3RgI/s320/assembly+version+1.PNG)
-![1](http://3.bp.blogspot.com/-HLTErxY9QOY/T3vfncMxAFI/AAAAAAAANEI/ZE0Ud-XR3yA/s320/assemblyInfo.PNG)
-![1](http://1.bp.blogspot.com/-DN_SHjSlod4/T3vg3r8WH9I/AAAAAAAANEQ/_Ui7KaINUc0/s400/Assembly+Version+2.PNG)
-![1](http://4.bp.blogspot.com/-CSF4igsTBYs/T3yPki578bI/AAAAAAAANEY/kDOofk6oF-A/s400/AssemblyInfo+2.PNG)
-![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-7-728.jpg)
-![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-8-728.jpg)
-
-Read More - [.NET Assembly Version Numbers](http://oncoding.blogspot.com/2012/04/net-assembly-version-numbers.html)
 
 
 # Assembly Locating Binding and Ddeploying
@@ -433,9 +413,6 @@ Read More - [.NET Assembly Version Numbers](http://oncoding.blogspot.com/2012/04
 ![1](http://www.codeproject.com/KB/install/assemblydeployment/assemblydeployment3.gif)
 
 http://www.codeproject.com/Articles/12215/Assemblies-locating-binding-and-deploying
-
-
-
 
 # Garbage Collector (GC)
 ![1](http://4.bp.blogspot.com/-1obqc0tpclc/UZe6inxIzOI/AAAAAAAAA0s/CSl5tGU_8QQ/s640/GC.jpg)
@@ -449,6 +426,13 @@ http://www.codeproject.com/Articles/12215/Assemblies-locating-binding-and-deploy
 ![1](http://www.codeproject.com/KB/aspnet/DONETBestPracticeNo2/8.jpg)
 ![1](http://dailydotnettips.com/wp-content/uploads/2014/01/15-01-2014-04-18-35.jpg)
 https://ramanisandeep.wordpress.com/2010/01/20/net-memory-management-garbage-collection-2/
+http://www.telerik.com/blogs/understanding-net-garbage-collection
+http://www.codeproject.com/Articles/39246/NET-Best-Practice-No-2-Improve-garbage-collector
+http://www.csharpque.com/2013/05/understanding-garbage-collection-in-net.html
+https://msdn.microsoft.com/en-us/library/ms973837.aspx
+http://www.c-sharpcorner.com/uploadfile/riteshratna/garbage-collection-memory-management-in-net/
+https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
+
 
 
 # Code Access Security
@@ -462,3 +446,10 @@ https://ramanisandeep.wordpress.com/2010/01/20/net-memory-management-garbage-col
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC92522.gif)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC54972.gif)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC3440.jpeg)
+
+# How the CLR Resolves Type References
+![1](https://ekrishnakumar.files.wordpress.com/2006/06/untitled2.JPG?w=595)
+
+
+# Native Image Generator (Ngen.exe)
+![1](https://i0.wp.com/msdn.microsoft.com/msdnmag/issues/05/04/NGen/fig01.gif)
