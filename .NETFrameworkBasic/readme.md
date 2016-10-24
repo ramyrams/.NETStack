@@ -1,19 +1,25 @@
 # .NET Framework Basics
 
+* .NET Platform vs .NET framework Vs .NET Environment 
 * .NET Framework Architecture
+* .NET Framework Components
 * CLR Architecture
 * CLR Features
 * CLR Execution (.NET Execution Model)
 * Role of CLR
-* MSIL (Microsoft Intermediate Language) 
+* Managed/UnManaged Code
+* Intermediate Language
 * Just In Time Compilers (JITers)
 * Framework Class Library (FCL)
 * Base Class Library (BCL)
 * Common Intermediate Language (CIL)
+* MSIL (Microsoft Intermediate Language)
 * Common Language Specification (CLS)
 * Common Type System (CTS)
 * Garbage Collector (GC)
 * .NET Assemblies
+* .NET Assemblies Metadata
+* .NET Applications
 * Application Domain
 
 
