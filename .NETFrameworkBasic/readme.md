@@ -3,7 +3,7 @@
 * .NET Framework Architecture
 * CLR Architecture
 * CLR Features
-* CLR Execution
+* CLR Execution (.NET Execution Model)
 * Role of CLR
 * MSIL (Microsoft Intermediate Language) 
 * Just In Time Compilers (JITers)
@@ -31,6 +31,7 @@
 ![1](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQS7n1n3bmvwVrNM1GESlUy1qfiKwShVO6CIrOZmCq3asN8nTTQuQ)
 ![1](http://2.bp.blogspot.com/-uZW0W4MeQ8I/UiWICb7-_TI/AAAAAAAABMM/UonVL6mZJu8/s1600/clr.jpg)
 ![1](http://www.codeguru.com/images/article/8245/Image1.jpg)
+![1](http://image.slidesharecdn.com/overviewofmicrosoftdotnetplatforms-151027112620-lva1-app6891/95/overview-of-microsoft-dot-net-platforms-11-638.jpg)
 
 # CLR
 ![1](http://archive.cnx.org/resources/ef7359b3c8d9f5e872afaad0a99ccd9d92d80ca5/graphics1.jpg)
@@ -136,6 +137,7 @@ http://chennadi.blogspot.com/2010/01/what-are-components-of-dotnet-framework.htm
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC161031.gif)
 ![1](http://image.slidesharecdn.com/introductionto-140916042152-phpapp02/95/introduction-to-net-framework-by-quontrasolutions-35-638.jpg?cb=1410841557)
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC56291.gif)
+![1](http://images.slideplayer.com/21/6309780/slides/slide_3.jpg)
 
 # Common Intermediate Language (CIL)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
