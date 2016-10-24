@@ -36,6 +36,8 @@
 * Application Domain
 * NET Garbage Collection (GC)
 * Code Access Security
+* CLR Hosting
+* .NET Framework Tools
 
 # .NET Framework Architecture
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC104620.jpeg)
