@@ -142,6 +142,9 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 ![1](http://www.uadnan.com/media/u/2014/07/common-language-infrastructure.png)
 
 # Base Class Library (BCL)
+* The Base Class Library (BCL), part of the Framework Class Library (FCL), is a library of functionality available to all languages using the.NET Framework. 
+* The BCL provides classes which encapsulate a number of common functions, including file reading and writing,graphical rendaring, database interaction and XML document manipulation. 
+
 ![1](http://modernpathshala.com/Images/dot-net-interview/Question/1947177520160401113030Base-class-library.JPG)
 ![1](https://devreminder.files.wordpress.com/2011/03/aspnetbcl.gif)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled7.png?w=768)
@@ -149,6 +152,9 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 
 # Framework Class Library (FCL) - 
 * Superset of BCL
+* Framework Class Library is the standard.NET Framework library of out-of-the-box reusable classes and components (APIs) 
+* The Framework class library (FCL) is a comprehensive collection of reusable types including classes, interfaces and data types included in the .NET Framework to provide access to system functionality.
+
 ![1](http://i.stack.imgur.com/SxbSG.jpg)
 ![1](http://www.codeproject.com/KB/dotnet/NETBasics/FCL.jpg)
 ![1](http://image.slidesharecdn.com/netintroduction-1221908697118367-9/95/net-introduction-4-728.jpg)
