@@ -48,13 +48,13 @@
 
 # CLR Architecture
 * **Class loader** - This will loads classes into CLR. It is used to load all the classes (MSIL Code) at runtime into CLR. The class loader component of the CLR uses metadata to locate specific classes within assemblies, either locally or across networks.
-* **IL Compiler - Convert MSIL code into native code. It is a JIT (Just In Time) compiler it will convert MSIL code to native code.
-* **Code manage**r - Manages the code during execution.
+* **IL Compiler** - Convert MSIL code into native code. It is a JIT (Just In Time) compiler it will convert MSIL code to native code.
+* **Code manager** - Manages the code during execution.
 * Garbage collector** - This performs automatic memory management. Memory allocation and Garbage collector, this performs automatic memory management.
 * **Security engine** - This enforces security restrictions as code level * security folder level and machine level security. this enforces security restrictions as code level security folder level and machine level security using tools provided by Microsoft .NET and using .NET Framework setting under control panel.
 * **Type checker** - Enforces strict type checking.
 * **Thread support** - Provides multithreading support to applications. It provides multithreading support to .Net applications.
-* **Exception manager - Provides a mechanism to handle the run-time exceptions handling.
+* **Exception manager** - Provides a mechanism to handle the run-time exceptions handling.
 * **Debug engine** - Allows developer to debug different types of applications.
 * **COM Marshaler** - Allows .NET applications to exchange data with COM applications.
 * **Base class library** - Provides the classes (types) that the applications need at run time. Which provides the classes (types) that the applications need at run time.
