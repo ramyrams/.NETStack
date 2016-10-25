@@ -543,6 +543,11 @@ http://www.codeproject.com/Articles/416471/CLR-Hosting-Customizing-the-CLR
 * Web Service Utility (wsdl.exe) 
 
 * [More Tools](https://msdn.microsoft.com/en-us/library/d9kh6s92(v=vs.110).aspx)
+* [More Tools](http://www.devcurry.com/2011/02/important-net-framework-40-command-line.html)
+
+
+# PDB Files
+* [What Every Developer Must Know](http://devcenter.wintellect.com/jrobbins/pdb-files-what-every-developer-must-know)
 
 
 
