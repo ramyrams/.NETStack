@@ -433,12 +433,27 @@ Read More - [.NET Assembly Version Numbers](http://oncoding.blogspot.com/2012/04
 ![1](http://www.codeproject.com/KB/cs/352105/assemblynew.jpg)
 ![1](http://www.codeproject.com/KB/cs/801343/LanguageFolder.png)
 
-# Strong-Named Assemblies
+# Strong-Named/Shared Assemblies
 ![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-9-728.jpg)
 ![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-10-728.jpg)
 ![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-11-728.jpg)
 ![1](http://image.slidesharecdn.com/assembliesversioningandsigning-110426033320-phpapp01/95/assemblies-versioning-and-signing-12-728.jpg)
+http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/deployment-and-packaging-in-net/Images/Table-26.1.gif
 
+# Assembly Resolution summary
+http://www.diranieh.com/NETAssemblies/Figures/LocatingAssemblies.jpg
+
+	
+Concerning resolving assemblies, there are a few basic things to consider:
+* **Probing** The loader attempts to locate assemblies using a basic directory "probing" technique. This means that it will try to locate "MyAssembly.dll" (for instance) in the application's startup directory, if not there, then in subdirectories below that. If probing fails to locate "MyAssembly.dll", then the AppDomain's AssemblyResolve event is fired.
+* **Machine/User/System configuration** The machine.config, user.config and system.config are configuration files stored locally on the system which one can use to change the behavior of the assembly resolver on a "machine", "user" or "system"-wide setting.
+* **Publisher Policy** One can use the "<assemblyIdentity>" XML token in your application's configuration file (for instance, "MyApp.exe.config") to point to resolver to a certain version of an assembly or to load an assembly from a different location.
+* **Custom resolution** Handle the "AssemblyResolve" event of the AppDomain. This event is raised whenever an assembly could not be resolved via "traditional" methods
+
+
+# Assemblies: locating, binding and deploying
+http://www.codeproject.com/Articles/12215/Assemblies-locating-binding-and-deploying
+https://msdn.microsoft.com/en-us/library/yx7xezcf(v=vs.110).aspx
 
 # Stong Name Key
 ![1](http://al-atari.net/wp-content/uploads/2009/10/3.jpg)
@@ -458,6 +473,7 @@ Read More - [.NET Assembly Version Numbers](http://oncoding.blogspot.com/2012/04
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC123595.jpeg)
 ![1](http://i.stack.imgur.com/ZFVzN.png)
 ![1](http://i.stack.imgur.com/ZFVzN.png)
+![1](https://i-msdn.sec.s-msft.com/dynimg/IC79106.gif)
 
 ## Side-by-side Assembly Sharing
 ![1](https://i-msdn.sec.s-msft.com/dynimg/IC534359.png)
