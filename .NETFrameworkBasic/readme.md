@@ -58,6 +58,24 @@
 ![1](http://www.pixytech.com/rajnish/uploads/images/CLS.jpg)
 ![1](http://image.slidesharecdn.com/2-net-framework-overview-120201085125-phpapp01/95/net-framework-overview-14-638.jpg)
 ![1](https://anylinewebsiteresource.blob.core.windows.net/wordpressmedia/2016/03/dotnetframework45.png)
+![1](http://www.uadnan.com/media/u/2014/07/from-code-to-instruction.png)
+
+# 10,000 Feet View of .NET Platform
+![1](http://www.uadnan.com/media/u/2014/07/dot-net-platform.png)
+
+* **Object-oriented programming:** Recognized to be the current paradigm of choice to master complexity, the platform was built around the concepts of object-oriented programming (OO). The core of languages like C# are based on the OO principles, and the OO paradigm is used as the glue that makes language interoperability possible.
+* **Support for multiple languages:** Although COM supported multiple languages (most notably C++ and Visual Basic) in order to talk together, its cross-language capabilities were limited to implementing interfaces. In .NET, true interoperability between languages becomes possible with capabilities such as cross-language inheritance. Together with a unified type system, this makes integration between code written in different languages totally seamless. This also accommodates other programming language paradigms, ranging from a functional programming style (as seen in F#, but nowadays in certain C# and Visual Basic language features too) to dynamic languages (such as Ruby and Python).
+* **Easy component-based development:** The art of creating components containing libraries and sharable pieces of application functionality is much simpler in .NET than it was before. No COM interfaces like IUnknown need to be implemented, and no registration is required. The unit of code sharing in .NET is based on the concept of an assembly, which carries version info and all the metadata required to use it. This eliminates the need to have separate header files and such.
+* **Simplified application deployment: **In contrast to COM-based components, no registration is required to deploy assemblies; just “xcopy deployment” suffices. In addition to this, the DLL hell has been eliminated by supporting multiple versions of the same component to exist side by side. The .NET Framework itself is a good example of this capability, because it’s possible to have multiple versions of the framework installed next to one another on the same machine.
+* **Rich base class library support:** The .NET Framework comes with a rich set of class libraries that provide basic building blocks to build rich applications, all of which are provided in a consistent manner and designed based on OO principles. Examples of such libraries include collections, text manipulation, database access, file system manipulation, networking, XML support, rich service-oriented communication stacks, windowing systems, and so on.
+* **Various application types:** Thanks to the rich base class library (BCL), it becomes incredibly easy to write all sorts of applications based on the same framework foundation. Support is provided for Windows desktop GUI applications (Windows Forms and Windows Presentation Foundation [WPF]), web applications (ASP.NET), web services (Windows Communication Foundation [WCF]), smart device applications (Compact Framework), browser and Windows Phone 7 applications (Silverlight), cloud applications for Windows Azure, and more.
+* **Unified runtime infrastructure:** At the core of the .NET Framework sits the Common Language Runtime (CLR), which provides unified runtime infrastructure in the form of an intermediate language (IL) shared by all languages that run on the platform, Just-in-Time (JIT) compilation of such IL code to native code for the machine on which it’s running, automatic memory management through a garbage collector (GC), assembly loading services, debugging services, threading, and so on.
+* **Interoperability with existing code:** Although the .NET platform is meant to be a solid replacement for older technologies, it’s quintessential to have good support to reuse existing software components that were written in older technologies like COM and to provide access to native operating system Win32 API functions through a mechanism called P/Invoke.
+* **Exception handling:** Error handling in the .NET Framework is provided through a mechanism known as exception handling. This eliminates many of the worries associated with manual error checking as done in Win32 programming and COM-based APIs with so-called HRESULTs.
+* **Improved security model:** With the advent of the Web, deployment of code becomes a severe security risk. To mitigate this, the .NET runtime has a built-in security mechanism called Code Access Security (CAS) that sandboxes code based on the code’s origin, publisher evidence, and configurable policies. This security model is orthogonal to the security mechanisms provided by the operating system, such as access control lists (ACLs) and Windows security tokens.
+* **Web services capabilities:** Right from the start of the .NET Framework, the plat- form has had support for web services as a modern way of performing cross-platform remote procedure calls based on Simple Object Access Protocol (SOAP) and Extensible Markup Language (XML) standards. All this is provided using programming paradigms that feel natural in the world of .NET, so developers do not require a fundamentally different mindset to deal with web services. Over the years, the web services support on the .NET Framework has grown significantly with support for the WS-* set of web services standards.
+* **Professional tooling support:** Visual Studio 2013 is the latest version of the toolset that accompanies the .NET Framework to provide professional support for the development of various types of applications with rich designer support, unit testing frameworks, a project and build system (MSBuild), and, thanks to the unified runtime infrastructure, rich debugging support can be provided for the cross-language platform of .NET. The higher-end editions of Visual Studio, Premium and Ultimate, are aimed at team development in conjunction with a server product called Team Foundation Server (TFS) used for work-item tracking, source-control, project-reporting, and document-sharing capabilities. Starting with the 2010 release, you can also install TFS on client operating systems, which allows individual professional developers to benefit from things such as source control.
+
 
 # .NET Platform Standard
 ![1](http://www.talkingdotnet.com/wp-content/uploads/2016/02/NET-Platform-Standard.png)
@@ -156,12 +174,16 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/runningOfApplication.gif)
 ![1](http://www.codemag.com/Article/Image/070013/01fig03.jpg)
 
+
+
 # Common Language Infrastructure (CLI)
 ![1](http://4.bp.blogspot.com/-wuiRLJOJfCY/U-ru1od5DJI/AAAAAAAABkY/iqjQMyPaeDw/s1600/.NET.png)
 ![1](http://nikgrozev.com/images/blog/NET%20for%20Java%20Devs%20in%20a%20nutshell/dot_net.jpg)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
 ![1](http://www.uadnan.com/media/u/2014/07/common-language-infrastructure.png)
+
+http://www.uadnan.com/dot-net-framework/the-common-language-infrastructure/
 
 # Base Class Library (BCL)
 * The Base Class Library (BCL), part of the Framework Class Library (FCL), is a library of functionality available to all languages using the.NET Framework. 
@@ -170,6 +192,23 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 ![1](http://modernpathshala.com/Images/dot-net-interview/Question/1947177520160401113030Base-class-library.JPG)
 ![1](https://devreminder.files.wordpress.com/2011/03/aspnetbcl.gif)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled7.png?w=768)
+
+# Microsoft .NET Framework Base Class Library
+* System contains the primitive data types like Int32, Double, String, Booleans, and others.
+* System.Collections provides access to convenient collection types such as lists, sets, and dictionaries.
+* System.Data is the one-stop shop for data access functionality with support for online and offline data access, targeting various kinds of databases.
+* System.Diagnostics allows for interacting with system services for event logs, performance counters, processes, and so on.
+* System.Globalization contains classes that are used for writing globalized applications.
+* System.IO provides the constructs required to do all sorts of input/output, with streams, support for files, named pipes, and such.
+* System.Linq is where support for Language Integrated Query lives, enabling easier access to all sorts of data through integrated language syntax.
+* System.Net contains classes for networking, supporting various well-known proto- cols such as TCP, UDP, and HTTP.
+* System.Reflection allows runtime inspection of managed types as well as dynamic generation of IL code.
+* System.Security wraps all the security-related functionality, ranging from CAS and permissions to cryptography.
+* System.ServiceModel is the root namespace for the WCF APIs used in service- oriented programming.
+* System.Text has several useful types for manipulation of text, support for different encoding schemes, and use of regular expressions.
+* System.Web is where ASP.NET finds its home, containing various web controls, configuration APIs, support for server-side caching, and so on.
+* System.Windows makes a home for various user interface technologies such as Windows Forms and the WPF.
+* System.Xml obviously provides XML support of all sorts, including schema and transformation APIs, LINQ support, and more.
 
 
 # Framework Class Library (FCL) - 
@@ -217,6 +256,8 @@ http://chennadi.blogspot.com/2010/01/what-are-components-of-dotnet-framework.htm
 ![1](http://images.slideplayer.com/21/6309780/slides/slide_3.jpg)
 ![1](http://www.uadnan.com/media/u/2014/07/common-type-structure.png)
 
+http://www.uadnan.com/dot-net-framework/the-common-type-system-explained/
+
 # Common Intermediate Language (CIL)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
@@ -260,6 +301,27 @@ This compiles entire assembly into native code instead of used methods.
 ![1](http://www.techstrikers.com/images/prejitcompiler.PNG)
 
 
+
+# DotNet Application Boot Strapping
+http://www.codeproject.com/Articles/808838/DotNet-Application-Boot-Strapping
+http://www.codeproject.com/KB/dotnet/808838/BootStrapping.png
+http://www.uadnan.com/media/u/loading-clr-runtime.png
+http://www.uadnan.com/media/u/prcoess-appdomain-os.png
+http://www.uadnan.com/media/u/jit-in-action.png
+http://www.uadnan.com/media/u/cas-stack-wall.png
+
+
+http://www.uadnan.com/dot-net-framework/diving-into-clr-runtime/
+http://www.uadnan.com/dot-net-framework/diving-into-clr-runtime-part-2/
+
+
+# mscorlib.dll
+Microsoft Common Object Runtime Library.
+
+# mscoree.dll
+
+# clr.dll
+http://cdn.dlldownloader.com/assets/uploads/images/en/dll/m/mscoree-dll/deleting-the-damaged-registry-of-the-mscoree-dll.jpg
 
 
 
