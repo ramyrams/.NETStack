@@ -557,3 +557,27 @@ http://www.codeproject.com/Articles/416471/CLR-Hosting-Customizing-the-CLR
 
 # Native Image Generator (Ngen.exe)
 ![1](https://i0.wp.com/msdn.microsoft.com/msdnmag/issues/05/04/NGen/fig01.gif)
+
+
+
+
+http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/ajyadav123/advance-net-assembly-internals-part-2/Images/command%20prompt.jpg
+http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/ajyadav123/advance-net-assembly-internals-part-2/Images/bin%20folder.jpg
+
+http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/dacca2/register-your-assembly-in-gac-using-gacutil-exe/Images/GAC6.jpg
+
+
+http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/dacca2/register-your-assembly-in-gac-using-gacutil-exe/Images/GAC2.jpg
+http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/dacca2/register-your-assembly-in-gac-using-gacutil-exe/Images/GAC3.jpg
+http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/dacca2/register-your-assembly-in-gac-using-gacutil-exe/Images/GAC4.jpg
+http://jussionsharepoint.com/wp-content/uploads/2012/02/image_thumb7.png
+http://jussionsharepoint.com/wp-content/uploads/2012/02/image_thumb8.png
+
+https://www.universalthread.com/Magazine/October2003/willymarroquin1.gif
+https://www.universalthread.com/Magazine/October2003/willymarroquin2.gif
+https://www.universalthread.com/Magazine/October2003/willymarroquin8.gif
+
+
+
+http://www.jagjot.com/wp-content/uploads/2014/01/cmd.gif
+
