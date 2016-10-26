@@ -41,7 +41,7 @@
 
 
 # LINQ
-http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ2.png
+![1](http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ2.png)
 
 
 
@@ -54,15 +54,15 @@ http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ2.png
 * Extension Methods
 * Query Syntax
 
-http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ.gif
-http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ1.png
+![1](http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ.gif)
+![1](http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ1.png)
 
 
 # Automatic Properties
-https://community.devexpress.com/blogs/markmiller/WindowsLiveWriter/CodeRushXpressforCandVisualBasic2008_104AB/ConvertToAutoImplementedPropertyConvertAll_7eb9ea7c-0f78-46d7-954e-bf5332ae392f.png
+![1](https://community.devexpress.com/blogs/markmiller/WindowsLiveWriter/CodeRushXpressforCandVisualBasic2008_104AB/ConvertToAutoImplementedPropertyConvertAll_7eb9ea7c-0f78-46d7-954e-bf5332ae392f.png)
 
 # Local Variable Type Inference
-http://image.slidesharecdn.com/csharpv3-0-090701234157-phpapp01/95/c-30-language-innovations-21-728.jpg?cb=1246491782
+![1](http://image.slidesharecdn.com/csharpv3-0-090701234157-phpapp01/95/c-30-language-innovations-21-728.jpg)
 
 # Object Initializers & Collection Initializers
 
@@ -73,16 +73,16 @@ cat.CatID = 1;
 cat.Name = "Pepsi Ko";
 ```
 
-http://images.michaelsync.net/images/2008/02/vs-intellisense-for-object-initializer-2.JPG
-http://www.scottgu.com/blogposts/extensionmethods/populatelist.jpg
+![1](http://images.michaelsync.net/images/2008/02/vs-intellisense-for-object-initializer-2.JPG)
+![1](http://www.scottgu.com/blogposts/extensionmethods/populatelist.jpg)
 
 
 # Anonymous Types
-http://abundantcode.com/wp-content/uploads/2015/06/image2.png
-http://www.scottgu.com/blogposts/anonymoustypes/step10.jpg
-http://www.scottgu.com/blogposts/anonymoustypes/step8.jpg
-http://www.scottgu.com/blogposts/anonymoustypes/step9.jpg
-http://www.developerfusion.com/article/7556/new-c-30-language-features/4/
+![1](http://abundantcode.com/wp-content/uploads/2015/06/image2.png)
+![1](http://www.scottgu.com/blogposts/anonymoustypes/step10.jpg)
+![1](http://www.scottgu.com/blogposts/anonymoustypes/step8.jpg)
+![1](http://www.scottgu.com/blogposts/anonymoustypes/step9.jpg)
+![1](http://www.developerfusion.com/article/7556/new-c-30-language-features/4/
 
 
 
@@ -90,57 +90,50 @@ http://www.developerfusion.com/article/7556/new-c-30-language-features/4/
 
 
 # Lambda Expression
-https://blufiles.storage.live.com/y1pTWBmO5D4abTmhuYW--0MhMT-j9RMBX_BF7Iwk9CKPUvukUVwwHG3lT0aZivyGoXMoVo__VBRn5k/SAA_Lamda_2.JPG?psid=1
-http://www.scottgu.com/blogposts/lambda/step1.jpg
-http://www.scottgu.com/blogposts/lambda/step2.jpg
+![1](https://blufiles.storage.live.com/y1pTWBmO5D4abTmhuYW--0MhMT-j9RMBX_BF7Iwk9CKPUvukUVwwHG3lT0aZivyGoXMoVo__VBRn5k/SAA_Lamda_2.JPG)
+![1](http://www.scottgu.com/blogposts/lambda/step1.jpg)
+![1](http://www.scottgu.com/blogposts/lambda/step2.jpg)
 
 Oldway
-http://www.scottgu.com/blogposts/lambda/step4.jpg
-
-http://www.scottgu.com/blogposts/lambda/step5.jpg
-http://www.scottgu.com/blogposts/lambda/step6.jpg
-http://www.scottgu.com/blogposts/lambda/step8.jpg
+![1](http://www.scottgu.com/blogposts/lambda/step4.jpg)
+![1](http://www.scottgu.com/blogposts/lambda/step5.jpg)
+![1](http://www.scottgu.com/blogposts/lambda/step6.jpg
+![1](http://www.scottgu.com/blogposts/lambda/step8.jpg)
 
 
 # IQueryable<T> Interface
-http://www.scottgu.com/blogposts/lambda/step10.jpg
+![1](http://www.scottgu.com/blogposts/lambda/step10.jpg)
 
 
 
 # Landa History
-http://image.slidesharecdn.com/hottrendlambdaexpressioncomparecsharpwithjava-150419231038-conversion-gate01/95/hot-trend-lambda-expressions-compare-c-with-java-19-638.jpg?cb=1429485151
-http://image.slidesharecdn.com/hottrendlambdaexpressioncomparecsharpwithjava-150419231038-conversion-gate01/95/hot-trend-lambda-expressions-compare-c-with-java-20-638.jpg?cb=1429485151
+![1](http://image.slidesharecdn.com/hottrendlambdaexpressioncomparecsharpwithjava-150419231038-conversion-gate01/95/hot-trend-lambda-expressions-compare-c-with-java-19-638.jpg)
+![1](http://image.slidesharecdn.com/hottrendlambdaexpressioncomparecsharpwithjava-150419231038-conversion-gate01/95/hot-trend-lambda-expressions-compare-c-with-java-20-638.jpg)
 
 # Extension Methods
-Extension methods allow developers to add new methods to the public contract of an existing CLR type, without having to sub-class it or recompile the original type.  Extension Methods help blend the flexibility of "duck typing" support popular within dynamic languages today with the performance and compile-time validation of strongly-typed languages.
+* Extension methods allow developers to add new methods to the public contract of an existing CLR type, without having to sub-class it or recompile the original type.  
+* Extension Methods help blend the flexibility of "duck typing" support popular within dynamic languages today with the performance and compile-time validation of strongly-typed languages.
 
-http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/extension-methods-in-C-Sharp-3-0/Images/extensionMethod.gif
-http://www.scottgu.com/blogposts/extensionmethods/step1.jpg
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/extension-methods-in-C-Sharp-3-0/Images/extensionMethod.gif
+http://www.scottgu.com/blogposts/extensionmethods/step1.jpg)
 
 
 # Query & Method Syntax
-http://blogs.msmvps.com/deborahk/files/2016/01/image-4.png
+![1](http://blogs.msmvps.com/deborahk/files/2016/01/image-4.png)
 
 
 
 
-http://www.codeproject.com/Articles/19154/Understanding-LINQ-C
+![1](http://4.bp.blogspot.com/-_HsHikmChBI/VmQGJjLKgyI/AAAAAAAAEPw/JaLnV0bsbEo/s1600/sql%2Bjoins%2Bguide%2Band%2Bsyntax.jpg)
+![1](http://www.codeproject.com/KB/linq/LINQ-DLINQ-XLINQ-PLINQ/qexp.png)
+
+
+
+
+
 
 
 http://www.slideshare.net/junseokjung1/hot-trend-lambda-expressions-compare-c-with-java
-
-
-
-http://4.bp.blogspot.com/-_HsHikmChBI/VmQGJjLKgyI/AAAAAAAAEPw/JaLnV0bsbEo/s1600/sql%2Bjoins%2Bguide%2Band%2Bsyntax.jpg
-
-
-
-
-http://www.codeproject.com/KB/linq/LINQ-DLINQ-XLINQ-PLINQ/qexp.png
-
-
-
-
 
 
 * [Understanding LINQ](http://www.codeproject.com/Articles/19154/Understanding-LINQ-C)
