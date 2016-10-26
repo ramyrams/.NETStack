@@ -176,6 +176,12 @@ http://www.c-sharpcorner.com/uploadfile/8ef97c/interview-question-on-net-framewo
 
 
 # Common Language Infrastructure (CLI)
+* The Common Language Infrastructure (CLI) is an open specification (technical standard) developed by Microsoft and standardized by ISO and ECMA that describes executable code and a runtime environment that allows multiple high-level languages to be used on different computer platforms without being rewritten for specific architectures. 
+* This implies it is platform agnostic. The .NET Framework and the free and open source Mono and Portable.NET are implementations of the CLI.
+* A platform-independent development system from Microsoft that enables programs written in different programming languages to run on different types of hardware. 
+* The CLI includes the Common Type System (CTS) and Common Language Specification (CLS). 
+* No matter which programming language they are written in, CLI applications are compiled into Intermediate Language (IL), which is further compiled into the target machine language by the Common Language Runtime (CLR) software.
+
 ![1](http://4.bp.blogspot.com/-wuiRLJOJfCY/U-ru1od5DJI/AAAAAAAABkY/iqjQMyPaeDw/s1600/.NET.png)
 ![1](http://nikgrozev.com/images/blog/NET%20for%20Java%20Devs%20in%20a%20nutshell/dot_net.jpg)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
@@ -242,6 +248,18 @@ http://chennadi.blogspot.com/2010/01/what-are-components-of-dotnet-framework.htm
 
 
 # Common Type System (CTS)
+* The Common Type System (CTS) is a standard for defining and using data types in the .NETframework. CTS defines a collection of data types, which are used and managed by the run time to facilitate cross-language integration.
+* The common type system defines how types are declared, used, and managed in the common language runtime, and is also an important part of the runtime's support for cross-language integration.
+* It is intended to allow programs written in different programming languages to easily share information.
+* CTS provides the types in the .NET Framework with which .NET applications, components and controls are built in different programming languages so information is shared easily. 
+* In contrast to low-level languages like C and C++ where classes/structs have to be used for defining types often used (like date or time), CTS provides a rich hierarchy of such types without the need for any inclusion of header files or libraries in the code.
+
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/cb1429/cts-common-type-system-in-net/Images/CTS.jpg)
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/cb1429/cts-common-type-system-in-net/Images/Visual%20Basic%20Data%20type%20Declaration.jpg)
+![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/cb1429/cts-common-type-system-in-net/Images/Visual%20Studio%20x64%20Command%20Prompt.jpg)
+
+http://www.c-sharpcorner.com/UploadFile/cb1429/cts-common-type-system-in-net/
+
 ![1](http://3.bp.blogspot.com/-BH1SXgx2TGM/U-rSMMAy1CI/AAAAAAAABjk/3RiwLG15DP0/s1600/CTS%2BDataType%2BRelationship.PNG)
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/puranindia/benefits-of-the-net-framework/Images/cts-type-hei.gif)
 ![1](http://2.bp.blogspot.com/-lEr9_U40J1A/UiWI0qzbCsI/AAAAAAAABMU/epiiI4jkA38/s640/Common+Type+System+Architecture.jpg)
@@ -258,6 +276,12 @@ http://chennadi.blogspot.com/2010/01/what-are-components-of-dotnet-framework.htm
 http://www.uadnan.com/dot-net-framework/the-common-type-system-explained/
 
 # Common Intermediate Language (CIL)
+* CIL is a low level language based on the Common language Infrastructure specification document. (http://www.ecma-international.org/publications/standards/Ecma-335.htm). 
+* CIL was earlier referred as MSIL (Microsoft Intermediate Language) but later changed to CIL to standardize the  name of the language which is based on the Common Language Infrastructure specification.
+* CIL is CPU and platform-independent instructions that can be executed in any environment supporting the Common Language Infrastructure, such as the .NET run time  or the cross-platform Mono run time. 
+* These instructions are later processed by run time compiler and is then converted into native language. 
+* CIL is an object-oriented assembly language, and is entirely stack-based.
+
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled6.png?w=768)
 ![1](https://abdelrahmanhosny.files.wordpress.com/2012/07/untitled5.png)
 ![1](http://images.slideplayer.com/24/7317073/slides/slide_8.jpg)
