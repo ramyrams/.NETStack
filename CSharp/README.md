@@ -30,8 +30,12 @@
 [Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23OOP.md)
 
 # [C# Collection]
-* Collection
+* Collection Objects
 * Enumerators and Iterators
+
+* [Collection Notes](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23_Collection_Notes.md)
+* [Collection Codes](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23_Collections_Codes.md)
+
 
 [Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23Collections)
 
