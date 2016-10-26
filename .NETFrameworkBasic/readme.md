@@ -816,3 +816,12 @@ bellow garpical prsenation may help to understand this better.
 http://4.bp.blogspot.com/-bQfXgLSVsDo/Ul6YjvsK7RI/AAAAAAAAAHk/t1sDWZCLjHI/s640/Assembly+Loading.png
 
 
+Domains Created by the CLR Bootstrap 
+http://i.msdn.microsoft.com/cc163791.fig02(en-us).gif
+
+
+MethodTable Layout
+http://i.msdn.microsoft.com/cc163791.fig09(en-us).gif
+
+EEClass Layout 
+http://i.msdn.microsoft.com/cc163791.fig13(en-us).gif
