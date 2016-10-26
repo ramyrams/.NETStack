@@ -14,12 +14,11 @@
   * Role of CLR
   * Virtual Execution System (VES)
 * Common Language Infrastructure(CLI)
-* Intermediate Language
+* Common Language Specification (CLS)
   * Common Intermediate Language (CIL)
   * Microsoft Intermediate Language (MSIL)
 * Framework Class Library (FCL)
 * Base Class Library (BCL)
-* Common Language Specification (CLS)
 * Common Type System (CTS)
 * Just In Time Compilers (JITers)
 * .NET Assemblies
