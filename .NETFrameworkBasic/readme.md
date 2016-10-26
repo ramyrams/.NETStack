@@ -693,3 +693,32 @@ http://www.codeproject.com/Articles/416471/CLR-Hosting-Customizing-the-CLR
 * combine Hello.dll with GoodBye.dll and put them into a Private Assembly we call GreetAssembly.dll
 * DotNet> al /t:library /out:bin\GreetAssembly.dll bin\Hello.dll bin\GoodBye.dll
 http://www.akadia.com/img/dotnet_step1.gif
+
+
+
+# Loading the CLR
+* CLR is responsible for managing the execution of code contained within  assemblies, in other words  .NET Framework must be installed on the host machine. 
+* We can check whether .Net framework is installed in the machine by searching  MSCorEE.dll file in %windir%\system32 directory.
+* The compiler/linker emits some special information into  the PE File header and in  .text section which causes the CLR to load in detail we can say a x86 stub function called JMP _CorExeMain(for .exe)/ JMP _CorDllMain(for .DLL) which is is imported from MSCorEE.dll is emitted into the .text section of the PE file that’s why MSCorEE.dll is referenced in the import (.idata) section of the assembly.
+* Initially Windows loader loads the Assembly  as normal or any unmanaged file  from .idata section its analyze that MSCorEE.dll should also be loaded .the after obtaining the address of _CorExeMain/ _CorDllMain function from MSCorEE.dll loader JMP instruction is embedded  in the managed EXE.
+* After initializing the CLR the primary thread of the process  then looks at the CLR header of assembly to determine the managed entry point method  for execution. IL code for the method is then compiled into native CPU instructions, after which the CLR moves to the native code.On Windows XP and the Windows .NET Servers, when a managed assembly is invoked by CreateProcess or LoadLibrary method.
+* Note: Hosts such as Microsoft Internet Explorer, ASP.NET, and the Windows shell load the common language runtime into a process, create an application domain in that process, and then load and execute user code in that application domain when running a .NET Framework application.
+
+# Application Domains
+Its main purpose is to provide isolation between applications so that execution or exceptions of one application shouldn’t affect other. It is same as Windows uses processes to isolate applications and CLR uses Appdomains including the isolation Appdomains also provide security, reliability, and versioning .
+
+
+# Executing the Code from Assembly
+
+* In order to execute a method, its IL code must first be converted to native CPU instructions. To make this conversion, the CLR provides a JIT (just-in-time) compiler, before the Main method executes CLR detects all the types that are referenced  in Main and Creates internal data structures to manage the access to respective types internal data structure contains an entry for each method defined by that type and also holds the address of he method implementation in IL this creating structure and setting entry to  each function is achieved through the JIT.
+* When Main makes its first call to any types methos, the JITCompiler function is called. 
+* The JITCompiler function is responsible for compiling a method’s IL code into native CPU instructions.
+* JITCompiler function knows what method is being called and what type defines this method.
+* The JITCompiler function then searches the defining assembly’s metadata for the called method’s IL.
+* After verifying  and compiling the IL code into native CPU instructions, it  saved in a dynamically allocated block of memory. JITCompiler goes back to the type’s internal data structure and replaces the address of the called method with the address of the block of memory containing the native CPU instructions. 
+And , JITCompiler jumps to the code in the memory block. This code is the implementation of the method , how ever calling to same function then directly goes to the  native code in memory and skips the JIT role
+bellow garpical prsenation may help to understand this better.
+
+http://4.bp.blogspot.com/-bQfXgLSVsDo/Ul6YjvsK7RI/AAAAAAAAAHk/t1sDWZCLjHI/s640/Assembly+Loading.png
+
+
