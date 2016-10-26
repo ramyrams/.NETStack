@@ -1,4 +1,14 @@
 
+# TOC
+
+* New Language Features
+  * Automatic Properties
+  * Local Variable Type Inference
+  * Object Initializers & Collection Initializers
+  * Anonymous Types
+  * Lambda Expressions
+  * Extension Methods
+  * Query Syntax
 * Lambda Queries 
 * Comprehension Queries 
 * Deferred Execution 
