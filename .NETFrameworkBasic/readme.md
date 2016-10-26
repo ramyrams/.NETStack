@@ -366,7 +366,14 @@ Microsoft Common Object Runtime Library.
 # clr.dll
 http://cdn.dlldownloader.com/assets/uploads/images/en/dll/m/mscoree-dll/deleting-the-damaged-registry-of-the-mscoree-dll.jpg
 
-
+Then Question (?) is from where all the packages required for compiling a program comes from :
+But Heart of the CLR comes from MSCorEE.dll
+Located in %windir%\system32 and the same is used to run lot of task in .Net environment. this provides the core engine that binds all the external elements together and is responsible for initiating GC, JIT compilation etc.
+So we can think MSCorEE.dll is the master Process( we can think of) that makes CLR and Not alone a “CLR “.
+mscorlib.dll:-
+The mscorlib.dll Dynamic Link Library is a shared assembly, which consists of the very important base class libraries of .Net framework
+Use Reflector or ILDASM.exe to see whats inside.
+ mscorlib.dll  is used in.Net framework in managing the execution of the programs written specifically for the framework.
 
 
 # .NET Assemblies
