@@ -5,12 +5,8 @@
 ## .NET Framework Basic
 Go to .NET Framework Basic [Page](https://github.com/ramyrams/.NETStack/tree/master/.NETFrameworkBasic)
 
-## .NET Core
-Go to .NET core [Page](https://github.com/ramyrams/.NETStack/blob/master/.NET-Core/readme.md)
-
 ## [C#]
 * Go to C# [Page](https://github.com/ramyrams/.NETStack/tree/master/CSharp)
-* Go to OOPS Basic [Page](https://github.com/ramyrams/SoftwareEngineering/blob/master/SoftwareArchitecture/OOPSBasics.md)
 
 ## ASP.NET	
 Go to ASP.NET [Page](https://github.com/ramyrams/.NETStack/tree/master/ASP.NET)
@@ -23,6 +19,10 @@ Go to EntityFramework [Page](https://github.com/ramyrams/.NETStack/tree/master/E
 
 ## LINQ	
 Go to LINQ [Page](https://github.com/ramyrams/.NETStack/tree/master/LINQ)
+
+## .NET Core
+Go to .NET core [Page](https://github.com/ramyrams/.NETStack/blob/master/.NET-Core/readme.md)
+
 
 ## SQLServer
 Go to SQLServer# [Page](https://github.com/ramyrams/.NETStack/tree/master/SQLServer)
