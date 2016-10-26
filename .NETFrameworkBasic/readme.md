@@ -300,21 +300,33 @@ http://www.uadnan.com/dot-net-framework/the-common-type-system-explained/
 # Just In Time Compilers (JITers)
 
 ## Different Types of JIT
-* Normal JIT
-* Econo JIT
-* Pre JIT
+* Before MSIL(MS Intermediate Language) can be  executed, it must converted by .net Framework Just in time (JIT) compiler to  native code, which is CPU specific code that run on some computer architecture  as the JIT compiler. 
+* Rather than using time and memory to convert all the MSIL  in portable executable (PE) file to native code, it converts the MSIL as it is  needed during execution and stored in resulting native code so it is accessible  for subsequent calls.
+
+* **Normal JIT Compiler** (Compiles only that part of code when called and places in cache
+* **Econo JIT Compiler** (Compiles code part by part freeing when required)
+* **Pre-JIT Compiler** (Compiles entire code into native code completely)
+
 
 ### Normal JIT
 Normal JIT Compiler compile the methods at run time and then they are stored in memory cache. This memory cache is commonly referred as "JITTED".
 
 Once stored in cache, no further compilation is required for the same method. Subsequent method calls are accessible directly from the memory cache.
 
+Normal-JIT compiles only those methods that are called at runtime. These methods are compiled the first time they are called, and then they are stored in cache. When the same methods are called again, the compiled code from cache is used for execution.
+
+These methods are compiled the first time they are called, and then they are stored in cache. When the same methods are called again, the compiled code from cache is used for execution.
+
+
 ### Econo JIT
 This compiler compile methods when called at runtime and removes them from memory once execution completed.
+
+Econo-JIT compiles only those methods that are called at runtime. However, these compiled methods are removed when they are not required.
 
 ### Pre JIT
 This compiles entire assembly into native code instead of used methods.
 
+Pre-JIT compiles complete source code into native code in a single compilation cycle. This is done at the time of deployment of the application.
 
 ![1](http://www.techstrikers.com/images/Compile.PNG)
 ![1](http://4.bp.blogspot.com/-5uexl8g32GQ/UiWKNW5ZoyI/AAAAAAAABMg/AOTw3UuxKOo/s640/jit.jpg)
