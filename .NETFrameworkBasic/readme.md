@@ -420,6 +420,8 @@ http://www.akadia.com/services/dotnet_assemblies.html
 * **Shared Assemblies** are shared between multiple applications to ensure reusability. They are placed in GAC.
 * **Satellite Assemblies** are the assemblies to provide the support for multiple languages based on different cultures. These are kept in different modules based on the different categories available.
 
+
+
 ![1](http://images.slideplayer.com/24/7321493/slides/slide_12.jpg)
 
 # Static Assemblies vs Dynamic assemblies
