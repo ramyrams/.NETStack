@@ -27,7 +27,14 @@
 * Interfaces 
 * Polymorphism 
 
-[Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23OOP.md)
+* [OOPS Basic Page](https://github.com/ramyrams/SoftwareEngineering/blob/master/SoftwareArchitecture/OOPSBasics.md)
+* [OOPS C# Page](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23OOP.md)
+* [OOPS Design Principles Page](https://github.com/ramyrams/SoftwareEngineering/blob/master/SoftwareArchitecture/OOPSDesignPrinciples.md)
+* [UML Page](https://github.com/ramyrams/SoftwareEngineering/blob/master/SoftwareArchitecture/uml.md)
+* [Design Patterns Page](https://github.com/ramyrams/SoftwareEngineering/blob/master/SoftwareArchitecture/DesignPatterns/readme.md)
+
+
+
 
 # [C# Collection]
 * Collection Objects
