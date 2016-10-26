@@ -10,8 +10,8 @@ Go to .NET Framework Basic [Page](https://github.com/ramyrams/.NETStack/tree/mas
 Go to .NET core [Page](https://github.com/ramyrams/.NETStack/blob/master/.NET-Core/readme.md)
 
 ## [C#]
-Go to C# [Page](https://github.com/ramyrams/.NETStack/tree/master/CSharp)
-Go to OOPS Basic [Page](https://github.com/ramyrams/SoftwareEngineering/blob/master/SoftwareArchitecture/OOPSBasics.md)
+* Go to C# [Page](https://github.com/ramyrams/.NETStack/tree/master/CSharp)
+* Go to OOPS Basic [Page](https://github.com/ramyrams/SoftwareEngineering/blob/master/SoftwareArchitecture/OOPSBasics.md)
 
 ## ASP.NET	
 Go to ASP.NET [Page](https://github.com/ramyrams/.NETStack/tree/master/ASP.NET)
