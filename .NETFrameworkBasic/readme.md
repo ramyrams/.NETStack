@@ -410,6 +410,10 @@ http://cdn.dlldownloader.com/assets/uploads/images/en/dll/m/mscoree-dll/deleting
 
 # Assembly
 
+* An assembly is the smallest unit of reuse, security, and versioning which is formed by logical grouping of one or more managed modules.
+* An assembly may be either an executable file .EXE or a dynamic link library .DLL .it is the fundamental unit of any .NET application. 
+* It contains the code that is executed by CLR .An assembly contains name, version, types (classes and others) created in it and details about other assemblies it references.
+
 http://1.bp.blogspot.com/-p_BJO7ZQxDA/Ul6YEIgDvZI/AAAAAAAAAHM/weD7Q2VoON4/s1600/Structure+of+an+Assembly.png
 
 http://www.akadia.com/services/dotnet_assemblies.html
