@@ -506,6 +506,9 @@ Read More - [Metadata in the.NET assemblies](http://slideplayer.com/slide/658602
 
 
 # Global Assembly Cache (GAC)
+* The Global Assembly Cache or GAC, is a machine-wide cache for .NET assemblies. 
+* GAC can be found under %SYSTEMROOT%Assembly – normally this maps to C:WindowsAssembly:
+
 ![1](http://help.infragistics.com/Help/Doc/ASPNET/2011.2/CLR4.0/html/images/Web_DeploymentGuide_DeploymentUsingtheGAC_02.png)
 ![1](http://help.infragistics.com/Help/Doc/WinForms/2012.1/CLR2.0/html/images%5CWin_DeploymentGuide_DeploymentUsingtheGAC_01.png)
 ![1](http://www.onlinebuff.com/artimages/gac6.jpg)
