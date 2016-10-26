@@ -532,6 +532,9 @@ https://i-msdn.sec.s-msft.com/dynimg/IC7661.gif
 
 * The manifest information embedded within an assembly can be viewed using IL Disassembler (ILDASM.exe) which is available as part of Microsoft Windows SDK.
 
+## Example manifest as displayed by the IL Disassembler
+https://i-msdn.sec.s-msft.com/dynimg/IC52043.gif
+
 ## Assembly manifest contents
 1. Assembly name : textual string name of the Assembly.
 2. Version number of the assembly: which has four numbers in the format major.minor.revison.build
@@ -540,6 +543,7 @@ https://i-msdn.sec.s-msft.com/dynimg/IC7661.gif
 5. List of files in the assembly
 6. Type reference information - informs which type is in which file of the assembly
 7. Information about referenced assemblies - Contains list of other assemblies.
+
 
 
 ![1](http://i.stack.imgur.com/jQp45.jpg)
