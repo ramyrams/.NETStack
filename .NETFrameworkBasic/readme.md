@@ -402,6 +402,8 @@ http://cdn.dlldownloader.com/assets/uploads/images/en/dll/m/mscoree-dll/deleting
 
 # Assembly
 
+http://www.akadia.com/services/dotnet_assemblies.html
+
 # Types of assemblies:
 
 * **Private Assemblies** are accessible by a single application. They reside within the application folder and are unique by name. They can be directly used by copying and pasting them to the bin folder.
@@ -671,3 +673,8 @@ http://www.codeproject.com/Articles/416471/CLR-Hosting-Customizing-the-CLR
 ![1](https://www.universalthread.com/Magazine/October2003/willymarroquin8.gif)
 ![1](http://www.jagjot.com/wp-content/uploads/2014/01/cmd.gif)
 
+# # The Assembly Linker (AL)
+* Group DLLs in a Private Assembly - The Assembly Linker (AL)
+* combine Hello.dll with GoodBye.dll and put them into a Private Assembly we call GreetAssembly.dll
+* DotNet> al /t:library /out:bin\GreetAssembly.dll bin\Hello.dll bin\GoodBye.dll
+http://www.akadia.com/img/dotnet_step1.gif
