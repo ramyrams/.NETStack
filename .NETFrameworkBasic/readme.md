@@ -410,6 +410,8 @@ http://cdn.dlldownloader.com/assets/uploads/images/en/dll/m/mscoree-dll/deleting
 
 # Assembly
 
+http://1.bp.blogspot.com/-p_BJO7ZQxDA/Ul6YEIgDvZI/AAAAAAAAAHM/weD7Q2VoON4/s1600/Structure+of+an+Assembly.png
+
 http://www.akadia.com/services/dotnet_assemblies.html
 
 # Types of assemblies:
