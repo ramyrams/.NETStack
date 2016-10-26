@@ -22,19 +22,27 @@
 * Common Type System (CTS)
 * Just In Time Compilers (JITers)
 * .NET Assemblies
-  * Portable executable (PE)
-  * CLR Header
-  * Metadata
-  * Resources
-* Assembly Versioning
-* Satellite Assembly
+  * Type of Assemblies
+    * Static/Dynamic assembly
+    * Private assembly
+    * Public assembly
+    * Satellite assembly
+  
+  * Part of Assemblies
+    * Portable executable (PE)
+    * CLR Header
+    * Metadata
+    * Resources
+  
 * Global Assembly Cache (GAC)
+* Satellite Assembly
+* Assembly Versioning
+
 * Managed/UnManaged Code
-* .NET Applications
 * Strong Named Assemblies
 * Side-By-Side Execution
 * Application Domain
-* NET Garbage Collection (GC)
+* Garbage Collection (GC)
 * Code Access Security
 * CLR Hosting
 * .NET Framework Tools
