@@ -375,6 +375,13 @@ The mscorlib.dll Dynamic Link Library is a shared assembly, which consists of th
 Use Reflector or ILDASM.exe to see whats inside.
  mscorlib.dll  is used in.Net framework in managing the execution of the programs written specifically for the framework.
 
+#mscorwks.dll
+
+#clrjit.dll
+
+#mscorjit.dll
+
+
 
 # .NET Assemblies
 
