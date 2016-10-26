@@ -1,4 +1,33 @@
 
+* Lambda Queries 
+* Comprehension Queries 
+* Deferred Execution 
+* Subqueries 
+* Composition Strategies 
+* Projection Strategies 
+* Interpreted Queries 
+* LINQ to SQL 
+* Building Query Expressions 
+* Filtering
+* Projecting
+* Joining 
+* Ordering
+* Grouping 
+* Set Operators 
+* Conversion Methods 
+* Element Operators 
+* Aggregation Methods 
+* Quantifiers 
+* Generation Methods 
+* LINQ to XML 
+* Updating an X-DOM 
+* Working with Values 
+* Documents and Declarations 
+* Names and Namespaces 
+* Projecting into an X-DOM 
+
+
+
 * [Understanding LINQ](http://www.codeproject.com/Articles/19154/Understanding-LINQ-C)
 
 # LINQ Cheat Sheet
