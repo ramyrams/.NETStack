@@ -383,6 +383,16 @@ http://cdn.dlldownloader.com/assets/uploads/images/en/dll/m/mscoree-dll/deleting
 ![1](http://image.slidesharecdn.com/csharpjn-090514144345-phpapp02/95/c-sharp-jn-21-728.jpg?cb=1242312262)
 ![1](http://foxcentral.net/microsoft/NETforVFPDevelopers_Chapter01_files/image005.jpg)
 
+
+#  Characteristics of the Solution
+The .NET Framework must provide the following basic capabilities to solve the problems just described:
+Applications must be self-describing. Applications that are self-describing remove the dependency on the registry, enabling zero-impact installation and simplifying uninstall and replication.
+Version information must be recorded and enforced. Versioning support must be built into the platform to ensure that the proper version of a dependency gets loaded at run time.
+Must remember "last known good." When an application successfully runs, the platform must remember the set of components—including their versions—that worked together. In addition, tools must be provided that allow administrators to easily revert applications to this "last known good" state.
+Support for side-by-side components. Allowing multiple versions of a component to be installed and running on the machine simultaneously allows callers to specify which version they'd like to load instead of a version "forced" on unknowingly. The .NET Framework takes side by side a step farther by allowing multiple versions of the framework itself to coexist on a single machine. This dramatically simplifies the upgrade story, because an administrator can choose to run different applications on different versions of the .NET Framework if required.
+Application isolation. The .NET Framework must make it easy, and in fact the default, to write applications that cannot be affected by changes made to the machine on behalf of other applications.
+
+
 # Application Domain
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/8ef97c/interview-question-on-net-framework-or-clr/Images/Windows%20process.jpg)
 ![1](http://1.bp.blogspot.com/-NH5ybIP8lA4/UajDd8GVPGI/AAAAAAAACRM/jWJ6wpz2dDo/s1600/AppDomains.png)
@@ -505,6 +515,12 @@ https://www.simple-talk.com/wp-content/uploads/blogbits/simon.cooper/CLI%20Conte
 ![1](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/dhananjaycoder/demystifying-clr-part-i/Images/6.gif)
 Read More - [Metadata in the.NET assemblies](http://slideplayer.com/slide/6586025/)
 
+### DLL containing all assembly elements
+https://i-msdn.sec.s-msft.com/dynimg/IC33335.gif
+
+### Assembly elements spread across multiple files
+https://i-msdn.sec.s-msft.com/dynimg/IC7661.gif
+
 
 # Manifest
 * An Assembly Manifest is a file that containing Metadata about .NET Assemblies. 
@@ -514,6 +530,19 @@ Read More - [Metadata in the.NET assemblies](http://slideplayer.com/slide/658602
 * You can add or change some information in the Assembly Manifest by using assembly attributes in your code. 
 * The Assembly Manifest can be stored in either a PE file (an .exe or .dll) with Microsoft Intermediate Language (MSIL) code or in a standalone PE file that contains only assembly manifest information. Using ILDasm, you can view the manifest information for any managed DLL.
 
+* The manifest information embedded within an assembly can be viewed using IL Disassembler (ILDASM.exe) which is available as part of Microsoft Windows SDK.
+
+## Assembly manifest contents
+1. Assembly name : textual string name of the Assembly.
+2. Version number of the assembly: which has four numbers in the format major.minor.revison.build
+3. Culture : language assembly supports
+4. Strong name : For Global Assemblies
+5. List of files in the assembly
+6. Type reference information - informs which type is in which file of the assembly
+7. Information about referenced assemblies - Contains list of other assemblies.
+
+
+![1](http://i.stack.imgur.com/jQp45.jpg)
 ![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly3.png)
 ![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly1.png)
 ![1](http://2we26u4fam7n16rz3a44uhbe1bq2.wpengine.netdna-cdn.com/wp-content/uploads/071613_1201_NETAssembly8.png)
