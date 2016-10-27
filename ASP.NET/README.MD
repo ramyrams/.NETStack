@@ -1,5 +1,20 @@
 # ASP.NET
-
+* Context, Routes and Action methods
+* Model Binding and Validation
+* Using HTML Helper and Templates
+* Working with Views
+* ASP.NET Core Server Controls 
+* Ajax and RIA with ASP.NET
+* Caching in ASP.NET
+* Preparing & Deploying an ASP .NET Application
+* Authentication and Authorization
+* Infrastructure of the Application
+  * HttpApplication
+  * global.asax File
+  * HttpContext
+  * HttpServerUtility
+  * HttpResponse
+  * HttpRequest
 * ASP.NET Life Cycle
 * ASP.Net Page Life cycle
 * MVC Page Life Cycle
