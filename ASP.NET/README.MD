@@ -49,6 +49,8 @@
 
 
 
+# ASP.NET Configuration
+![1](http://www.codeproject.com/KB/server-management/websitecofig/config1.jpg)
 
 
 # ASP.NET - Life Cycle
