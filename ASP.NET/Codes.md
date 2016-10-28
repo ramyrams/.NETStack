@@ -25,7 +25,7 @@
 
 
 # ASP.NET - Directives
-```cs
+```asp.net
 <%@ Application Language="C#" %>
 
 <%@ Assembly Name="MyAssembly"%>
