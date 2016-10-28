@@ -73,6 +73,60 @@
 
 
 
+# ASP.NET Configuration
+```cs
+ConfigurationSettings.AppSettings("Emailto");
+```
+
+```xml
+<configuration>
+	<system.web>
+		<browserCaps provider="Samples.CustomProvider, Samples" />
+	</system.web>
+
+	<appSettings>
+		<add key="Emailto" value="me@microsoft.com" />
+		<add key="cssFile" value="CSS/text.css" />
+	</appSettings>
+	
+	<appSettings file="myfile.config" />
+
+</configuration>
+
+<connectionStrings>
+	<add name="NWind" connectionString="SERVER=...;DATABASE=...;UID=...;PWD=...;" providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+<authentication mode="None"/>
+<authentication mode="Windows"/>
+
+<authentication mode="Forms">
+  <forms name="Form" loginUrl="index.asp" />
+</authentication>
+
+<authentication mode="Passport">
+  <passport redirectUrl="internal" />
+</authentication>
+
+
+<authorization>
+	<allow users="comma-separated list of users" roles="comma-separated list of roles" 	verbs="comma-separated list of verbs" />
+	<deny users="comma-separated list of users" roles="comma-separated list of roles" 	verbs="comma-separated list of verbs" />
+</authorization>
+
+<identity impersonate="false" userName="domain\username" password="password" />
+
+
+<customErrors defaultRedirect="Errors/appGenericError.aspx" mode="On">
+  <error statusCode="403" redirect="/accesdenied.html" />
+  <error statusCode="404" redirect="/pagenotfound.html" />
+  <error statusCode="500" redirect="Errors/internal.aspx" />
+</customErrors>
+
+
+<error statusCode="403" redirect="/accesdenied.html" />
+<error statusCode="404" redirect="/pagenotfound.html" />
+```
 
 
 ```cs
