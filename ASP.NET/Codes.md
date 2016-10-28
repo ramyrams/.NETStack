@@ -79,6 +79,7 @@ ConfigurationSettings.AppSettings("Emailto");
 ```
 
 ```xml
+
 <configuration>
 	<system.web>
 		<browserCaps provider="Samples.CustomProvider, Samples" />
@@ -126,6 +127,140 @@ ConfigurationSettings.AppSettings("Emailto");
 
 <error statusCode="403" redirect="/accesdenied.html" />
 <error statusCode="404" redirect="/pagenotfound.html" />
+
+<globalization requestEncoding="utf-8" responseEncoding="utf-8" />
+
+<httpRuntime appRequestQueueLimit="50" executionTimeout="300" />
+
+<trace enabled="false" requestLimit="10" pageOutput="false" traceMode="SortByTime" locaOnly="true" />
+
+<sessionState mode="Off" 
+     cookieless="true" 
+     timeout="100" 
+     stateConnectionString="tcpip=server:port" 
+     sqlConnectionString="sql connection string"
+     stateNetworkTimeout="number of seconds"/>
+
+<cache disableMemoryCollection = "false" disableExpiration = "false" privateBytesLimit = "0" percentagePhysicalMemoryUsedLimit = "89" privateBytesPollTime = "00:02:00" />
+
+<outputCache defaultProvider="AspNetInternalProvider" enableOutputCache = "true" enableKernelCacheForVaryByStar = "false" enableFragmentCache = "true"
+sendCacheControlHeader = "true" omitVaryStar = "false">
+</outputCache>
+
+<outputCacheSettings>
+	<outputCacheProfiles>
+		<add name="ServerOnly" 	duration="60" 	varyByCustom="browser" />
+	</outputCacheProfiles>
+</outputCacheSettings>
+
+<sqlCacheDependency enabled="true" pollTime="1000">
+	<databases>
+		<add name="Northwind" connectionStringName="LocalNWind" />
+	</databases>
+</sqlCacheDependency>
+
+<deployment retail="true" />
+
+<healthMonitoring enabled="true|false" heartbeatInterval="HH:MM:SS">
+	<bufferModes>...</bufferModes>
+	<providers>...</providers>
+	<eventMappings>...</eventMappings>
+	<profiles>...</profiles>
+	<rules>...</rules>
+</healthMonitoring>
+
+<hostingEnvironment idleTimeout="HH:MM:SS" shadowCopyBinAssemblies="true|false" shutdownTimeout="number" urlMetadataSlidingExpiration="HH:MM:SS" />
+
+<httpCookies domain="string" httpOnlyCookies="true|false" requireSSL="true|false" />
+
+<identity impersonate="true" />
+
+<machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="HMACSHA256" decryption="Auto" />
+
+<membership>
+	<providers>
+		<add name="MyProvider" type="Samples.MyMembershipProvider" 		connectionStringName="MyConnString" 		enablePasswordRetrieval="false" 		enablePasswordReset="true"
+		requiresQuestionAndAnswer="true" passwordFormat="Hashed" />
+		...
+	</providers>
+</membership>
+
+<pages>
+	<controls>...</controls>
+	<namespaces>...</namespaces>
+	<tagMapping>...</tagMapping>
+	<ignoreDeviceFilters>...</ignoreDeviceFilters>
+</pages>
+
+
+<pages>
+	<tagMapping>
+		<add tagType="System.Web.UI.WebControls.TextBox" mappedTagType=	"Samples.MyTextBox" />
+	</tagMapping>
+</pages>
+
+
+<ignoreDeviceFilters>
+	<filter add="sys" />	
+</ignoreDeviceFilters>
+
+<processModel autoConfig="true"/>
+
+
+<profile>
+	<properties>
+		<add name="BackColor" type="string" />
+		<add name="ForeColor" type="string" />
+	</properties>
+</profile>
+
+
+<roleManager
+	cacheRolesInCookie="true|false"
+	cookieName="name"
+	cookiePath="/"
+	cookieProtection="All|Encryption|Validation|None"
+	cookieRequireSSL="true|false "
+	cookieSlidingExpiration="true|false "
+	cookieTimeout="number of minutes"
+	createPersistentCookie="true|false"
+	defaultProvider="provider name"
+	domain="cookie domain">
+	enabled="true|false"
+	maxCachedResults="maximum number of role names cached"
+	<providers>...</providers>
+</roleManager>
+
+
+<securityPolicy>
+	<trustLevel name="Full" policyFile="internal" />
+	<trustLevel name="High" policyFile="web_hightrust.config" />
+	<trustLevel name="Medium" policyFile="web_mediumtrust.config" />
+	<trustLevel name="Low" policyFile="web_lowtrust.config" />
+	<trustLevel name="Minimal" policyFile="web_minimaltrust.config" />
+</securityPolicy>
+
+
+<sitemap enabled="true|false" defaultProvider="provider name">
+	<providers>...</providers>
+</siteMap>
+
+<trust level="Full" originUrl="" />
+
+<location allowOverride="false">
+	<system.web>
+		<trust level="Medium" originUrl="" />
+	</system.web>
+</location>
+
+
+<urlMappings enabled="true">
+	<add url="~/main.aspx" mappedUrl="~/default.aspx?tab=main" />
+</urlMappings>
+
+<webControls clientScriptsLocation="/aspnet_client/{0}/{1}/" />
+
+
 ```
 
 
