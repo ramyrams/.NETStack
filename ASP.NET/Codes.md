@@ -25,6 +25,19 @@
 
 
 # ASP.NET - Directives
+* @Application 	
+* @Assembly 		
+* @Control 		
+* @Implements 		
+* @Import 			
+* @Master 			
+* @MasterType 		
+* @OutputCache 	
+* @Page 			
+* @PreviousPageType
+* @Reference  		
+* @Register 		
+
 ```asp.net
 <%@ Application Language="C#" %>
 
