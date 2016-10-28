@@ -2,6 +2,7 @@
 # ASP.NET
 
 ## TOC
+* ASP.NET - Directives
 * [Controllers](controllers)
 * [Views](views)
 * [Models](models)
@@ -21,6 +22,43 @@
 * [Caching Data](caching data)
 * [Caching Content](caching-content)
 * [ASP.NET Identity](asp.net-identity)
+
+
+# ASP.NET - Directives
+```cs
+<%@ Application Language="C#" %>
+
+<%@ Assembly Name="MyAssembly"%>
+<%@ Assembly src="MYAssembly.cs">
+
+<%@ Control Language="C#" EnableViewState="false" Explicit="True" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %>
+
+<%@ Implements Interface="System.Web.UI.IValidator"%>
+
+<%@ Import Namespace="System.Data"%>
+<%@ Import Namespace="Peter.Toybox" %>
+
+<%@ Master Language="C#" AutoEventWIreup="false" CodeFile="MasterPage1.master.cs" Inherits="MasterPage"%>
+
+<%@ MasterType VirtualPath="/MasterPage1.master"%>
+
+<%@ OutputCache Duration ="180" VaryByParam="None"%>
+<%@ OutputCache Duration="10" VaryByParam="location;count" %>
+
+<%@ Page Language="C#" Explicit="true" AutoEventWIreup="false" buffer="true" runat="server" CodeFile="Default.aspx.cs" Trace="true" Inherits="_Default"%>
+
+
+<%@ PreviousPageType VirtualPath="~/SourcePage.aspx"%>
+<%@ Reference  Page ="somepage.aspx" VirtualPath="~/MyControl.ascx"%>
+
+<%@ Register TagPrefix="MayTag Namespace="MyName.MyNameSpace" Assembly="MyAssembly"%>
+<%@ Register TagPrefix="OurTag" Tagname="Header" Src="header.ascx"%>
+<%@ Register  tagprefix="custom" namespace="Mycompany.namespace" assembly="Mycompany.namespace.control, Version=1.2.3.4,        PublicKeyToken=12345678abcdefgh, Culture=neutral"  %>
+
+```
+
+
+
 
 
 
