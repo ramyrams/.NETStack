@@ -1,7 +1,7 @@
 
 # LINQ
 
-
+https://www.dotnetperls.com/linq
 ## Lambda Expressions
 ```cs
 ( ArgumentsToProcess ) => { StatementsToProcessThem }
