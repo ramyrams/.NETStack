@@ -2,6 +2,8 @@
 # LINQ
 
 https://www.dotnetperls.com/linq
+http://linqsamples.com/linq-to-objects/conversion/AsEnumerable
+
 ## Lambda Expressions
 ```cs
 ( ArgumentsToProcess ) => { StatementsToProcessThem }
