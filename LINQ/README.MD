@@ -37,6 +37,11 @@
 * Projecting into an X-DOM 
 
 
+http://www.gmclan.org/uploader/1/linq.pdf
+http://www.tutorialsteacher.com/linq/linq-tutorials
+http://linq101.nilzorblog.com/linq101-lambda.php
+https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b
+http://linqsamples.com/
 
 
 
