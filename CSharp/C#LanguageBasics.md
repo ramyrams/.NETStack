@@ -175,6 +175,18 @@ char Horizontaltab = '\t'
 char Verticaltab = '\v' 
 ```
 
+# Default Value
+```cs
+sbyte, byte, short, ushort, int, uint, long, ulong = 0
+char = '\x0000'
+float = 0.0f
+double = 0.0d
+decimal = 0.0m
+bool = false
+object = null
+string = null
+```
+
 ## Strings 
 ```cs
 string a = "Heat";
