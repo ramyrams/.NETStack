@@ -124,6 +124,75 @@ salmons.Remove("coho");
 ```
 
 
+# SortedList
+```cs
+var sortedList = new SortedList<int, string>();
+sortedList.Add(1, "one");
+sortedList.Add(2, "two");
+sortedList.Add(3, "three");
+sortedList.Add(4, "four");
+
+// returns true
+sortedList.ContainsKey(1);
+
+// returns true
+sortedList.ContainsValue("two");
+
+// get index of key
+sortedList.IndexOfKey(1);
+
+// get index of value
+sortedList.IndexOfValue("two");
+
+// remove by key
+sortedList.Remove(3);
+
+// remove by index
+sortedList.RemoveAt(2);
+
+// lookup by key
+string value = sortedList[2];
+
+// get value by index
+string value = sortedList.Values[2];
+
+// get key by index
+int key = sortedList.Keys[2];
+
+string value;
+if (sortedList.TryGetValue(4, out value))
+    //do something
+
+foreach (int key in sortedList.Keys)
+{
+    Console.WriteLine(key);
+}
+
+foreach (string value in sortedList.Values)
+{
+    Console.WriteLine(value);
+}            
+
+//removes all elements
+sortedList.Clear();
+
+bool contains1 = sorted.ContainsKey("java");
+
+int value;
+if (sorted.TryGetValue("perls", out value))
+{
+    Console.WriteLine("perls key is = " + value);
+}
+
+int index1 = sorted.IndexOfKey("net");
+int index2 = sorted.IndexOfValue(3);
+
+```
+
+
+# END OF Collection
+
+
 # Collection
 
 
