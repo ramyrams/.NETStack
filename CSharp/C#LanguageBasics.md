@@ -1,4 +1,4 @@
-# [C# Language Basics]
+# C# Language Basics
 
 * [Types, Storage, and Variables](#Types, Storage, and Variables)
 * [Statements](#statements)
