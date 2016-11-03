@@ -238,6 +238,38 @@ foreach (string name in sorted.Keys) {
 
 ```
 
+# LinkedList(T)
+```cs
+LinkedList<String> llist1 = new LinkedList<String>();
+
+LinkedList<string> llist = new LinkedList<string>(new string[] { "I", "like" });
+llist.AddAfter(llist.Last, new LinkedListNode<string>("dogs"));
+llist.AddAfter(llist.Last, "dogs");
+llist.AddBefore(llist.First, new LinkedListNode<string>("I"));
+
+LinkedListNode<string> foundNode = llist.Find("like");
+llist.AddBefore(foundNode, "I");
+llist.Remove(foundNode);
+
+llist.AddFirst("I");
+llist.AddFirst(new LinkedListNode<string>("I"));
+
+llist.AddLast("dogs");
+llist.AddLast(new LinkedListNode<string>("dogs"));
+
+llist.Clear();
+llist.Remove("don't");
+
+llist.RemoveFirst();
+llist.RemoveLast();
+
+string[] s = llist.ToArray();
+
+Console.WriteLine(llist.First.Value);
+Console.WriteLine(llist.Last.Value);
+Console.WriteLine(llist.Count);
+
+```
 
 
 # END OF Collection
