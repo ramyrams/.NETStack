@@ -442,6 +442,21 @@ int[] array = new int[10];
 target.CopyTo(array);
 ```
 
+
+
+#KeyValuePair<TKey,TValue>
+```cs
+KeyValuePair<int, string> p2 = new KeyValuePair<int, string>(4, "perls");
+
+// Shows a List of KeyValuePairs.
+var list = new List<KeyValuePair<string, int>>();
+list.Add(new KeyValuePair<string, int>("Cat", 1));
+```
+
+
+
+
+
 # END OF Collection
 
 
