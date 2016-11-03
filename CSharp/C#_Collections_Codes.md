@@ -564,7 +564,7 @@ Checking the Stack
 ```
 
 ## Dictionary(TKey,TValue)
-
+```cs
 
 //Creating a Dictionary
 Dictionary<string, int> dictionary = new Dictionary<string, int>();
@@ -732,11 +732,6 @@ Console.WriteLine("Adding [9687,\"David Wright\"]");
 dictionary[9687] = "David Wright";
 Console.WriteLine("The values in the dictionary are: ");
 Print(values.ToArray());
-
-
-
-
-
 ```
 
 
