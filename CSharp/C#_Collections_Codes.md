@@ -11,18 +11,18 @@
 
 * System.Collections.Generic
   * Dictionary<TKey,TValue>	
+  * SortedDictionary<TKey,TValue>
   * LinkedList<T>	
   * List<T>	
+  * SortedList<TKey, TValue>
+  * SortedSet<T>
   * Queue<T>	
   * Stack<T>
-  * SortedDictionary<TKey,TValue>
-  * SortedList<TKey, TValue>	
-  * SortedSet<T>
+  * HashSet<T>	
   * Comparer<T>	
   * KeyValuePair<TKey, TValue> 
   * EqualityComparer<T>	
-  * HashSet<T>	
-  * KeyedByTypeCollection<TItem>
+* KeyedByTypeCollection<TItem>
   * LinkedListNode<T>	
   * SynchronizedCollection<T>
   * SynchronizedKeyedCollection<K,T>
