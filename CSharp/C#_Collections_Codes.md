@@ -303,6 +303,26 @@ var count = queue.Count;
 Console.WriteLine(queue.Contains(6) ? "Yes" : "No");
 ```
 
+# Stack(T)
+```cs
+//Creating a Stack
+Stack<int> stack = new Stack<int>();
+
+int[] values = new int[] { 34, 2, 1, 88, 53 };
+Stack<int> stack = new Stack<int>(values);
+
+//Adding Items to the Stack
+Stack<int> stack = new Stack<int>(new int[] { 6, 87, 13, 29, 7 });
+stack.Push(46);
+
+Stack<int> stack = new Stack<int>(new int[] { 6, 87, 13, 29, 7 });
+Console.WriteLine(stack.Pop());
+
+//Removing Items from the Stack
+Stack<int> stack = new Stack<int>(new int[] { 6, 87, 13, 29, 7 });
+stack.Clear();
+```
+
 # END OF Collection
 
 
