@@ -1,7 +1,7 @@
 * [C# Advanced](https://github.com/TelerikAcademy/CSharp-Part-2)
 
 * System.Collections.Generic
-  * [List<T>]()
+  * [List&lt;T&gt;]()
   * [SortedList<TKey, TValue>]()
   * [Dictionary<TKey,TValue>]()	
   * [SortedDictionary<TKey,TValue>]()
