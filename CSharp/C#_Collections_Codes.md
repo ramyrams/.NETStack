@@ -271,6 +271,37 @@ Console.WriteLine(llist.Count);
 
 ```
 
+# Queue(T)
+```cs
+var queue = new Queue<string>();
+Queue<int> queue = new Queue<int>();
+Queue<int> queue = new Queue<int>(100);
+
+int[] values = new int[] { 34, 2, 1, 88, 53 };
+Queue<int> queue = new Queue<int>(values);
+
+//Adding Items to the Queue
+Queue<int> queue = new Queue<int>(new int [] { 22, 3, 6, 19 });
+queue.Enqueue(33);
+
+//Items can be removed from the queue by using the Clear and Dequeue methods. 
+Queue<int> queue = new Queue<int>(new int [] { 22, 3, 6, 19 });
+queue.Clear();
+
+Queue<int> queue = new Queue<int>(new int [] { 22, 3, 6, 19 });
+Console.WriteLine(queue.Dequeue());
+
+//Checking the Queue
+// use the Peek method when you want to view the 
+//first element in the queue without changing the contents of it.
+Queue<int> queue = new Queue<int>(new int [] { 22, 3, 6, 19 });
+Console.WriteLine(queue.Peek()); //Output: 22
+
+// Get the number of items in the queue
+var count = queue.Count;
+
+Console.WriteLine(queue.Contains(6) ? "Yes" : "No");
+```
 
 # END OF Collection
 
