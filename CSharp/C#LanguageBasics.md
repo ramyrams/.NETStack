@@ -256,6 +256,15 @@ DateTime myDate = null;	//you'd get a compiler error.
 //these statements will compile just fine
 bool? myNulableInt = null;
 DateTime? myNullableDate = null;
+int? i = 10;
+double? d1 = 3.14;
+char? letter = 'a';
+int?[] arr = new int?[10];
+
+
+int? c = null;
+// d = c, unless c is null, in which case d = -1.
+int d = c ?? -1;
 
 //You can always convert a value type to a nullable type:
 DateTime myDate = DateTime.Now;
@@ -263,22 +272,17 @@ DateTime? myNullableDate = myDate;
 myDate = (DateTime) myNullableDate;
 myDate = myNullableDate.Value;
 
-
 int? aaa = null;
 Console.WriteLine(aaa.HasValue);
 aaa = 1;
 Console.WriteLine(aaa.HasValue);
 Console.WriteLine(aaaram.Value);
-
-
 ```
-
 
 ## Generic Types
 ```cs
 List<string> strings = new List<string>();
 ```	
-
 
 ## Implicit Types
 ```cs
