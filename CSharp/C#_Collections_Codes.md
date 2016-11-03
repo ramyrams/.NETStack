@@ -1,22 +1,22 @@
 
 * System.Collections.Generic
-  * List<T>	
-  * SortedList<TKey, TValue>
-  * Dictionary<TKey,TValue>	
-  * SortedDictionary<TKey,TValue>
-  * LinkedList<T>	
-  * Queue<T>	
-  * Stack<T>
-  * SortedSet<T>
-  * HashSet<T>	
-  * Comparer<T>	
-  * KeyValuePair<TKey, TValue> 
-  * EqualityComparer<T>	
-  * KeyedByTypeCollection<TItem>
-  * LinkedListNode<T>	
-  * SynchronizedCollection<T>
-  * SynchronizedKeyedCollection<K,T>
-  * SynchronizedReadOnlyCollection<T>	
+  * [List<T>]()	
+  * [SortedList<TKey, TValue>]()
+  * [Dictionary<TKey,TValue>]()	
+  * [SortedDictionary<TKey,TValue>]()
+  * [LinkedList<T>]()	
+  * [Queue<T>]()	
+  * [Stack<T>]()
+  * [HashSet<T>]()	
+  * [SortedSet<T>]()
+  * [Comparer<T>]()	
+  * [KeyValuePair<TKey, TValue>]() 
+  * [EqualityComparer<T>]()	
+  * [KeyedByTypeCollection<TItem>]()
+  * [LinkedListNode<T>]()	
+  * [SynchronizedCollection<T>]()
+  * [SynchronizedKeyedCollection<K,T>]()
+  * [SynchronizedReadOnlyCollection<T>]()	
 
 * System.Collections
   * ArrayList
