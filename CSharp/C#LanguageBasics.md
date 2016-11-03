@@ -13,7 +13,7 @@
 * [Preprocessor Directives](#preprocessor-directives)
 * [File I/O](#file-i/o)
 * [Regular Expressions](#regular-expressions)
-
+* [String Format]()
 # Types, Storage, and Variables
 
 
@@ -2166,3 +2166,77 @@ MyClass(string s)
 ```
 # File I/O
 # Regular Expressions
+
+
+# String Format
+```cs
+//en-US
+Console.WriteLine("The current culture is: " + System.Threading.Thread.CurrentThread.CurrentCulture);
+
+int number = 42;
+string s = number.ToString("D5"); // 00042
+s = String.Format("{0,10:D}", number); // "        42"
+Console.WriteLine(s);
+
+// Chenge the default culture to Bulgarian
+System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("bg-BG");
+Console.WriteLine("Bulgarian price: {0:C}", number); // 42,00 ëâ.
+
+string template = "If I were {0}, I would {1}.";
+string sentence1 = String.Format(template, "developer", "know C#");
+Console.WriteLine(sentence1);
+// If I were developer, I would know C#.
+
+string sentence2 = String.Format(template, "elephant", "weigh 4500 kg");
+Console.WriteLine(sentence2);
+// If I were elephant, I would weigh 4500 kg.
+
+Decimal pricePerOunce = 17.36m;
+String s = String.Format("The current price is {0} per ounce.", pricePerOunce);
+// Result: The current price is 17.36 per ounc
+
+decimal temp = 20.4m;
+string s1 = String.Format("The temperature is {0}°C.", temp);
+Console.WriteLine(s1);
+
+string s2 = String.Format("At {0}, the temperature is {1}°C.", DateTime.Now, 20.4);
+// Output similar to: 'At 4/10/2015 9:29:41 AM, the temperature is 20.4°C.'
+
+string s3 = String.Format("It is now {0:d} at {0:t}", DateTime.Now);
+// Output similar to: 'It is now 4/10/2015 at 10:04 AM'
+
+DateTime now = DateTime.Now;
+Console.WriteLine("Now is {0:d.MM.yyyy HH:mm:ss}.", now);
+
+DateTime dat = new DateTime(2012, 1, 17, 9, 30, 0);
+string city = "Chicago";
+int temp1 = -16;
+string output = String.Format("At {0} in {1}, the temperature was {2} degrees.", dat, city, temp1);
+
+Console.WriteLine(output);
+// The example displays the following output:
+//    At 1/17/2012 9:30:00 AM in Chicago, the temperature was -16 degrees.   
+
+double value = 123456;
+Console.WriteLine(value.ToString("[##-##-##]")); // Displays [12-34-56]
+
+double value1 = .086;
+Console.WriteLine(value1.ToString("#0.##%", CultureInfo.InvariantCulture));
+// Displays 8.6%  
+
+double number1 = 1234567890;
+Console.WriteLine(number1.ToString("(###) ###-####")); // (123) 456-7890
+
+int number2 = 42;
+Console.WriteLine(number2.ToString("My Number = #"));  //My Number = 42
+
+decimal value2 = 123.456m;
+Console.WriteLine(value2.ToString("C2")); // Displays $123.46
+
+int value5 = 12345;
+Console.WriteLine(value5.ToString("D")); // Displays 12345
+Console.WriteLine(value5.ToString("D8")); // Displays 00012345
+
+string.Format("{0:Yes;;No}", 1); //Output Yes
+string.Format("{0:Yes;;No}", 0); //Output No
+```
