@@ -324,6 +324,81 @@ Stack<int> stack = new Stack<int>(new int[] { 6, 87, 13, 29, 7 });
 stack.Clear();
 ```
 
+
+# HashSet<T>
+```cs
+var hashSet1 = new HashSet<string>();            
+hashSet1.Add("one");
+hashSet1.Add("two");
+hashSet1.Add("three");
+hashSet1.Add("four");
+
+var hashSet2 = new HashSet<string>();
+hashSet2.Add("two");
+hashSet2.Add("four");
+
+hashSet1.Contains("three");
+
+// sortedSet1 now contains one, three
+hashSet1.ExceptWith(hashSet2);
+
+// sortedSet1 now contains two, four
+hashSet1.IntersectWith(hashSet2);
+
+// a subset is a set whose elements are all in another set
+hashSet1.IsSubsetOf(hashSet2);
+
+// a superset is a set which contains all elements
+// in another set
+hashSet1.IsSupersetOf(hashSet2);
+
+// a proper subset is a subset which is not equal
+hashSet1.IsProperSubsetOf(hashSet2);
+
+// a proper superset is a superset which is not equal
+hashSet1.IsProperSupersetOf(hashSet2);            
+
+// returns bool if both sets contain any of the same items
+hashSet1.Overlaps(hashSet2);
+
+// removes the element with value "two"
+hashSet1.Remove("two");
+
+// removes all elements that match the predicate
+hashSet1.RemoveWhere(v => v == "three");
+
+// returns true if both sets are identical
+hashSet1.SetEquals(hashSet2);
+
+// sortedSet1 now contains one, three
+// only items which are in one or the other, not both
+hashSet1.SymmetricExceptWith(hashSet2);
+
+// sortedSet1 now contains one, two, three, four
+// all items in both sets
+hashSet1.UnionWith(hashSet2);
+
+// elements are no in any guaranteed order
+foreach (string value in hashSet1)
+{                
+}
+
+// remove all items in both sets
+hashSet1.Clear();
+
+//RemoveWhere(Predicate(T) match)
+delegate bool Predicate<T>(T obj);
+
+static bool IsEven(int value)
+{
+    return (value % 2) == 0;
+}
+
+HashSet<int> hs = new HashSet<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+hs.RemoveWhere(IsEven);
+hs.RemoveWhere(item => { return (item % 2) == 0; });
+```
+
 # SortedSet<T>
 ```cs
 var elements = new SortedSet<int>() { 5, 9, 2, 11, 2, 1, 4, 1, 2 };
