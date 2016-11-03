@@ -58,7 +58,7 @@
 
 
 
-## List<T>
+## List&lt;T&gt;
 ```cs
 //To create a list:
 var list = new List<int>();
@@ -125,7 +125,7 @@ salmons.Remove("coho");
 ```
 
 
-# SortedList
+# SortedList&lt;TKey,TValue&gt;
 ```cs
 var sortedList = new SortedList<int, string>();
 sortedList.Add(1, "one");
@@ -190,7 +190,7 @@ int index2 = sorted.IndexOfValue(3);
 
 ```
 
-# Dictionary(TKey,TValue)
+# Dictionary&lt;TKey,TValue&gt;
 ```cs
 Dictionary<int, string> dic =  new Dictionary<int, string>();
 dic.Add(1, "data1");   
@@ -226,7 +226,7 @@ if (dictionary.TryGetValue(9999, out name)) {  }
 
 
 
-# SortedDictionary(TKey,TValue)
+# SortedDictionary&lt;TKey,TValue&gt;
 ```cs
 SortedDictionary<int, string> sorted = new SortedDictionary<int,string>();
 sorted.Add(2, "2");
@@ -304,7 +304,7 @@ var count = queue.Count;
 Console.WriteLine(queue.Contains(6) ? "Yes" : "No");
 ```
 
-# Stack(T)
+# Stack&lt;T&gt;
 ```cs
 //Creating a Stack
 Stack<int> stack = new Stack<int>();
@@ -325,7 +325,7 @@ stack.Clear();
 ```
 
 
-# HashSet<T>
+# HashSet&lt;T&gt;
 ```cs
 var hashSet1 = new HashSet<string>();            
 hashSet1.Add("one");
@@ -399,7 +399,7 @@ hs.RemoveWhere(IsEven);
 hs.RemoveWhere(item => { return (item % 2) == 0; });
 ```
 
-# SortedSet<T>
+# SortedSet&lt;T&gt;
 ```cs
 var elements = new SortedSet<int>() { 5, 9, 2, 11, 2, 1, 4, 1, 2 };
 
