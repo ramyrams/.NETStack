@@ -189,6 +189,56 @@ int index2 = sorted.IndexOfValue(3);
 
 ```
 
+# Dictionary(TKey,TValue)
+```cs
+Dictionary<int, string> dic =  new Dictionary<int, string>();
+dic.Add(1, "data1");   
+dic.Add(0, "data2");   
+dic.Add(-1, "data3");
+
+Dictionary<string, int> dic = new Dictionary<string, int>(200);
+
+if (dic.ContainsKey(-1)) }} (dic.ContainsValue("data1")){
+string value = dic[-1]; //data3
+}
+
+foreach (KeyValuePair<int, string> pair in dic) {
+    Console.WriteLine("{0}, {1}", pair.Key, pair.Value);
+}
+foreach (var pair in dic) {
+    Console.WriteLine("{0}, {1}", pair.Key, pair.Value);
+}
+//get all the keys
+List<int> list = new List<int>(dic.Keys);
+
+string[] arr = new string[] { "One", "Two" };
+var dict = arr.ToDictionary(item => item, item => true);
+
+dic.Remove(-1); // Removes cat.
+dic.Remove(99); // Doesn't remove anything.
+
+dic.Clear();
+
+if (dictionary.TryGetValue(9999, out name)) {  }
+
+```
+
+
+
+# SortedDictionary(TKey,TValue)
+```cs
+SortedDictionary<int, string> sorted = new SortedDictionary<int,string>();
+sorted.Add(2, "2");
+sorted.Add(3, "3");
+sorted.Add(1, "1");
+Console.WriteLine("The sorted list of keys are");
+foreach (string name in sorted.Keys) {
+ Console.WriteLine(name);
+}
+
+```
+
+
 
 # END OF Collection
 
