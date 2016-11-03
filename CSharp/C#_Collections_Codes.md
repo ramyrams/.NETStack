@@ -1,4 +1,22 @@
 
+* System.Collections.Generic
+  * List<T>	
+  * SortedList<TKey, TValue>
+  * Dictionary<TKey,TValue>	
+  * SortedDictionary<TKey,TValue>
+  * LinkedList<T>	
+  * Queue<T>	
+  * Stack<T>
+  * SortedSet<T>
+  * HashSet<T>	
+  * Comparer<T>	
+  * KeyValuePair<TKey, TValue> 
+  * EqualityComparer<T>	
+  * KeyedByTypeCollection<TItem>
+  * LinkedListNode<T>	
+  * SynchronizedCollection<T>
+  * SynchronizedKeyedCollection<K,T>
+  * SynchronizedReadOnlyCollection<T>	
 
 * System.Collections
   * ArrayList
@@ -8,26 +26,6 @@
   * Queue
   * Stack
   * DictionaryEntry
-
-* System.Collections.Generic
-  * Dictionary<TKey,TValue>	
-  * SortedDictionary<TKey,TValue>
-  * LinkedList<T>	
-  * List<T>	
-  * SortedList<TKey, TValue>
-  * SortedSet<T>
-  * Queue<T>	
-  * Stack<T>
-  * HashSet<T>	
-  * Comparer<T>	
-  * KeyValuePair<TKey, TValue> 
-  * EqualityComparer<T>	
-* KeyedByTypeCollection<TItem>
-  * LinkedListNode<T>	
-  * SynchronizedCollection<T>
-  * SynchronizedKeyedCollection<K,T>
-  * SynchronizedReadOnlyCollection<T>	
-
 
 * System.Collections.Specialized
   * HybridDictionary
@@ -54,6 +52,76 @@
   * KeyedCollection<TKey,TItem>	
   * ObservableCollection<T>	
   * ReadOnlyDictionary<TKey,TValue>	
+
+
+
+
+
+## List<T>
+```cs
+//To create a list:
+var list = new List<int>();
+
+// Creating a list with an initial size
+var list = new List<int>(10000);
+
+// Add an item at the end of the list
+list.Add(4);
+ 
+// Add an item at index 0
+list.Insert(4, 0);
+ 
+// Remove an item from list
+list.Remove(1);
+ 
+// Remove the item at index 0
+list.RemoveAt(0);
+ 
+// Return the item at index 0
+var first = list[0];
+ 
+// Return the index of an item
+var index = list.IndexOf(4);
+ 
+// Check to see if the list contains an item
+var contains = list.Contains(4);
+ 
+// Return the number of items in the list 
+var count = list.Count;
+ 
+// Iterate over all objects in a list
+foreach (var item in list)
+    Console.WriteLine(item);
+	
+
+// Create a list of strings.
+var salmons = new List<string>();
+salmons.Add("chinook");
+salmons.Add("coho");
+salmons.Add("pink");
+salmons.Add("sockeye");
+
+
+// Create a list of strings by using a collection initializer.
+var salmons = new List<string> { "chinook", "coho", "pink", "sockeye" };
+
+
+// Iterate through the list.
+foreach (var salmon in salmons)
+{
+    Console.Write(salmon + " ");	// Output: chinook coho pink sockeye
+}
+
+// Iterate through the list by index.
+for (var index = 0; index < salmons.Count; index++)
+{
+    Console.Write(salmons[index] + " ");	// Output: chinook coho pink sockeye
+}
+
+// Remove an element from the list by specifying the object.
+salmons.Remove("coho");
+
+```
 
 
 # Collection
@@ -1236,72 +1304,6 @@ authorNames.CopyTo(newAuthorList, 0);
       myCol.Add( "Gala Apples", "1.49" );
 	  
 ```
-## List<T>
-```cs
-//To create a list:
-var list = new List<int>();
-
-// Creating a list with an initial size
-var list = new List<int>(10000);
-
-// Add an item at the end of the list
-list.Add(4);
- 
-// Add an item at index 0
-list.Insert(4, 0);
- 
-// Remove an item from list
-list.Remove(1);
- 
-// Remove the item at index 0
-list.RemoveAt(0);
- 
-// Return the item at index 0
-var first = list[0];
- 
-// Return the index of an item
-var index = list.IndexOf(4);
- 
-// Check to see if the list contains an item
-var contains = list.Contains(4);
- 
-// Return the number of items in the list 
-var count = list.Count;
- 
-// Iterate over all objects in a list
-foreach (var item in list)
-    Console.WriteLine(item);
-	
-
-// Create a list of strings.
-var salmons = new List<string>();
-salmons.Add("chinook");
-salmons.Add("coho");
-salmons.Add("pink");
-salmons.Add("sockeye");
-
-
-// Create a list of strings by using a collection initializer.
-var salmons = new List<string> { "chinook", "coho", "pink", "sockeye" };
-
-
-// Iterate through the list.
-foreach (var salmon in salmons)
-{
-    Console.Write(salmon + " ");	// Output: chinook coho pink sockeye
-}
-
-
-// Iterate through the list by index.
-for (var index = 0; index < salmons.Count; index++)
-{
-    Console.Write(salmons[index] + " ");	// Output: chinook coho pink sockeye
-}
-
-
-// Remove an element from the list by specifying the object.
-salmons.Remove("coho");
-
 
 
 
