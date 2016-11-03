@@ -75,69 +75,62 @@ http://cdn.claudiobernasconi.ch/wp-content/uploads/2013/07/Zeichnung-IEnumerable
 
 # Thread-Safe collections in C#
 http://www.csharpstar.com/thread-safe-collections-csharp/
-http://www.csharpstar.com/wp-content/uploads/2016/02/Thread-Safe.jpg
+![1](http://www.csharpstar.com/wp-content/uploads/2016/02/Thread-Safe.jpg
 
 
 http://dotnetpaki.blogspot.com/2012/09/collections.html
 
 
 # ArrayList
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection1.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection2.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection3.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection4.png
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection1.png)
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection2.png)
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection3.png)
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection4.png)
 
 
 
 # Stack
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection5.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection6.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection7.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection8.png
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection5.png)
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection6.png)
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection7.png)
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection8.png)
 http://image.slidesharecdn.com/csession10-120429112406-phpapp02/95/c-collection-14-728.jpg?cb=1335698775
-http://www.onlinebuff.com/artimages/generic25.jpg
+![1](http://www.onlinebuff.com/artimages/generic25.jpg)
 
 
 # Queue
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection9.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection10.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection11.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection12.png
-https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpNcVZ1Z3HPJ8BrR52vZPoYKxWJnp0t6NJvVn1WT5a5_nJc-HL
-http://static.flickr.com/2331/1534356662_f97bada3ae.jpg
-http://kottans.org/csharp-slides/presentations/9-collections-generics/images/queue.png
-http://3.bp.blogspot.com/_fa1V0qWRN80/TUNiHdqEynI/AAAAAAAAAEo/MO9HuXhqmXY/s1600/action.png
-http://www.onlinebuff.com/artimages/generic24.jpg
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection9.png)
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection10.png)
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection11.png)
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection12.png)
+![1](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpNcVZ1Z3HPJ8BrR52vZPoYKxWJnp0t6NJvVn1WT5a5_nJc-HL)
+![1](http://static.flickr.com/2331/1534356662_f97bada3ae.jpg)
+![1](http://kottans.org/csharp-slides/presentations/9-collections-generics/images/queue.png)
+![1](http://3.bp.blogspot.com/_fa1V0qWRN80/TUNiHdqEynI/AAAAAAAAAEo/MO9HuXhqmXY/s1600/action.png)
+![1](http://www.onlinebuff.com/artimages/generic24.jpg)
 
 
 # Hashtable
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection13.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection14.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection15.png
-http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection16.png
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection13.png
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection14.png
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection15.png
+![1](http://www.guru99.com/images/c-sharp-net/052616_1306_CCollection16.png
 http://image.slidesharecdn.com/csession10-120429112406-phpapp02/95/c-collection-21-728.jpg?cb=1335698775
 
 
 # SortedList
-http://image.slidesharecdn.com/csession10-120429112406-phpapp02/95/c-collection-18-728.jpg?cb=1335698775
+![1](http://image.slidesharecdn.com/csession10-120429112406-phpapp02/95/c-collection-18-728.jpg)
 
 
 
-Generic Queue
-http://4.bp.blogspot.com/-RmtwpolGsJ0/UdQNJxPImSI/AAAAAAAAAPg/FTaOyJFm4ww/w1200-h630-p-nu/queue.PNG
+# Generic Queue
+![1](http://4.bp.blogspot.com/-RmtwpolGsJ0/UdQNJxPImSI/AAAAAAAAAPg/FTaOyJFm4ww/w1200-h630-p-nu/queue.PNG)
+![1](http://images.slideplayer.com/20/6049885/slides/slide_3.jpg)
+![1](http://www.onlinebuff.com/artimages/generic21.jpg)
 
-
-http://images.slideplayer.com/20/6049885/slides/slide_3.jpg
-
-http://www.onlinebuff.com/artimages/generic21.jpg
-
-
-http://images.cnitblog.com/blog2015/554850/201505/122123019702129.png
-
-
-http://www.programcreek.com/wp-content/uploads/2013/03/arraylist-vs-linkedlist-complexity.png
-
-http://images.slideplayer.com/13/4001090/slides/slide_54.jpg
+![1](http://images.cnitblog.com/blog2015/554850/201505/122123019702129.png)
+![1](http://www.programcreek.com/wp-content/uploads/2013/03/arraylist-vs-linkedlist-complexity.png)
+![1](http://images.slideplayer.com/13/4001090/slides/slide_54.jpg)
 
 
 
