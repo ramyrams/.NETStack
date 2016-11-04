@@ -13,8 +13,8 @@
 * [Preprocessor Directives](#preprocessor-directives)
 * [File I/O](#file-i/o)
 * [Regular Expressions](#regular-expressions)
-* [String Format]()
-* [DateTime()
+* [String Format](#datatime)
+* [DateTime(#string-format)
 
 # Types, Storage, and Variables
 ```cs
