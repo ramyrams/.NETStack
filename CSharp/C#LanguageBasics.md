@@ -2244,3 +2244,264 @@ Console.WriteLine(value5.ToString("D8")); // Displays 00012345
 string.Format("{0:Yes;;No}", 1); //Output Yes
 string.Format("{0:Yes;;No}", 0); //Output No
 ```
+
+# Datatime
+```cs
+DateTime dob = new DateTime(1974, 7, 10, 7, 10, 24);  
+Console.WriteLine("Day:{0}", dob.Day);  
+Console.WriteLine("Month:{0}", dob.Month);  
+Console.WriteLine("Year:{0}", dob.Year);  
+Console.WriteLine("Hour:{0}", dob.Hour);  
+Console.WriteLine("Minute:{0}", dob.Minute);  
+Console.WriteLine("Second:{0}", dob.Second);  
+Console.WriteLine("Millisecond:{0}", dob.Millisecond);  
+   
+Console.WriteLine("Day of Week:{0}", dob.DayOfWeek);  
+Console.WriteLine("Day of Year: {0}", dob.DayOfYear);  
+Console.WriteLine("Time of Day:{0}", dob.TimeOfDay);  
+Console.WriteLine("Tick:{0}", dob.Ticks);  
+Console.WriteLine("Kind:{0}", dob.Kind);  
+
+
+DateTime aDay = DateTime.Now;  
+TimeSpan aMonth = new System.TimeSpan(30, 0, 0, 0);  
+DateTime aDayAfterAMonth = aDay.Add(aMonth);  
+DateTime aDayBeforeAMonth = aDay.Subtract(aMonth);  
+Console.WriteLine("{0:dddd}", aDayAfterAMonth);  
+Console.WriteLine("{0:dddd}", aDayBeforeAMonth);  
+
+
+// Add Years and Days  
+aDay.AddYears(2);            
+aDay.AddDays(12);  
+// Add Hours, Minutes, Seconds, Milliseconds, and Ticks  
+aDay.AddHours(4.25);  
+aDay.AddMinutes(15);  
+aDay.AddSeconds(45);             
+aDay.AddMilliseconds(200);  
+aDay.AddTicks(5000);
+
+DateTime dob = new DateTime(2002, 10, 22);  
+Console.WriteLine(dob.IsDaylightSavingTime());  
+Console.WriteLine(DateTime.IsLeapYear(dob.Year));   
+
+//Converting String to DateTime
+tring dt = "2010-10-04T20:12:45-5:00";  
+DateTime newDt = DateTime.Parse(dt);  
+Console.WriteLine(newDt.ToString());   
+
+DateTime dob = new DateTime(2002, 10, 22);  
+Console.WriteLine("ToString: " + dob.ToString());  
+Console.WriteLine("ToBinary: " + dob.ToBinary());  
+Console.WriteLine("ToFileTime: " + dob.ToFileTime());  
+Console.WriteLine("ToLocalTime: " + dob.ToLocalTime());  
+Console.WriteLine("ToLongDateString: " + dob.ToLongDateString());  
+Console.WriteLine("ToLongTimeString: " + dob.ToLongTimeString());  
+Console.WriteLine("ToOADate: " + dob.ToOADate());  
+Console.WriteLine("ToShortDateString: " + dob.ToShortDateString());  
+Console.WriteLine("ToShortTimeString: " + dob.ToShortTimeString());  
+Console.WriteLine("ToUniversalTime: " + dob.ToUniversalTime());  
+
+
+
+DateTime date1 = new DateTime(2008, 3, 1, 7, 0, 0);
+Console.WriteLine(date1.ToString());
+// For en-US culture, displays 3/1/2008 7:00:00 AM
+
+
+  DateTime localDate = DateTime.Now;
+      String[] cultureNames = { "en-US", "en-GB", "fr-FR",
+                                "de-DE", "ru-RU" };
+
+      foreach (var cultureName in cultureNames) {
+         var culture = new CultureInfo(cultureName);
+         Console.WriteLine("{0}: {1}", cultureName,
+                           localDate.ToString(culture));
+      }
+
+
+
+Console.WriteLine(date1.ToString("d, M", 
+                  CultureInfo.InvariantCulture)); 
+// Displays 29, 8
+
+Console.WriteLine(date1.ToString("d MMMM", 
+                  CultureInfo.CreateSpecificCulture("en-US")));
+// Displays 29 August
+Console.WriteLine(date1.ToString("d MMMM", 
+                  CultureInfo.CreateSpecificCulture("es-MX")));
+// Displays 29 agosto   
+
+DateTime date1 = new DateTime(2008, 1, 2, 6, 30, 15);
+
+Console.WriteLine(date1.ToString("dd, MM", 
+                  CultureInfo.InvariantCulture)); 
+
+Console.WriteLine(date1.ToString("yyyy"));
+// Displays 0001
+
+
+ String format = "dd MMM yyyy hh:mm tt \"pst\"";
+      var dat = new DateTime(2016, 8, 18, 16, 50, 0);
+      // Display the result string. 
+      Console.WriteLine(dat.ToString(format));
+
+      // Parse a string. 
+      String value = "25 Dec 2016 12:00 pm pst";
+      DateTime newDate;
+      if (DateTime.TryParseExact(value, format, null, 
+                                 DateTimeStyles.None, out newDate)) 
+         Console.WriteLine(newDate);
+      else
+         Console.WriteLine("Unable to parse '{0}'", value);
+   }
+
+
+
+Console.WriteLine(value == DateTime.Today);
+
+
+yesterday
+// Add -1 to now.
+	return DateTime.Today.AddDays(-1);
+
+
+
+
+//Tomoorow
+return DateTime.Today.AddDays(1);
+
+
+int days = DateTime.DaysInMonth(2014, 9); // September.
+	Console.WriteLine(days);
+
+	days = DateTime.DaysInMonth(2014, 2); // February.
+	Console.WriteLine(days);
+
+
+IsLeapYear
+
+
+ToLocalTime
+
+
+DateTime current = DateTime.MinValue;
+
+DateTime today = DateTime.Today;
+
+// Get currrent day of week.
+	DayOfWeek today = DateTime.Today.DayOfWeek;
+
+
+
+DateTime now = DateTime.Now;
+	Console.WriteLine(now.ToLongDateString());  // Equivalent to D.
+	Console.WriteLine(now.ToLongTimeString());  // Equivalent to T.
+	Console.WriteLine(now.ToShortDateString()); // Equivalent to d.
+	Console.WriteLine(now.ToShortTimeString()); // Equivalent to t.
+	Console.WriteLine(now.ToString());
+
+
+
+DateTime now = DateTime.Now;
+	for (int i = 0; i < 2; i++)
+	{
+	    Console.WriteLine(now.ToString("tt "));
+	    now = now.AddHours(12);
+
+
+// create date time 2008-03-09 16:05:07.123
+DateTime dt = new DateTime(2008, 3, 9, 16, 5, 7, 123);
+
+String.Format("{0:t}", dt);  // "4:05 PM"                         ShortTime
+String.Format("{0:d}", dt);  // "3/9/2008"                        ShortDate
+String.Format("{0:T}", dt);  // "4:05:07 PM"                      LongTime
+String.Format("{0:D}", dt);  // "Sunday, March 09, 2008"          LongDate
+String.Format("{0:f}", dt);  // "Sunday, March 09, 2008 4:05 PM"  LongDate+ShortTime
+String.Format("{0:F}", dt);  // "Sunday, March 09, 2008 4:05:07 PM" FullDateTime
+String.Format("{0:g}", dt);  // "3/9/2008 4:05 PM"                ShortDate+ShortTime
+String.Format("{0:G}", dt);  // "3/9/2008 4:05:07 PM"             ShortDate+LongTime
+String.Format("{0:m}", dt);  // "March 09"                        MonthDay
+String.Format("{0:y}", dt);  // "March, 2008"                     YearMonth
+String.Format("{0:r}", dt);  // "Sun, 09 Mar 2008 16:05:07 GMT"   RFC1123
+String.Format("{0:s}", dt);  // "2008-03-09T16:05:07"             SortableDateTime
+String.Format("{0:u}", dt);  // "2008-03-09 16:05:07Z"            UniversalSortableDateTime
+
+
+
+ DateTime date1 = new DateTime(2009, 8, 1, 0, 0, 0);
+      DateTime date2 = new DateTime(2009, 8, 1, 12, 0, 0);
+      int result = DateTime.Compare(date1, date2);
+      string relationship;
+
+      if (result < 0)
+         relationship = "is earlier than";
+      else if (result == 0)
+         relationship = "is the same time as";         
+      else
+         relationship = "is later than";
+
+      Console.WriteLine("{0} {1} {2}", date1, relationship, date2);
+   }
+
+
+
+String s;
+
+s = "2014-08-04 12:00 PM";
+
+DateTime dt = new DateTime();
+
+dt = DateTime.ParseExact(s, "yyyy-MM-dd HH:mm tt", null);
+
+
+
+
+String.Format("{0:y yy yyy yyyy}", dt);  // "8 08 008 2008"   year
+String.Format("{0:M MM MMM MMMM}", dt);  // "3 03 Mar March"  month
+String.Format("{0:d dd ddd dddd}", dt);  // "9 09 Sun Sunday" day
+String.Format("{0:h hh H HH}",     dt);  // "4 04 16 16"      hour 12/24
+String.Format("{0:m mm}",          dt);  // "5 05"            minute
+String.Format("{0:s ss}",          dt);  // "7 07"            second
+String.Format("{0:f ff fff ffff}", dt);  // "1 12 123 1230"   sec.fraction
+String.Format("{0:F FF FFF FFFF}", dt);  // "1 12 123 123"    without zeroes
+String.Format("{0:t tt}",          dt);  // "P PM"            A.M. or P.M.
+String.Format("{0:z zz zzz}",      dt);  // "-6 -06 -06:00"   time zone
+
+
+
+// Calculate what day of the week is 36 days from this instant.
+System.DateTime today = System.DateTime.Now;
+System.TimeSpan duration = new System.TimeSpan(36, 0, 0, 0);
+System.DateTime answer = today.Add(duration);
+System.Console.WriteLine("{0:dddd}", answer);
+
+
+
+		DateTime today = DateTime.Now;
+		DateTime answer = today.AddDays(36);
+
+
+
+  DateTime dateValue = new DateTime(2013, 9, 15, 12, 0, 0);
+
+      double[] minutes = { .01667, .08333, .16667, .25, .33333, 
+                           .5, .66667, 1, 2, 15, 30, 17, 45, 
+                           60, 180, 60 * 24 };
+
+      foreach (double minute in minutes)
+         Console.WriteLine("{0} + {1} minute(s) = {2}", dateValue, minute, 
+                           dateValue.AddMinutes(minute));
+
+
+ var dat = new DateTime(2015, 12, 31);
+      for (int ctr = 0; ctr <= 15; ctr++)
+         Console.WriteLine(dat.AddMonths(ctr).ToString("d"));
+
+
+ Console.WriteLine("{0,2} year(s) from now:   {1:d}", 
+                           ctr, baseDate.AddYears(ctr));
+
+http://extensionmethod.net/csharp/datetime
+
+```
