@@ -14,9 +14,8 @@
 * [File I/O](#file-i/o)
 * [Regular Expressions](#regular-expressions)
 * [String Format]()
-* Types, Storage, and Variables
 
-
+# Types, Storage, and Variables
 ```cs
 int a = 5;             
 int b = a + 2; //OK
