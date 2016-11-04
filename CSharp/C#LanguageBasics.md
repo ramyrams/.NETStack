@@ -1442,6 +1442,20 @@ Compile time error: The enumerator name 'value__' is reserved and cannot be used
 
 ```
 # Exception Handling
+* No database connection => exception.
+* Invalid string format to parse to some type => exception
+* Trying to parse JSON and while input isn't actually JSON => exception
+* Argument null while object was expected => exception
+* Some library has a bug => throws an unexpected exception
+* There's a socket connection and it gets disconnected. Then you try to send a message => exception
+* Your database can go offline...
+* Some file can be locked...
+* Some formatting might be not supported...
+* Some domain validation might fail...
+* Your app should work in offline mode...
+
+* [Exception Handling for C# Beginners](http://www.codeproject.com/Articles/125470/Exception-Handling-for-C-Beginners)
+
 
 ```cs
 static void Main()
