@@ -45,7 +45,7 @@ http://linq101.nilzorblog.com/linq101-lambda.php
 https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b
 http://linqsamples.com/
 
-
+http://www.advancesharp.com/blog/1206/what-is-func-how-and-when-it-can-be-used-examples
 
 # LINQ
 ![1](http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ2.png)
