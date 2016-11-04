@@ -410,6 +410,10 @@ Console.WriteLine("{0} returned \"{1}\".", substr, result);
 
 
 # Constant
+* Compile-Time
+* Fast
+* Type Restrictions:  Primitive types, enums or strings
+* Scope: Static
 * Value is evaluated at compile time
 * We cannot use variables to calculate the constants.
 * Constant fields and locals aren't variables
@@ -441,12 +445,16 @@ const string city = GetFromDB();
 ```
 
 # ReadOnly 
-ReadOnly Value is evaluated at run time.
-ReadOnly can be either initialized in declaration or in the constructor
-ReadOnly cannot change the value once constructor is called.
-ReadOnly can be used with any data type
-ReadOnly constants can have any access modifier
-ReadOnly property can be change by using reflection 
+* Runtime
+* Slow
+* Type Restrictions: none
+* Scope: Instance or Static
+* ReadOnly Value is evaluated at run time.
+* ReadOnly can be either initialized in declaration or in the constructor
+* ReadOnly cannot change the value once constructor is called.
+* ReadOnly can be used with any data type
+* ReadOnly constants can have any access modifier
+* ReadOnly property can be change by using reflection 
 
 ```cs
 public class Const_VS_Readonly
