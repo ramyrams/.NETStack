@@ -35,6 +35,8 @@
 * Documents and Declarations 
 * Names and Namespaces 
 * Projecting into an X-DOM 
+* Covariance and Contravariance
+
 
 
 http://www.gmclan.org/uploader/1/linq.pdf
@@ -109,6 +111,11 @@ Oldway
 # IQueryable<T> Interface
 ![1](http://www.scottgu.com/blogposts/lambda/step10.jpg)
 
+# Covariance and Contravariance 
+http://www.advancesharp.com/blog/1052/covariance-and-contravariance-in-c-4-0-with-example
+
+# IEnumerable and IEnumerator
+http://www.advancesharp.com/blog/1053/ienumerable-and-ienumerator-in-c-with-real-time-example
 
 
 # Landa History
