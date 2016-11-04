@@ -17,6 +17,8 @@
 * [Regular Expressions](#regular-expressions)
 * [String Format](#string-format)
 * [DateTime](#datatime) 
+* [Console](#console)
+* [Environment](#environment)
 
 # Types, Storage, and Variables
 ```cs
@@ -2707,4 +2709,82 @@ System.Console.WriteLine("{0:dddd}", answer);
 
 http://extensionmethod.net/csharp/datetime
 
+```
+
+# Console
+```cs
+//Get args using foreach-loop. 
+foreach (string value in args){
+    Console.WriteLine("foreach: {0}", value);
+}
+//Get args using for-loop.  
+for (int i = 0; i < args.Length; i++) {
+    Console.WriteLine("for: {0}", args[i]);
+}
+
+int i=10;
+Console.WriteLine("Beep number {0}.", i);
+Console.Beep();
+Console.Beep(196, 1600);
+
+Console.ForegroundColor = ConsoleColor.DarkYellow;
+Console.BackgroundColor = ConsoleColor.DarkRed;
+Console.WriteLine(("").PadRight(24, '-'));
+Console.WriteLine("Grand total:\t{0,8:c}", i);
+// Restore the original console colors.
+Console.ResetColor();
+Console.WriteLine(Console.CapsLock);
+Console.WriteLine(Console.NumberLock);
+
+Console.WindowWidth = 40;
+Console.WindowHeight = 10;
+
+using (StreamWriter writer = new StreamWriter("C:\\out.txt"))
+{
+    Console.SetOut(writer);
+    Console.WriteLine("This is Console.WriteLine");
+}
+
+// Call ReadKey method and store result in local variable.
+// ... Then test the result for escape.
+ConsoleKeyInfo info = Console.ReadKey();
+if (info.Key == ConsoleKey.Escape)
+{
+    Console.WriteLine("You pressed escape!");
+}
+
+
+string line = Console.ReadLine(); // Get string from user
+if (line == "exit") // Check string
+{
+    break;
+}
+
+// ... When the enter key is pressed, the Read method returns the first time.
+// ... Then, each call to Read accesses one further character from the input.
+int result;
+while ((result = Console.Read()) != 0)
+{
+    Console.WriteLine("{0} = {1}", result, (char)result);
+}
+
+Console.Clear();
+```
+
+# Environment
+```cs
+Environment.Exit(0);
+
+//"%WINDIR%", "%HOMEDRIVE%", "%USERNAME%", "%COMPUTERNAME%"
+string result = Environment.ExpandEnvironmentVariables("%WINDIR%"); //C:\Windows
+
+// GetCommandLineArgs contains the program path as the first element.
+string[] array = Environment.GetCommandLineArgs();
+
+string s = "First line" + Environment.NewLine + "Second line";
+//C:\Users\Sam2\Desktop
+string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+string[] value1 = Environment.GetLogicalDrives();
+Console.WriteLine(Environment.ProcessorCount);
 ```
