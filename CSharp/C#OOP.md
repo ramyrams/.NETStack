@@ -16,7 +16,6 @@
 	* Instantiating Classes
 	* Static Classes and Members
 	* Anonymous Types
-
 * Inheritance
 * Overriding Members
 * Interfaces
@@ -128,6 +127,8 @@ static class SampleClass
 }
 Console.WriteLine(SampleClass.SampleString);
 ```
+* [Static Class in C# why and when with examples](http://www.advancesharp.com/blog/1128/static-class-in-c-why-and-when-with-examples)
+
 
 ### Anonymous Types
 ```cs
