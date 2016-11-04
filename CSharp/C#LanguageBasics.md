@@ -189,6 +189,58 @@ object = null
 string = null
 ```
 
+```cs
+class Program
+{
+
+	static public sbyte theSignedByte;
+	static byte theByte;
+	static short theShort;
+	static ushort theUShort;
+	static int theInt;
+	static uint theUInt;
+	static long theLong;
+	static ulong theULong;
+	static char theChar;
+	static float theFloat;
+	static double theDouble;
+	static public bool theBool;
+	static public decimal theDecimal;
+	static string theStr;
+	static public object theObj;
+
+	static void Main(string[] args)
+	{
+
+		// Acquire the default values for these types and assign to a variable.
+		StringBuilder variable1 = default(StringBuilder); // Null
+		int variable2 = default(int);	// 0
+		bool variable3 = default(bool);	// False
+		Program variable4 = default(Program); // Null
+
+		Console.WriteLine("bool: {0}", theBool);
+		Console.WriteLine("byte: {0}", theByte);
+		Console.WriteLine("char: {0}", theChar);
+		Console.WriteLine("decimal: {0}", theDecimal);
+		Console.WriteLine("double: {0}", theDouble);
+		Console.WriteLine("float: {0}", theFloat);
+		Console.WriteLine("int: {0}", theInt);
+		Console.WriteLine("long: {0}", theLong);
+		Console.WriteLine("object: {0}", theObj);
+		Console.WriteLine("short: {0}", theShort);
+		Console.WriteLine("signed byte: {0}", theSignedByte);
+		Console.WriteLine("string: {0}", theStr);
+		Console.WriteLine("unsigned int: {0}", theUInt);
+		Console.WriteLine("unsigned long: {0}", theULong);
+		Console.WriteLine("unsigned short: {0}", theUShort);
+
+		Console.ReadLine();
+		
+	}
+}
+```
+
+
 ## Strings 
 ```cs
 string a = "Heat";
