@@ -14,8 +14,8 @@
 * [Preprocessor Directives](#preprocessor-directives)
 * [File I/O](#file-i/o)
 * [Regular Expressions](#regular-expressions)
-* [String Format](#datatime)
-* [DateTime](#string-format)
+* [String Format](#string-format)
+* [DateTime](#datatime) 
 
 # Types, Storage, and Variables
 ```cs
