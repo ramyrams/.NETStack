@@ -1,7 +1,7 @@
 # C# Language Basics
 
 * [Types, Storage, and Variables](#Types, Storage, and Variables)
-* [Default Values]
+* [Default Values](#default-value)
 * [Constant, Readonly, Static field](#constant)
 * [Statements](#statements)
 * [Expressions and Operators](#expressions-and-operators)
