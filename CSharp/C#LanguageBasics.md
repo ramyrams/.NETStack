@@ -1,6 +1,7 @@
 # C# Language Basics
 
 * [Types, Storage, and Variables](#Types, Storage, and Variables)
+* [Default Values]
 * [Constant, Readonly, Static field](#constant)
 * [Statements](#statements)
 * [Expressions and Operators](#expressions-and-operators)
@@ -405,6 +406,15 @@ Console.WriteLine("{0} returned \"{1}\".", substr, result);
 ```
 
 
+# Default Values
+* sbyte, byte, short, ushort=0, int, uint, long, ulong = 0
+* char = '\x0000'
+* float = 0.0f
+* double = 0.0d
+* decimal = 0.0m
+* bool = false
+* object = null
+* string = null
 
 
 
