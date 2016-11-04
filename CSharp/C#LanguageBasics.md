@@ -15,7 +15,7 @@
 * [File I/O](#file-i/o)
 * [Regular Expressions](#regular-expressions)
 * [String Format](#datatime)
-* [DateTime(#string-format)
+* [DateTime](#string-format)
 
 # Types, Storage, and Variables
 ```cs
