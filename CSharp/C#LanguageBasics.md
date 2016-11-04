@@ -1526,6 +1526,7 @@ Message: Zippy has overheated!
 Source: SimpleException
 ```
 
+
 ### The StackTrace Property
 ```cs
 catch(Exception e)
