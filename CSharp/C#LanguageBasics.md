@@ -410,6 +410,9 @@ Console.WriteLine("{0} returned \"{1}\".", substr, result);
 
 
 # Constant
+* [Difference Between Const, ReadOnly and Static ReadOnly in C#](http://www.c-sharpcorner.com/uploadfile/c210df/difference-between-const-readonly-and-static-readonly-in-c-sharp/)
+
+
 * Compile-Time
 * Fast
 * Type Restrictions:  Primitive types, enums or strings
