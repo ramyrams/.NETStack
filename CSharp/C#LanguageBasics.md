@@ -1,6 +1,7 @@
 # C# Language Basics
 
 * [Types, Storage, and Variables](#Types, Storage, and Variables)
+* [Constant, Readonly, Static field]
 * [Statements](#statements)
 * [Expressions and Operators](#expressions-and-operators)
 * [Method](#method)
@@ -403,6 +404,73 @@ Object result =  substr.Invoke("Hello, World!", new Object[] { 7, 5 });
 Console.WriteLine("{0} returned \"{1}\".", substr, result);
 ```
 
+
+
+
+
+
+# Constant
+* Value is evaluated at compile time
+* We cannot use variables to calculate the constants.
+* Constant fields and locals aren't variables
+* Constants cannot be modified
+* Constants can be of any data type or a null reference.
+* Constants are by default state so we cannot use static
+* Constants can be use to calculate the constants
+* Constants can have any access modifier
+* Constants can be accessed by using class name directy without creating instances because by default it is static, it cannot be accessed by using the instance of the class but inside the call without class name.
+
+```cs
+const string STATE = "NY";
+public const Single PI = 3.14159;
+public const Single PI = 22/7;
+public const double GRAVITATION = 6.673e-11;
+
+//declare multiple constants
+public const int CENTURY = 100, HATRIC = 3, OVER = 6;
+public const int c1 = 5;
+public const int c2 = c1 + 100;
+public const int c3 = c1 + c2;
+public const int c4 = c1 + c2 + c3;
+
+//Invalid constants
+public const int PI = x;
+public const int PI = x/y;
+public const double DISCOUNT = (price /100 ) * 3;
+const string city = GetFromDB();
+```
+
+# ReadOnly 
+ReadOnly Value is evaluated at run time.
+ReadOnly can be either initialized in declaration or in the constructor
+ReadOnly cannot change the value once constructor is called.
+ReadOnly can be used with any data type
+ReadOnly constants can have any access modifier
+ReadOnly property can be change by using reflection 
+
+```cs
+public class Const_VS_Readonly
+{
+   public readonly char[] I_RO_VALUE = new Char[]{'a', 'b', 'c'};
+   public Const_VS_Readonly()
+   {
+      I_RO_VALUE[0] = 'V'; //perfectly legal and will update the value
+      I_RO_VALUE = new char[]{'V'}; //will cause compiler error
+   }
+}
+```
+
+
+# Static field 
+* Static field property and method can directly accessed by using the class name.
+* Static field, property and method cannot be accessed by using the instance.
+* Static field is shared for entire instances as we already checked with example.
+* Can be used where we only want to play on the passed values
+* Best example is Math class and it's methods.
+
+```cs
+public static int x = 5;
+```
 
 # Statements
 # Expressions and Operators
