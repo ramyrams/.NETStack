@@ -2,7 +2,7 @@
 # OOPS
 
 ## TOC
-* OOPS Basic
+* [GO to OOPS Basic Page](https://github.com/ramyrams/SoftwareEngineering/blob/master/SoftwareArchitecture/OOPSBasics.md)
 * Classes and Objects
   * Class Members
     * Properties 
