@@ -130,6 +130,86 @@ Console.WriteLine(SampleClass.SampleString);
 ```
 * [Static Class in C# why and when with examples](http://www.advancesharp.com/blog/1128/static-class-in-c-why-and-when-with-examples)
 
+# Constructors
+```cs
+public class mySampleClass: myBaseClass
+{
+    public mySampleClass()
+    {
+        // This is the no parameter constructor method.
+        // First Constructor
+    }
+
+    //Calling Constructor from another Constructor
+    public mySampleClass(): this(10)
+    {
+        // This is the no parameter constructor method.
+        // First Constructor
+    }
+
+    //Constructor Overloading	
+    public mySampleClass(int Age)
+    {
+        // This is the constructor with one parameter.
+        // Second Constructor
+ 
+    }
+
+    //Constructor Overloading	
+    public mySampleClass(int Age, string Name)
+    {
+        // This is the constructor with two parameters.
+        // Third Constructor
+    }
+
+    //Behavior of Constructors in Inheritance
+    public myDerivedClass(int Age):base(Age)
+    {
+        // Code for the Second myDerivedClass Constructor.
+    }
+}
+```
+```cs
+mySampleClass obj = new mySampleClass()
+// At this time the code of no parameter  
+// constructor (First Constructor)will be executed
+ 
+mySampleClass obj = new mySampleClass(12)
+// At this time the code of one parameter  
+// constructor(Second Constructor)will be 
+// executed.
+```
+
+
+## Private Constructors
+```cs
+public class myClass
+{
+    private MyClass()
+    {
+        Console.WriteLine("This is no parameter Constructor");
+    }
+
+    public MyClass(int var):this()
+    {
+        Console.WriteLine("This is one parameter Constructor");
+    }    
+    // Other class methods goes here
+}
+```
+
+# Static Constructors
+```cs
+public class myClass
+{
+    static myClass()
+    {
+        // Initialization code goes here.
+        // Can only access static members here.
+    }
+    // Other class methods goes here
+}
+```
 
 ### Anonymous Types
 ```cs
