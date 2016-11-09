@@ -32,6 +32,12 @@
 * [Object Oriented Programming Concepts (OOP)](http://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep)
 * [Diving in OOP](http://www.codeproject.com/Articles/771455/Diving-in-OOP-Day-Polymorphism-and-Inheritance-Ear)
 
+http://beginnersbook.com/2013/12/java-constructor-chaining-with-example/
+http://slideplayer.com/slide/9344033/
+http://slideplayer.com/slide/5015260/
+http://www.slideshare.net/MohamedShahpoup/oop-basics
+
+
 https://jignesh272.files.wordpress.com/2011/09/object-oriented-programming-using-c-sharp.pdf
 ### Video
 * [C# Object Oriented Programming Basic to Advance](https://www.youtube.com/watch?v=e7Yj6vLyYOI)
