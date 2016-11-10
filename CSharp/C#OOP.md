@@ -68,7 +68,28 @@ SampleClass sampleObject = new SampleClass{ FirstProperty = "A", SecondProperty 
 ```cs
 Class SampleClass
 {
-    public string sampleField;
+    private DateTime date;
+
+        //public field (Generally not recommended.)
+        public string day;
+
+        //Using Static Fields
+        public static string Creed;
+
+        // private field
+        // Backing field, if it used in property
+        private int age;
+ 
+        // Property
+        public int Age
+        {
+            get { return age; }
+            set
+            {
+                if (value != age)
+                    age = value;
+            }
+        }
 }
 ```
 
