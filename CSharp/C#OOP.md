@@ -68,7 +68,7 @@ SampleClass sampleObject = new SampleClass{ FirstProperty = "A", SecondProperty 
 ```cs
 Class SampleClass
 {
-    private DateTime date;
+        private DateTime date;
 
         //public field (Generally not recommended.)
         public string day;
