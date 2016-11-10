@@ -90,6 +90,27 @@ Class SampleClass
                     age = value;
             }
         }
+	
+	
+
+
+	// All code can access
+        public string Nickname;
+
+        // Only code in this class can access
+        private string genericDogSecretName;
+
+        // Code in this class or subclass can access
+        protected int totalBarkCount;
+
+        // Code in same assembly can access
+        internal int invokeCount;
+
+        // Code in same assembly or derived classes can access
+        protected internal int barkInvokeCount;
+
+
+
 }
 ```
 
