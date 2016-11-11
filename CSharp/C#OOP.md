@@ -5789,4 +5789,79 @@ public class BusterBoy
         
 }
 ```
+```cs
+using System;
 
+namespace EventExample
+{
+    //Transaction Handler delegate definition
+    public delegate void TransactionHandler(object sender, TransactionEventArgs e);
+
+    internal class Account
+    {
+        public event TransactionHandler TransactionMade; // Event Definition
+        public int BalanceAmount;
+        public Account(int amount)
+        {
+            BalanceAmount = amount;
+        }
+
+        public void Debit(int debitAmount)
+        {
+            if (debitAmount < BalanceAmount)
+            {
+                BalanceAmount = BalanceAmount - debitAmount;
+                var e = new TransactionEventArgs(debitAmount, "Debited");
+                    // Event Args class is instantianted
+                OnTransactionMade(e); // Debit transaction made
+            }
+        }
+
+        public void Credit(int creditAmount)
+        {
+            BalanceAmount = BalanceAmount + creditAmount;
+            var e = new TransactionEventArgs(creditAmount, "Credited");
+                // Event Args class is instantianted
+            OnTransactionMade(e); // Credit transaction made
+        }
+
+        protected virtual void OnTransactionMade(TransactionEventArgs e)
+        {
+            if (TransactionMade != null)
+            {
+                TransactionMade(this, e); // Raise the event 
+            }
+        }
+    }
+
+    public class TransactionEventArgs : EventArgs
+    {
+        public int TranactionAmount { get; set; }
+        public string TranactionType { get; set; }
+
+        public TransactionEventArgs(int amt, string type)
+        {
+            TranactionAmount = amt;
+            TranactionType = type;
+        }
+    }
+
+    internal class TestMyEvent
+    {
+        private static void SendNotification(object sender, TransactionEventArgs e)
+        {
+            Console.WriteLine("Your Account is {0} for Rs.{1} ", e.TranactionType, e.TranactionAmount);
+        }
+
+        private static void Main()
+        {
+            var myAccount = new Account(10000);
+            myAccount.TransactionMade += SendNotification;
+            myAccount.Credit(500);
+            Console.WriteLine("Your Current Balance is : " + myAccount.BalanceAmount);
+            Console.ReadLine();
+        }
+    }
+}
+
+```
