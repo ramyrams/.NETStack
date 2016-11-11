@@ -5730,3 +5730,63 @@ class Program
     }
 }
 ```
+
+# Events
+```cs
+using System;
+
+public delegate void DivBySevenHandler(object o, DivBySevenEventArgs e);
+
+public class DivBySevenEventArgs : EventArgs
+{
+    public readonly int TheNumber;
+    
+    public DivBySevenEventArgs(int num)
+    {
+        TheNumber = num;
+    }    
+    
+}
+
+public class DivBySevenListener
+{
+    public void ShowOnScreen(object o, DivBySevenEventArgs e)
+    {
+        Console.WriteLine(
+            "divisible by seven event raised!!! the guilty party is {0}",
+            e.TheNumber);
+    }    
+}
+
+public class BusterBoy
+{
+    public static event DivBySevenHandler EventSeven;
+    
+    public static void Main()
+    {
+        DivBySevenListener dbsl = new DivBySevenListener();
+        EventSeven += new DivBySevenHandler(dbsl.ShowOnScreen);
+        GenNumbers();
+    }
+    
+    public static void OnEventSeven(DivBySevenEventArgs e)
+    {
+        if(EventSeven!=null)
+            EventSeven(new object(),e);
+    }    
+    
+    public static void GenNumbers()
+    {
+        for(int i=0;i<99;i++)
+        {
+            if(i%7==0)
+            {
+                DivBySevenEventArgs e1 = new DivBySevenEventArgs(i);
+                OnEventSeven(e1);
+            }
+        }        
+    }
+        
+}
+```
+
