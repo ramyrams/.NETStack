@@ -16,15 +16,21 @@
 	* Instantiating Classes
 	* Static Classes and Members
 	* Anonymous Types
-* Inheritance
-* Overloading and Overriding
-* Interfaces
+  * Types of classes in C#.Net:
+  	* Abstract Class (also called Pure Virtual Class)
+  	* Partial Class
+  	* Sealed Class
+  	* Static Class
+  * OOPS
+	* Abstraction
+	* Encapsulation
+	* Polymorphism
+	* Inheritance
+	* Interfaces
+	* Overloading and Overriding
 * Generics
 * Delegates
-* Abstraction
-* Encapsulation
-* Polymorphism
-* Inheritance
+
 
 ### OOPS Basic
 * [Object-oriented programming with C#](https://github.com/TelerikAcademy/Object-Oriented-Programming)
