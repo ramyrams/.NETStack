@@ -5926,3 +5926,5 @@ public struct Complex
    }
 }
 ```
+
+http://www.codeproject.com/Articles/6118/All-about-abstract-classes
