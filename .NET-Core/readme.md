@@ -16,3 +16,6 @@
 * [.NET Core CLI - Add your own tools](https://channel9.msdn.com/coding4fun/blog/Do-you-dotnet-cli-Heres-how-you-can-add-your-own-tools)
 
 http://weblogs.asp.net/ricardoperes/missing-features-in-entity-framework-core-1
+
+ASP.NET Core Logging Tutorial
+http://blog.elmah.io/aspnetcore-logging-tutorial/
