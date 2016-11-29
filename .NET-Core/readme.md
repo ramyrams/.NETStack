@@ -19,3 +19,6 @@ http://weblogs.asp.net/ricardoperes/missing-features-in-entity-framework-core-1
 
 ASP.NET Core Logging Tutorial
 http://blog.elmah.io/aspnetcore-logging-tutorial/
+https://channel9.msdn.com/Shows/Azure-Friday/Logic-Apps-Management-and-Tooling
+
+http://www.hanselman.com/blog/The2016ChristmasListOfBestSTEMToysForYourLittleNerdsAndNerdettes.aspx
