@@ -22,3 +22,6 @@ http://blog.elmah.io/aspnetcore-logging-tutorial/
 https://channel9.msdn.com/Shows/Azure-Friday/Logic-Apps-Management-and-Tooling
 
 http://www.hanselman.com/blog/The2016ChristmasListOfBestSTEMToysForYourLittleNerdsAndNerdettes.aspx
+
+Creating An Angular 2 CRUD Application Using MVC 5 and OData 4
+http://lightswitchhelpwebsite.com/Blog/tabid/61/EntryId/3295/Tutorial-Creating-An-Angular-2-CRUD-Application-Using-MVC-5-and-OData-4.aspx
