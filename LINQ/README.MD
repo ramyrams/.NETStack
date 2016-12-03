@@ -107,6 +107,9 @@ Oldway
 ![1](http://www.scottgu.com/blogposts/lambda/step6.jpg
 ![1](http://www.scottgu.com/blogposts/lambda/step8.jpg)
 
+# Tools
+* [LINQ Debugging and Visualization](https://www.simple-talk.com/dotnet/net-development/linq-debugging-visualization/)
+
 
 # IQueryable<T> Interface
 ![1](http://www.scottgu.com/blogposts/lambda/step10.jpg)
