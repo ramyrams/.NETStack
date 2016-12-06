@@ -43,7 +43,7 @@ http://slideplayer.com/slide/9344033/
 http://slideplayer.com/slide/5015260/
 http://www.slideshare.net/MohamedShahpoup/oop-basics
 
-
+https://www.codeproject.com/Articles/18743/Interfaces-in-C-For-Beginners
 https://jignesh272.files.wordpress.com/2011/09/object-oriented-programming-using-c-sharp.pdf
 ### Video
 * [C# Object Oriented Programming Basic to Advance](https://www.youtube.com/watch?v=e7Yj6vLyYOI)
