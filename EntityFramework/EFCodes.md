@@ -6,7 +6,7 @@
 3. Add Connection string in App.config.
 ```xml
 <connectionStrings>
-    <add name="MFCConnectionString" connectionString="Server=(local)\TIBURON;Database=EFDB;Trusted_Connection=True;" providerName="System.Data.SqlClient" />
+    <add name="MFCConnectionString" connectionString="Server=(local)\MYDBINSTANCE;Database=EFDB;Trusted_Connection=True;" providerName="System.Data.SqlClient" />
 </connectionStrings>
 ```
 4. Add Model Class: Student.cs
