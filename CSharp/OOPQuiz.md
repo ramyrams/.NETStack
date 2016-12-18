@@ -7,6 +7,12 @@ class BaseClass
     {  
         Console.WriteLine("Base - Method1");  
     }  
+    
+    public void Method2()  
+    {  
+        Console.WriteLine("Base - Method2");  
+    }  
+  
 }  
   
 class DerivedClass : BaseClass  
@@ -26,15 +32,19 @@ class Program
         BaseClass bcdc = new DerivedClass();  
   
         bc.Method1();  
+        bc.Method2();  
         dc.Method1();  
         dc.Method2();  
         bcdc.Method1();  
+        bcdc.Method2();  
     } 
 }  
   
 // Output:  
 // Base - Method1  
+// Base - Method2  
 // Base - Method1  
 // Derived - Method2  
-// Base - Method1   
+// Base - Method1  
+// Base - Method2  
 ```
