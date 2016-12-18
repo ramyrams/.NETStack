@@ -5926,5 +5926,14 @@ public struct Complex
    }
 }
 ```
+https://www.codeproject.com/Articles/1069111/Csharp-Lectures-Lecture-OOP-basics-Abstraction
+https://www.codeproject.com/Tips/652777/HelloWorld-Csharp-OOP-Encapsulation
+https://www.codeproject.com/Articles/43156/Using-Internal-Interfaces-While-Preserving-Encapsu
+https://www.codeproject.com/Articles/667791/Encapsulated-Decision-Tables
+https://www.codeproject.com/Articles/266593/How-does-it-work-in-Csharp
+https://msdn.microsoft.com/en-us/library/ms173149.aspx
+https://www.codeproject.com/Tips/458785/Pillars-of-OOPS-Part-Encapsulation
+https://www.codeproject.com/Articles/6118/All-about-abstract-classes
+https://www.codeproject.com/Articles/11155/Abstract-Class-versus-Interface
 
 http://www.codeproject.com/Articles/6118/All-about-abstract-classes
