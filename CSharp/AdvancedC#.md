@@ -19,6 +19,29 @@
 * Diagnostics and Code Contracts
 
 
+# Delegates
+# Events
+# Generics
+# Reflection, Attributes and Metadata
+# Dynamic Binding
+# Disposal and Garbage Collection
+# Serialization
+# Application Domains
+# Lambda
+# Threading
+# Asynchronous Programming
+# Parallel Programming
+# Concurrency & Asynchrony
+# Native and COM Interoperability
+# Security
+# Networking
+# Streams and I/O
+# Diagnostics and Code Contracts
+
+
+
+
+# Move up 
 
 # Delegates
 
