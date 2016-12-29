@@ -15,8 +15,8 @@
 * [Native and COM Interoperability](#native-and-com-interoperability)
 * [Security](#security)
 * [Networking](#networking)
-* Streams and I/O
-* Diagnostics and Code Contracts
+* [Streams and I/O](#streams-and-io)
+* [Diagnostics and Code Contracts](#diagnostics-and-code-contracts)
 
 
 # Delegates
