@@ -50,7 +50,11 @@ http://www.advancesharp.com/blog/1206/what-is-func-how-and-when-it-can-be-used-e
 # LINQ
 ![1](http://www.codeproject.com/KB/linq/UnderstandingLINQ/UnderstandingLINQ2.png)
 
-
+# LINQ Samples
+* [LINQ Samples](http://linqsamples.com/)
+* [101 LINQ Samples](https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b)
+* [LINQ 101 Samples - Lambda Style](http://linq101.nilzorblog.com/linq101-lambda.php)
+* [LINQ Tutorials](http://www.tutorialsteacher.com/linq/sample-linq-queries)
 
 # New Language Features
 * Automatic Properties
