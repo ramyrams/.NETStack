@@ -25,7 +25,7 @@
 # Events
 # Generics
 * [Generics in C#](http://www.tutorialsteacher.com/csharp/csharp-generics)
-
+* [C# - Generics](https://www.tutorialspoint.com/csharp/csharp_generics.htm)
 * [Generic classes](https://www.dotnetperls.com/generic)
 * [Generic classes](https://www.codeproject.com/Articles/52991/Generic-Classes)
 
