@@ -48,6 +48,8 @@
 * [An Introduction To Performance Counters](https://www.codeproject.com/Articles/8590/An-Introduction-To-Performance-Counters)
 * [.NET Best Practice No: 3:- Using performance counters to gather performance data](https://www.codeproject.com/Articles/42001/NET-Best-Practice-No-Using-performance-counters)
 
+* [Create performance counters using .NET and C#](http://madskristensen.net/post/create-performance-counters-using-net-and-c)
+* [Using Performance Counters In The C# Language](http://www.coderslexicon.com/using-performance-counters-in-the-c-language/)
 
 # Move up 
 
