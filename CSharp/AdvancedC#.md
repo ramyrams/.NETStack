@@ -1,6 +1,6 @@
 # [Advanced C#]
 * [Delegates](#delegates)
-* Events
+* [Events](#events)
 * Generics
 * Reflection, Attributes and Metadata
 * Dynamic Binding
