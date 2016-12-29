@@ -3,8 +3,8 @@
 * [Events](#events)
 * [Generics](#generics)
 * [Reflection, Attributes and Metadata](#reflection-attributes-and-metadata)
-* Dynamic Binding
-* Disposal and Garbage Collection
+* [Dynamic Binding](#dynamic-binding)
+* [Disposal and Garbage Collection](#disposal-and-garbage-collection)
 * Serialization
 * Application Domains
 * Lambda
