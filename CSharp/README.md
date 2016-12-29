@@ -34,15 +34,11 @@
 * [Design Patterns Page](https://github.com/ramyrams/SoftwareEngineering/blob/master/SoftwareArchitecture/DesignPatterns/readme.md)
 
 
-
-
 # [C# Collection]
 * Collection Objects
 * Enumerators and Iterators
-
 * [Collection Notes](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23_Collection_Notes.md)
 * [Collection Codes](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23_Collections_Codes.md)
-
 
 [Read More](https://github.com/ramyrams/.NETStack/blob/master/CSharp/C%23Collections)
 
