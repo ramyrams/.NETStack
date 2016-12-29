@@ -7,8 +7,8 @@
 * [Disposal and Garbage Collection](#disposal-and-garbage-collection)
 * [Serialization](#serialization)
 * [Application Domains](#application-domains)
-* Lambda
-* Threading
+* [Lambda](#lambda)
+* [Threading](#threading)
 * Asynchronous Programming
 * Parallel Programming
 * Concurrency & Asynchrony
