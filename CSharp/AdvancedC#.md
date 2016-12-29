@@ -47,9 +47,10 @@
 * [Performance Counters for ASP.NET](https://msdn.microsoft.com/en-us/library/fxk122b4.aspx)
 * [An Introduction To Performance Counters](https://www.codeproject.com/Articles/8590/An-Introduction-To-Performance-Counters)
 * [.NET Best Practice No: 3:- Using performance counters to gather performance data](https://www.codeproject.com/Articles/42001/NET-Best-Practice-No-Using-performance-counters)
-
 * [Create performance counters using .NET and C#](http://madskristensen.net/post/create-performance-counters-using-net-and-c)
 * [Using Performance Counters In The C# Language](http://www.coderslexicon.com/using-performance-counters-in-the-c-language/)
+* [Performance Counters in the .NET Framework](https://msdn.microsoft.com/en-us/library/w8f5kw2e(v=vs.110).aspx)
+* [PerformanceCounter Class](https://msdn.microsoft.com/en-us/library/system.diagnostics.performancecounter(v=vs.110).aspx)
 
 # Move up 
 
