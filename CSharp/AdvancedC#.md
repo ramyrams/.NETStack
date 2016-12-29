@@ -25,6 +25,8 @@
 # Events
 # Generics
 * [Generics in C#](http://www.tutorialsteacher.com/csharp/csharp-generics)
+
+* [Generic classes](https://www.dotnetperls.com/generic)
 # Reflection, Attributes and Metadata
 # Dynamic Binding
 # Disposal and Garbage Collection
