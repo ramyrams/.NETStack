@@ -27,6 +27,8 @@
 * [Generics in C#](http://www.tutorialsteacher.com/csharp/csharp-generics)
 
 * [Generic classes](https://www.dotnetperls.com/generic)
+* [Generic classes](https://www.codeproject.com/Articles/52991/Generic-Classes)
+
 # Reflection, Attributes and Metadata
 # Dynamic Binding
 # Disposal and Garbage Collection
