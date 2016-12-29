@@ -1,8 +1,8 @@
 # [Advanced C#]
 * [Delegates](#delegates)
 * [Events](#events)
-* Generics
-* Reflection, Attributes and Metadata
+* [Generics](#generics)
+* [Reflection, Attributes and Metadata](#reflection-attributes-and-metadata)
 * Dynamic Binding
 * Disposal and Garbage Collection
 * Serialization
