@@ -42,6 +42,8 @@
 # Security
 # Networking
 # Streams and I/O
+* [File and Stream I/O](https://msdn.microsoft.com/en-us/library/k3352a4t(v=vs.110).aspx)
+
 # Diagnostics and Code Contracts
 # Performance Counter 
 * [Performance Counters for ASP.NET](https://msdn.microsoft.com/en-us/library/fxk122b4.aspx)
