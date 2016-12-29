@@ -1,5 +1,5 @@
 # [Advanced C#]
-* Delegates
+* [Delegates](#delegates)
 * Events
 * Generics
 * Reflection, Attributes and Metadata
