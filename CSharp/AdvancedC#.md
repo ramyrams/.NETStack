@@ -29,6 +29,9 @@
 * [Generic classes](https://www.dotnetperls.com/generic)
 * [Generic classes](https://www.codeproject.com/Articles/52991/Generic-Classes)
 * [Generics In C#http://www.tutorials.kode-blog.com/generics-in-csharp)
+* [C# Generics - Beyond Containers of T](https://accu.org/index.php/journals/1376)
+* [Generics and its advantages in C#](http://www.csharpstar.com/generics-and-its-advantages-in-csharp/)
+* [Generics with C# - how it works under the hood](http://thibaultlaurens.github.io/microsoft/2013/01/12/generics-with-csharp/)
 
 # Reflection, Attributes and Metadata
 # Dynamic Binding
