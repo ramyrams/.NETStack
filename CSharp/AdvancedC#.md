@@ -12,9 +12,9 @@
 * [Asynchronous Programming](#asynchronous-programming)
 * [Parallel Programming](#parallel-programming)
 * [Concurrency & Asynchrony](#concurrency--asynchrony)
-* Native and COM Interoperability
-* Security
-* Networking
+* [Native and COM Interoperability](#native-and-com-interoperability)
+* [Security](#security)
+* [Networking](#networking)
 * Streams and I/O
 * Diagnostics and Code Contracts
 
