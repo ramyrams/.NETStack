@@ -5,8 +5,8 @@
 * [Reflection, Attributes and Metadata](#reflection-attributes-and-metadata)
 * [Dynamic Binding](#dynamic-binding)
 * [Disposal and Garbage Collection](#disposal-and-garbage-collection)
-* Serialization
-* Application Domains
+* [Serialization](#serialization)
+* [Application Domains](#application-domains)
 * Lambda
 * Threading
 * Asynchronous Programming
