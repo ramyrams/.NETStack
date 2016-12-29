@@ -9,9 +9,9 @@
 * [Application Domains](#application-domains)
 * [Lambda](#lambda)
 * [Threading](#threading)
-* Asynchronous Programming
-* Parallel Programming
-* Concurrency & Asynchrony
+* [Asynchronous Programming](#asynchronous-programming)
+* [Parallel Programming](#parallel-programming)
+* [Concurrency & Asynchrony](#concurrency--asynchrony)
 * Native and COM Interoperability
 * Security
 * Networking
