@@ -52,6 +52,7 @@
 * [Performance Counters in the .NET Framework](https://msdn.microsoft.com/en-us/library/w8f5kw2e(v=vs.110).aspx)
 * [PerformanceCounter Class](https://msdn.microsoft.com/en-us/library/system.diagnostics.performancecounter(v=vs.110).aspx)
 * [A Simple Performance Counter Application](https://www.codeproject.com/Articles/29986/A-Simple-Performance-Counter-Application)
+* [Monitoring Distributed Service Performance in .NET](https://www.codeproject.com/Articles/8403/Monitoring-Distributed-Service-Performance-in-NET)
 
 # Move up 
 
