@@ -26,6 +26,10 @@
 # Dynamic Binding
 # Disposal and Garbage Collection
 # Serialization
+* [Introducing Serialization in .NET](https://www.codeproject.com/Articles/20962/Introducing-Serialization-in-NET)
+* [.NET Serialization](http://www.codeguru.com/columns/dotnet/article.php/c6595/NET-Serialization.htm)
+* [.NET Serialization](http://www.dotneat.net/2009/03/22/NETSerializationUsingBinaryFormaterSoapFormatterAndXmlSerializer.aspx)
+
 # Application Domains
 # Lambda
 # Threading
