@@ -44,7 +44,9 @@
 # Streams and I/O
 # Diagnostics and Code Contracts
 # Performance Counter 
-
+* [Performance Counters for ASP.NET](https://msdn.microsoft.com/en-us/library/fxk122b4.aspx)
+* [An Introduction To Performance Counters](https://www.codeproject.com/Articles/8590/An-Introduction-To-Performance-Counters)
+* [.NET Best Practice No: 3:- Using performance counters to gather performance data](https://www.codeproject.com/Articles/42001/NET-Best-Practice-No-Using-performance-counters)
 
 
 # Move up 
