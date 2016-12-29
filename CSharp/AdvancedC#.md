@@ -24,6 +24,7 @@
 # Delegates
 # Events
 # Generics
+* [Generics in C#](http://www.tutorialsteacher.com/csharp/csharp-generics)
 # Reflection, Attributes and Metadata
 # Dynamic Binding
 # Disposal and Garbage Collection
