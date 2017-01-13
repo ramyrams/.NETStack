@@ -5937,3 +5937,6 @@ https://www.codeproject.com/Articles/6118/All-about-abstract-classes
 https://www.codeproject.com/Articles/11155/Abstract-Class-versus-Interface
 
 http://www.codeproject.com/Articles/6118/All-about-abstract-classes
+
+
+https://pbs.twimg.com/media/CWAHjfuUkAQ2ufB.png:large
