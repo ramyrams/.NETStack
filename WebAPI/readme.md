@@ -2707,6 +2707,9 @@ public Product Get(int id) {
 ## Tracing and Logging
 ## API Documentation
 
+Web API Architecture And Dependency Injection Best Practices
+http://www.c-sharpcorner.com/article/web-api-architecture-and-dependency-injection-best-practices/
+
 ## Useful URL
 * [HTTP Message Lifecycle](http://www.asp.net/media/4071077/aspnet-web-api-poster.pdf)
 * [Intro to Application Pools in IIS](http://geekswithblogs.net/JeremyMorgan/archive/2016/07/09/introduction-to-application-pools-in-iis.aspx)
