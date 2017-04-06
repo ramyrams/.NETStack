@@ -1,4 +1,6 @@
 
+* [Questions About SQL Server Collations You Were Too Shy to Ask](https://www.simple-talk.com/sql/sql-development/questions-sql-server-collations-shy-ask/)
+
 
 Ad hoc queries vs stored procedures vs Dynamic SQ
 http://stackoverflow.com/questions/2934634/ad-hoc-queries-vs-stored-procedures-vs-dynamic-sql
