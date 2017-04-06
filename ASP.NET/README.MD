@@ -92,7 +92,7 @@ https://msdn.microsoft.com/en-us/library/ms972976.aspx
 ![1](http://3.bp.blogspot.com/-zcfgY77hN0I/UqW1iVey4vI/AAAAAAAAARw/DZjRMBmk-JA/s400/9.jpg)
 ![1](http://2.bp.blogspot.com/-c9pYqpIc5Yk/UqW3k55uhvI/AAAAAAAAAR8/B_Zev5VTVzY/s400/6.jpg)
 
-
+* [w3wp-exe-iis-worker-process](https://stackify.com/w3wp-exe-iis-worker-process/)
 
 # Life Cycle and the HTTP Protocols GET and POST
 
