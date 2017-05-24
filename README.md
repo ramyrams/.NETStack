@@ -35,3 +35,4 @@ https://dotnet.libhunt.com/
 A collection of Awesome .NET libraries, tools & frameworks
 
 
+![1](https://msdnshared.blob.core.windows.net/media/2017/05/dotNET_poster.png)
