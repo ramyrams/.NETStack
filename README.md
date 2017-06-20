@@ -34,8 +34,16 @@ Go to SQLServer# [Page](https://github.com/ramyrams/.NETStack/tree/master/SQLSer
 https://dotnet.libhunt.com/
 A collection of Awesome .NET libraries, tools & frameworks
 
-https://github.com/quozd/awesome-dotnet
-https://github.com/thangchung/awesome-dotnet-core
-https://github.com/adamsitnik/awesome-dot-net-performance
+# Awesome .NET!
+* [Awesome .NET!](https://github.com/quozd/awesome-dotnet)
+* [Awesome Domain-Driven Design](https://github.com/heynickc/awesome-ddd)
+* [Awesome .NET Performance](https://github.com/adamsitnik/awesome-dot-net-performance)
+* [ASP.NET Core Library and Framework Support](https://github.com/jpsingleton/ANCLAFS)
+* [Awesome .NET Core](https://github.com/thangchung/awesome-dotnet-core)
+* [C# Algorithms](https://github.com/aalhour/C-Sharp-Algorithms)
+* [Awesome Analyzers](https://github.com/Cybermaxs/awesome-analyzers)
+* [Awesome LINQ](https://github.com/aloisdg/awesome-linq)
+
+
 
 ![1](https://msdnshared.blob.core.windows.net/media/2017/05/dotNET_poster.png)
