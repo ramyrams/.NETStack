@@ -1,4 +1,9 @@
 
+#  SQL Mindmap
+![1](https://4.bp.blogspot.com/-sXSD1c-lV04/Ux7q1-Toq3I/AAAAAAAACTM/s4hq3zsNdw8/s1600/join-(sql)-gkquj-1287753675125.jpg)
+![1](https://3.bp.blogspot.com/-bBDV5hmsDiQ/Ux7qwJChBgI/AAAAAAAACTE/ZFlChDYf6_k/s1600/SQL.jpeg)
+![1](https://4.bp.blogspot.com/-c-4p4XEiZYA/Ux7qqDbAmNI/AAAAAAAACS8/xs36SFIzv9Y/s1600/Concurrency+Control.jpeg)
+
 * [Questions About SQL Server Collations You Were Too Shy to Ask](https://www.simple-talk.com/sql/sql-development/questions-sql-server-collations-shy-ask/)
 
 
