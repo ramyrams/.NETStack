@@ -4,58 +4,76 @@ from c in Customers
 select c
 ```
 
+```c#
 //SELECT FirstName, Age FROM Customers
 from c in Customers
 select new {c.FirstName, c.Age}
+```
 
+```c#
 //SELECT TOP 3 * FROM Customers Order By Age 
 Customers.OrderBy (c => c.Age).Take (3)
 Customers.OrderByDescending (c => c.Age).Take (100)
+```
 
+```c#
 //SELECT * FROM Customers WHERE CustomerID = 2
 from c in Customers
 where c.CustomerID == 7
 select c
+```
 
+```c#
 //SELECT * FROM Customers WHERE age > 36
 from c in Customers
 where c.Age >= 7
 select c
 
 Customers.Where (c => c.Age >= 7)
+```
 
+```c#
 //SELECT * FROM Customers WHERE age > 36 AND FirstName = 'Selvi'
 from c in Customers
 where  c.FirstName == "Selvi" && c.Age >= 26
 select c
+```
 
-
+```c#
 //SELECT * FROM Customers  INNER JOIN Addresses ON Customers.CustomerID = Addresses.CustomerID
 from c in Customers join a in Addresses on c.CustomerID equals a.CustomerID 
 select new  
 {  
     c.CustomerID,  c.FirstName, a.City
 }  
+```
 
+```c#
 //SELECT Max(Age) AS record_count FROM Customers
 (from c in Customers
 select c.Age).Max()
+```
 
+```c#
 //SELECT SUM(Age) AS record_count FROM Customers
 (from c in Customers
 select c.Age).Sum()
+```
 
+```c#
 //SELECT COUNT(Age) AS record_count FROM Customers
 (from c in Customers
 select c).Count()
 
 Customers.Count()
+```
 
+```c#
 // SELECT TOP 3 * FROM Customers
 Customers.Take (3)
+```
 
-https://medium.com/@heitorhherzog/converting-t-sql-queries-in-linq-aa59afbf6dbe
-
+```c#
 //Select with TOP
 T-SQL 
 SELECT TOP 2 Name FROM Artist;
@@ -63,8 +81,9 @@ LINQ
 var result = (from a in context.Artist select a.Name).Take(2);
 LAMBDA
 var result = context.Artist.Select(a => a.Name).Take(2);
+```
 
-
+```c#
 //Select with WHERE
 T-SQL
 SELECT Name  FROM Artist WHERE Name = "InFlames";
@@ -76,7 +95,9 @@ LAMBDA
 var result = context.Artist
                     .Where(a => a.Name.Equals("InFlames"))
                     .Select(a => a.Name).ToList();
+```
 
+```c#
 //Select with INNER JOIN
 T-SQL
 SELECT a.Name, al.Tile FROM Artist a 
@@ -97,7 +118,9 @@ var result = context.Artist
                 Name = a.Artist.Name, 
                 Title = a.Album.Title
             }).ToList();
+```
 
+```c#
 //Select with two conditions in the same Inner Join
 T-SQL
 SELECT DISTINCT a.Name, al.Title FROM Artist a 
@@ -121,7 +144,9 @@ var result = context.Artist
             Name = a.Artist.Name, 
             Title= a.Album.Title
         }).ToList();
+```
 
+```c#
 //Select with two INNER JOINS
 T-SQL
 SELECT a.Name, al.Title, f.Name FROM Artist a
@@ -148,7 +173,9 @@ var result = context.Artist
             Titulo = a.Album.Album.Title, 
             Track= a.Track.Name 
         }).ToList();
+```
 
+```c#
 //Select with LEFT JOIN
 T-SQL
 SELECT a.Name, al.Title FROM Artist a
@@ -170,7 +197,9 @@ var result = context.Artist
                 a.Artist.Name, 
                 album.Title
             }).ToList();
+```
 
+```c#
 //Select with two LEFT JOINS, GROUP BY and COUNT
 T-SQL
 SELECT DISTINCT a.Name, 
@@ -231,3 +260,4 @@ var result = context.Artist
                 Albuns = g.Key.Artist.Album.Count(),
                 Tracks = g.Count(x => x.Album.Track.Count > 0)
             }).ToList();
+```
