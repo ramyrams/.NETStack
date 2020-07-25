@@ -1,6 +1,8 @@
+```c#
 // SELECT * FROM Customers
 from c in Customers
 select c
+```
 
 //SELECT FirstName, Age FROM Customers
 from c in Customers
